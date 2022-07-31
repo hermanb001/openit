@@ -1,13 +1,5 @@
 proxies:
-- name: "\U0001F1EE\U0001F1F3 IN 1"
-  server: in-01.licom.ml
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5JP"
-  port: 8443
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 2"
+- name: "\U0001F1F0\U0001F1F7 KR 1"
   server: kr05.wangxd.life
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -15,12 +7,20 @@ proxies:
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 3"
-  server: l2-us-h.cmy-dns.com
+- name: "\U0001F1EE\U0001F1F3 IN 2"
+  server: in-01.licom.ml
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5JP"
+  port: 8443
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 3"
+  server: s2.hazz.win
+  port: 12340
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 2ea88b58-2e6e-3839-923a-83543fa9c61dcmynw
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F3\U0001F1F1 NL 4"
@@ -31,15 +31,7 @@ proxies:
   password: e49f9132-4f1c-4a11-998f-0b90697254e6
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 5"
-  server: s2.hazz.win
-  port: 12340
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F9\U0001F1ED TH 6"
+- name: "\U0001F1F9\U0001F1ED TH 5"
   server: 119.59.116.248
   port: 17159
   type: trojan
@@ -47,6 +39,13 @@ proxies:
   password: PHnvNV7HGp
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 6"
+  server: aaa-666.txwd.xyz
+  type: ss
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 30014
+  password: slbvlKVQMovwmdXj
+  cipher: aes-128-gcm
 - name: "\U0001F1E8\U0001F1F3 HK 7"
   server: hk01.baipiaozf.com
   type: trojan
@@ -59,40 +58,18 @@ proxies:
   server: aaa-666.txwd.xyz
   type: ss
   country: "\U0001F1E8\U0001F1F3 CN"
-  port: 30004
-  password: slbvlKVQMovwmdXj
-  cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 9"
-  server: 14.29.124.168
-  port: 24003
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 CN"
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: aaa-666.txwd.xyz
-  type: ss
-  country: "\U0001F1E8\U0001F1F3 CN"
   port: 30007
   password: slbvlKVQMovwmdXj
   cipher: aes-128-gcm
-- name: "\U0001F1E8\U0001F1FF CZ 11"
-  server: cz5.v2ce.com
+- name: "\U0001F1E8\U0001F1FF CZ 9"
+  server: ce.rutracker-cn.com
   type: trojan
   country: "\U0001F1E8\U0001F1FF CZ"
   port: 443
-  password: HTrovQkamDxNfaD5
+  password: 5y8y3CwxRVYhyfSY
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 12"
-  server: h3816tw.strongpipe.live
-  port: 20445
-  type: http
-  username: dcf12c7e7d
-  password: 26bae9b023
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1FF CZ 13"
+- name: "\U0001F1E8\U0001F1FF CZ 10"
   server: v2cross.com.04.v2ce.com
   type: trojan
   country: "\U0001F1E8\U0001F1FF CZ"
@@ -100,15 +77,7 @@ proxies:
   password: vGWCNNfBHwSY6m6M
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 14"
-  server: h3816tw.strongpipe.live
-  port: 20443
-  type: http
-  username: dcf12c7e7d
-  password: 26bae9b023
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 TW 15"
+- name: "\U0001F1E8\U0001F1F3 TW 11"
   server: h3816tw.strongpipe.live
   port: 20444
   type: http
@@ -116,12 +85,44 @@ proxies:
   password: 26bae9b023
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1FF CZ 16"
-  server: ce.rutracker-cn.com
+- name: "\U0001F1E8\U0001F1FF CZ 12"
+  server: v2cross.com.02.v2ce.com
   type: trojan
   country: "\U0001F1E8\U0001F1FF CZ"
   port: 443
-  password: 5y8y3CwxRVYhyfSY
+  password: 3gLlCYBipVwr6Y5F
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 13"
+  server: h3816tw.strongpipe.live
+  port: 20443
+  type: http
+  username: dcf12c7e7d
+  password: 26bae9b023
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 TW 14"
+  server: h3816tw.strongpipe.live
+  port: 20445
+  type: http
+  username: dcf12c7e7d
+  password: 26bae9b023
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1E6\U0001F1FA AU 15"
+  server: jgwxn2.gaox.ml
+  type: trojan
+  country: "\U0001F1E6\U0001F1FA AU"
+  port: 443
+  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E6\U0001F1FA AU 16"
+  server: jgwxn3.gaox.ml
+  type: trojan
+  country: "\U0001F1E6\U0001F1FA AU"
+  port: 443
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 TW 17"
@@ -132,7 +133,15 @@ proxies:
   password: 26bae9b023
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 TW 18"
+- name: "\U0001F1E6\U0001F1FA AU 18"
+  server: jgwxn4.gaox.ml
+  type: trojan
+  country: "\U0001F1E6\U0001F1FA AU"
+  port: 443
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 19"
   server: h3816tw.strongpipe.live
   port: 20447
   type: http
@@ -140,55 +149,7 @@ proxies:
   password: 26bae9b023
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1FF CZ 19"
-  server: v2cross.com.05.v2ce.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1FF CZ"
-  port: 443
-  password: kGrwqmB1nEKUsDwE
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 20"
-  server: jgwld3.gaox.ml
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E6\U0001F1FA AU 21"
-  server: jgwxn2.gaox.ml
-  type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
-  port: 443
-  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E6\U0001F1FA AU 22"
-  server: jgwxn3.gaox.ml
-  type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
-  port: 443
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 23"
-  server: jgwld4.gaox.ml
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: 58d32c66-43b1-4561-9951-d87c9123774e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 24"
-  server: jgwld1.gaox.ml
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 25"
+- name: "\U0001F1E8\U0001F1F3 TW 20"
   server: h3816tw.strongpipe.live
   port: 20448
   type: http
@@ -196,7 +157,39 @@ proxies:
   password: 26bae9b023
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1FF CZ 26"
+- name: "\U0001F1E8\U0001F1FF CZ 21"
+  server: v2cross.com.01.v2ce.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1FF CZ"
+  port: 443
+  password: mMQ6qJB9xbhiRvgg
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1FF CZ 22"
+  server: v2cross.com.05.v2ce.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1FF CZ"
+  port: 443
+  password: kGrwqmB1nEKUsDwE
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 TW 23"
+  server: h3816tw.strongpipe.live
+  port: 20449
+  type: http
+  username: dcf12c7e7d
+  password: 26bae9b023
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1EC\U0001F1E7 GB 24"
+  server: jgwld3.gaox.ml
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7 GB"
+  port: 443
+  password: 71b55a84-3fac-4458-abff-eaad79219c91
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1FF CZ 25"
   server: v2cross.com.03.v2ce.com
   type: trojan
   country: "\U0001F1E8\U0001F1FF CZ"
@@ -204,12 +197,20 @@ proxies:
   password: ZD4dLSBXiMrmzdLd
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E6\U0001F1FA AU 27"
-  server: jgwxn4.gaox.ml
+- name: "\U0001F1EC\U0001F1E7 GB 26"
+  server: jgwld4.gaox.ml
   type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
+  country: "\U0001F1EC\U0001F1E7 GB"
   port: 443
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  password: 58d32c66-43b1-4561-9951-d87c9123774e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1FF CZ 27"
+  server: cz5.v2ce.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1FF CZ"
+  port: 443
+  password: HTrovQkamDxNfaD5
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EC\U0001F1E7 GB 28"
@@ -220,39 +221,7 @@ proxies:
   password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1FF CZ 29"
-  server: v2cross.com.01.v2ce.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1FF CZ"
-  port: 443
-  password: mMQ6qJB9xbhiRvgg
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 30"
-  server: h3816tw.strongpipe.live
-  port: 20449
-  type: http
-  username: dcf12c7e7d
-  password: 26bae9b023
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 31"
-  server: lsj02.wangxd.life
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 3052
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 32"
-  server: fhcamd2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 33"
+- name: "\U0001F1FA\U0001F1F8 US 29"
   server: fhcarm2.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -260,28 +229,60 @@ proxies:
   password: f39bd244-f5fe-415c-8b98-a1e5250bf178
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 34"
-  server: us23.567568.ml
+- name: "\U0001F1FA\U0001F1F8 US 30"
+  server: fhcamd2.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 443
-  password: 3df66137-a428-429c-a858-8b150721b354
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 35"
-  server: fhcamd1.gaox.ml
+- name: "\U0001F1FA\U0001F1F8 US 31"
+  server: cd.rutracker-cn.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 443
-  password: e23f408a-012e-4030-8b31-02022031cb50
+  password: ukMzuFSmIXDvgW0h
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 36"
+- name: "\U0001F1FA\U0001F1F8 US 32"
   server: us23.567568.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 27956
   password: 3df66137-a428-429c-a858-8b150721b354
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 33"
+  server: us23.567568.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 3df66137-a428-429c-a858-8b150721b354
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 34"
+  server: jp-03.licom.ml
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 8443
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 35"
+  server: lsj02.wangxd.life
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 3052
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 36"
+  server: fhcamd1.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: e23f408a-012e-4030-8b31-02022031cb50
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 37"
@@ -292,55 +293,7 @@ proxies:
   password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 38"
-  server: cd.rutracker-cn.com
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: ukMzuFSmIXDvgW0h
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 39"
-  server: jp-03.licom.ml
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 8443
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 40"
-  server: jgwdj3.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 41"
-  server: s3.hazz.win
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 42"
-  server: jgwdj4.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 43"
-  server: jgwdb3.gaox.ml
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 44"
+- name: "\U0001F1F0\U0001F1F7 KR 38"
   server: jgw2.gaox.ml
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -348,7 +301,39 @@ proxies:
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 45"
+- name: "\U0001F1EF\U0001F1F5 JP 39"
+  server: jgwdj3.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 40"
+  server: jgwdb3.gaox.ml
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 41"
+  server: jgwdj4.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 42"
+  server: s3.hazz.win
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 43"
   server: jgwdb4.gaox.ml
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -356,15 +341,7 @@ proxies:
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 46"
-  server: jgwhdlb3.gaox.ml
-  type: trojan
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 443
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 47"
+- name: "\U0001F1EF\U0001F1F5 JP 44"
   server: jgwdb2.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -372,7 +349,7 @@ proxies:
   password: c19d1432-8b3e-4818-8837-3d160cf65908
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 48"
+- name: "\U0001F1EE\U0001F1F3 IN 45"
   server: jgwhdlb2.gaox.ml
   type: trojan
   country: "\U0001F1EE\U0001F1F3 IN"
@@ -380,31 +357,7 @@ proxies:
   password: 54080134-2cba-4535-8599-95650bd9aa54
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 49"
-  server: trs05.bolab.net
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5JP"
-  port: 443
-  password: 1b753dd99c1291e87a7b239f2928fedd
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1FF CZ 50"
-  server: t03.ssrsub.com
-  type: trojan
-  country: "\U0001F1F7\U0001F1FARU"
-  port: 952
-  password: 04eb6d9d-f6b8-4f6a-92e7-b336b2168b26
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 51"
-  server: jgwhdlb1.gaox.ml
-  type: trojan
-  country: "\U0001F1EE\U0001F1F3 IN"
-  port: 443
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 52"
+- name: "\U0001F1F0\U0001F1F7 KR 46"
   server: jgwcc3.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -412,7 +365,23 @@ proxies:
   password: b291d129-ee55-4801-a9b8-b5316e5c37b7
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 53"
+- name: "\U0001F1EF\U0001F1F5 JP 47"
+  server: trs05.bolab.net
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5JP"
+  port: 443
+  password: 1b753dd99c1291e87a7b239f2928fedd
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 48"
+  server: jgwhdlb3.gaox.ml
+  type: trojan
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 443
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 49"
   server: sg-01.licom.ml
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -420,7 +389,7 @@ proxies:
   password: ce433528-39fa-4711-bc0d-25a5b1579574
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 54"
+- name: "\U0001F1F0\U0001F1F7 KR 50"
   server: jgwcc2.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -428,31 +397,15 @@ proxies:
   password: 9c822f05-cfdc-479a-9534-60f3d4127435
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 55"
-  server: 730hk002.ok365.cyou
-  port: 443
+- name: "\U0001F1E8\U0001F1FF CZ 51"
+  server: t03.ssrsub.com
   type: trojan
-  password: aae33677-9f5d-475e-9382-999589534473
-  sni: 730hk002.ok365.cyou
+  country: "\U0001F1F7\U0001F1FARU"
+  port: 952
+  password: 04eb6d9d-f6b8-4f6a-92e7-b336b2168b26
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 TW 56"
-  server: 730tw01.ok365.cyou
-  port: 443
-  type: trojan
-  password: aae33677-9f5d-475e-9382-999589534473
-  sni: 730tw01.ok365.cyou
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 57"
-  server: hk-hkg-sh-hk-02-tr.cdn.savoy.click
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 21089
-  password: uDTmEAGwuCUZXZvwhWJk
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 58"
+- name: "\U0001F1E8\U0001F1F3 HK 52"
   server: 730hk003.ok365.cyou
   port: 443
   type: trojan
@@ -460,7 +413,31 @@ proxies:
   sni: 730hk003.ok365.cyou
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 59"
+- name: "\U0001F1E8\U0001F1F3 TW 53"
+  server: 730tw01.ok365.cyou
+  port: 443
+  type: trojan
+  password: aae33677-9f5d-475e-9382-999589534473
+  sni: 730tw01.ok365.cyou
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 54"
+  server: 730hk002.ok365.cyou
+  port: 443
+  type: trojan
+  password: aae33677-9f5d-475e-9382-999589534473
+  sni: 730hk002.ok365.cyou
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 55"
+  server: jgwhdlb1.gaox.ml
+  type: trojan
+  country: "\U0001F1EE\U0001F1F3 IN"
+  port: 443
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 56"
   server: 119.36.161.40
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -469,38 +446,7 @@ proxies:
   sni: trojan3.udpgw.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 60"
-  server: ddns.0318.cyou
-  port: 12345
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 89ab8225-6873-45e9-b0e8-b8aebbfa9945
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 61"
-  server: trs06.bolab.net
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5JP"
-  port: 443
-  password: 1b753dd99c1291e87a7b239f2928fedd
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 62"
-  server: us-sjc-ctg-02-tr.node.inforun.work
-  port: 889
-  type: trojan
-  password: uDTmEAGwuCUZXZvwhWJk
-  sni: cdn.savoy.click
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 63"
-  server: 19206tj.matrixxx888.com
-  port: 19206
-  type: trojan
-  password: 084a8035-579c-3486-bb59-b6ab3b31b131
-  sni: eplcgame.com
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 64"
+- name: "\U0001F1E8\U0001F1F3 CN 57"
   server: 19203tj.matrixxx888.com
   port: 19203
   type: trojan
@@ -508,7 +454,30 @@ proxies:
   sni: eplcgame.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 65"
+- name: "\U0001F1FA\U0001F1F8 US 58"
+  server: zhilian-us-k.cmy-dns.com
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 2ea88b58-2e6e-3839-923a-83543fa9c61dcmynw
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 59"
+  server: us-sjc-ctg-02-tr.node.inforun.work
+  port: 889
+  type: trojan
+  password: uDTmEAGwuCUZXZvwhWJk
+  sni: cdn.savoy.click
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 60"
+  server: aaa-666.txwd.xyz
+  port: 30014
+  type: ss
+  cipher: aes-128-gcm
+  password: slbvlKVQMovwmdXj
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 61"
   server: cn08.mynode.me
   port: 8210
   type: ssr
@@ -519,7 +488,7 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 66"
+- name: "\U0001F1E8\U0001F1F3 CN 62"
   server: cn01.mynode.me
   port: 8102
   type: ssr
@@ -530,7 +499,15 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 67"
+- name: "\U0001F1EE\U0001F1F3 IN 63"
+  server: in-02.licom.ml
+  type: trojan
+  country: "\U0001F1EE\U0001F1F3IN"
+  port: 8443
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 64"
   server: cn02.mynode.me
   port: 8231
   type: ssr
@@ -541,18 +518,7 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 68"
-  server: cn01.mynode.me
-  port: 8103
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 69"
+- name: "\U0001F1E8\U0001F1F3 CN 65"
   server: cn02.mynode.me
   port: 8108
   type: ssr
@@ -563,9 +529,9 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 70"
+- name: "\U0001F1E8\U0001F1F3 CN 66"
   server: cn01.mynode.me
-  port: 8101
+  port: 8103
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -574,7 +540,7 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 71"
+- name: "\U0001F1E8\U0001F1F3 CN 67"
   server: cn02.mynode.me
   port: 8107
   type: ssr
@@ -585,9 +551,9 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 72"
-  server: cn12.mynode.me
-  port: 8406
+- name: "\U0001F1E8\U0001F1F3 CN 68"
+  server: cn01.mynode.me
+  port: 8101
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -596,7 +562,7 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 73"
+- name: "\U0001F1E8\U0001F1F3 CN 69"
   server: cn18.mynode.me
   port: 8522
   type: ssr
@@ -607,7 +573,40 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 74"
+- name: "\U0001F1E8\U0001F1F3 CN 70"
+  server: cn08.mynode.me
+  port: 8212
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 71"
+  server: cn02.mynode.me
+  port: 8110
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 72"
+  server: cn16.mynode.me
+  port: 8513
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 73"
   server: cn18.mynode.me
   port: 8519
   type: ssr
@@ -618,9 +617,20 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 74"
+  server: cn09.mynode.me
+  port: 8215
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 75"
-  server: cn14.mynode.me
-  port: 8411
+  server: cn08.mynode.me
+  port: 8213
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -630,8 +640,8 @@ proxies:
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 76"
-  server: cn16.mynode.me
-  port: 8513
+  server: cn08.mynode.me
+  port: 8209
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -652,259 +662,6 @@ proxies:
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 78"
-  server: cn14.mynode.me
-  port: 8410
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 79"
-  server: cn10.mynode.me
-  port: 8303
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 80"
-  server: cn15.mynode.me
-  port: 8506
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 81"
-  server: cn08.mynode.me
-  port: 8212
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 82"
-  server: cn09.mynode.me
-  port: 8215
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 83"
-  server: cn17.mynode.me
-  port: 8602
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 84"
-  server: cn10.mynode.me
-  port: 8302
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 85"
-  server: cn08.mynode.me
-  port: 8213
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 86"
-  server: cn10.mynode.me
-  port: 8304
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 87"
-  server: cn02.mynode.me
-  port: 8110
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 88"
-  server: cn12.mynode.me
-  port: 8405
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 89"
-  server: cn01.mynode.me
-  port: 8104
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 90"
-  server: cn11.mynode.me
-  port: 8402
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 91"
-  server: cn08.mynode.me
-  port: 8209
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 92"
-  server: cn15.mynode.me
-  port: 8503
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 93"
-  server: cn17.mynode.me
-  port: 8613
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 94"
-  server: cn15.mynode.me
-  port: 8501
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 95"
-  server: cn17.mynode.me
-  port: 8603
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 96"
-  server: cn11.mynode.me
-  port: 8401
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 97"
-  server: cn14.mynode.me
-  port: 8412
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 98"
-  server: cn14.mynode.me
-  port: 8413
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 99"
-  server: cn18.mynode.me
-  port: 8521
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 100"
-  server: cn16.mynode.me
-  port: 8516
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 101"
   server: cn16.mynode.me
   port: 8512
   type: ssr
@@ -915,9 +672,9 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 102"
-  server: cn17.mynode.me
-  port: 8614
+- name: "\U0001F1E8\U0001F1F3 CN 79"
+  server: cn18.mynode.me
+  port: 8521
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -926,9 +683,9 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 103"
+- name: "\U0001F1E8\U0001F1F3 CN 80"
   server: cn16.mynode.me
-  port: 8515
+  port: 8516
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -937,7 +694,29 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 104"
+- name: "\U0001F1E8\U0001F1F3 CN 81"
+  server: cn10.mynode.me
+  port: 8304
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 82"
+  server: cn12.mynode.me
+  port: 8405
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 83"
   server: cn16.mynode.me
   port: 8511
   type: ssr
@@ -948,9 +727,9 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 105"
-  server: cn11.mynode.me
-  port: 8403
+- name: "\U0001F1E8\U0001F1F3 CN 84"
+  server: cn16.mynode.me
+  port: 8515
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -959,7 +738,7 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 106"
+- name: "\U0001F1E8\U0001F1F3 CN 85"
   server: cn16.mynode.me
   port: 8510
   type: ssr
@@ -970,9 +749,9 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 107"
-  server: cn16.mynode.me
-  port: 8508
+- name: "\U0001F1E8\U0001F1F3 CN 86"
+  server: cn14.mynode.me
+  port: 8413
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -981,18 +760,7 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 108"
-  server: cn16.mynode.me
-  port: 8509
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 109"
+- name: "\U0001F1E8\U0001F1F3 CN 87"
   server: cn18.mynode.me
   port: 8520
   type: ssr
@@ -1003,9 +771,9 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 110"
-  server: cn16.mynode.me
-  port: 8507
+- name: "\U0001F1E8\U0001F1F3 CN 88"
+  server: cn12.mynode.me
+  port: 8406
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -1014,7 +782,51 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 111"
+- name: "\U0001F1E8\U0001F1F3 CN 89"
+  server: cn16.mynode.me
+  port: 8509
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 90"
+  server: cn16.mynode.me
+  port: 8508
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 91"
+  server: cn14.mynode.me
+  port: 8410
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 92"
+  server: cn14.mynode.me
+  port: 8412
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 93"
   server: cn16.mynode.me
   port: 8514
   type: ssr
@@ -1025,16 +837,9 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 112"
-  server: wireless.starspace.link
-  port: 443
-  type: trojan
-  password: 5LN8SGTqxk336nFg
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 113"
-  server: cn13.mynode.me
-  port: 8409
+- name: "\U0001F1E8\U0001F1F3 CN 94"
+  server: cn16.mynode.me
+  port: 8507
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -1043,9 +848,9 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 114"
-  server: cn15.mynode.me
-  port: 8505
+- name: "\U0001F1E8\U0001F1F3 CN 95"
+  server: cn10.mynode.me
+  port: 8303
   type: ssr
   cipher: rc4-md5
   password: passwd
@@ -1054,7 +859,18 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 115"
+- name: "\U0001F1E8\U0001F1F3 CN 96"
+  server: cn17.mynode.me
+  port: 8602
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 97"
   server: cn13.mynode.me
   port: 8408
   type: ssr
@@ -1065,21 +881,146 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 116"
-  server: jgwcc1.gaox.ml
+- name: "\U0001F1E8\U0001F1F3 CN 98"
+  server: cn17.mynode.me
+  port: 8613
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 99"
+  server: cn15.mynode.me
+  port: 8501
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 100"
+  server: cn15.mynode.me
+  port: 8506
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 101"
+  server: cn11.mynode.me
+  port: 8402
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 102"
+  server: cn10.mynode.me
+  port: 8302
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 103"
+  server: cn11.mynode.me
+  port: 8403
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 104"
+  server: cn14.mynode.me
+  port: 8411
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 105"
+  server: cn17.mynode.me
+  port: 8610
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 106"
+  server: cn17.mynode.me
+  port: 8603
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 107"
+  server: wireless.starspace.link
   port: 443
   type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  password: 5LN8SGTqxk336nFg
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 117"
-  server: 14.29.124.168
-  type: ss
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 24009
-  password: QazEdcTgb159@$*
-  cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 118"
+- name: "\U0001F1E8\U0001F1F3 CN 108"
+  server: cn13.mynode.me
+  port: 8409
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 109"
+  server: cn17.mynode.me
+  port: 8614
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 110"
+  server: cn15.mynode.me
+  port: 8505
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 111"
   server: cn17.mynode.me
   port: 8606
   type: ssr
@@ -1090,7 +1031,18 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 119"
+- name: "\U0001F1E8\U0001F1F3 CN 112"
+  server: cn11.mynode.me
+  port: 8401
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 113"
   server: cn17.mynode.me
   port: 8604
   type: ssr
@@ -1101,29 +1053,25 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 120"
-  server: cn17.mynode.me
-  port: 8605
-  type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
+- name: "\U0001F1F0\U0001F1F7 KR 114"
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 121"
-  server: cn17.mynode.me
-  port: 8601
+- name: "\U0001F1E8\U0001F1F3 CN 115"
+  server: dajbxsg.naikonode.top
+  port: 15406
   type: ssr
-  cipher: rc4-md5
-  password: passwd
-  protocol: origin
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
   obfs: http_simple
-  protocol-param: ''
-  obfs-param: 26638-wangxc1223.download.microsoft.com
+  protocol-param: 4391:XsTIqjrr38WaEM5G
+  obfs-param: 8780f4391.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 122"
+- name: "\U0001F1E8\U0001F1F3 CN 116"
   server: cn17.mynode.me
   port: 8607
   type: ssr
@@ -1134,7 +1082,29 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 123"
+- name: "\U0001F1E8\U0001F1F3 CN 117"
+  server: cn17.mynode.me
+  port: 8605
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 118"
+  server: cn17.mynode.me
+  port: 8601
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 26638-wangxc1223.download.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 119"
   server: 119.36.161.40
   port: 443
   type: trojan
@@ -1142,7 +1112,7 @@ proxies:
   sni: trojan3.udpgw.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 124"
+- name: "\U0001F1E8\U0001F1F3 CN 120"
   server: cn17.mynode.me
   port: 8609
   type: ssr
@@ -1153,7 +1123,7 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 125"
+- name: "\U0001F1E8\U0001F1F3 CN 121"
   server: cn17.mynode.me
   port: 8608
   type: ssr
@@ -1164,7 +1134,7 @@ proxies:
   protocol-param: ''
   obfs-param: 26638-wangxc1223.download.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 126"
+- name: "\U0001F1E8\U0001F1F3 CN 122"
   server: 19203tj.matrixxx888.com
   port: 19203
   type: trojan
@@ -1175,69 +1145,69 @@ proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1EE\U0001F1F3 IN 1"
-  - "\U0001F1F0\U0001F1F7 KR 2"
-  - "\U0001F1FA\U0001F1F8 US 3"
+  - "\U0001F1F0\U0001F1F7 KR 1"
+  - "\U0001F1EE\U0001F1F3 IN 2"
+  - "\U0001F1EF\U0001F1F5 JP 3"
   - "\U0001F1F3\U0001F1F1 NL 4"
-  - "\U0001F1EF\U0001F1F5 JP 5"
-  - "\U0001F1F9\U0001F1ED TH 6"
+  - "\U0001F1F9\U0001F1ED TH 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 HK 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1E8\U0001F1FF CZ 11"
-  - "\U0001F1E8\U0001F1F3 TW 12"
-  - "\U0001F1E8\U0001F1FF CZ 13"
+  - "\U0001F1E8\U0001F1FF CZ 9"
+  - "\U0001F1E8\U0001F1FF CZ 10"
+  - "\U0001F1E8\U0001F1F3 TW 11"
+  - "\U0001F1E8\U0001F1FF CZ 12"
+  - "\U0001F1E8\U0001F1F3 TW 13"
   - "\U0001F1E8\U0001F1F3 TW 14"
-  - "\U0001F1E8\U0001F1F3 TW 15"
-  - "\U0001F1E8\U0001F1FF CZ 16"
+  - "\U0001F1E6\U0001F1FA AU 15"
+  - "\U0001F1E6\U0001F1FA AU 16"
   - "\U0001F1E8\U0001F1F3 TW 17"
-  - "\U0001F1E8\U0001F1F3 TW 18"
-  - "\U0001F1E8\U0001F1FF CZ 19"
-  - "\U0001F1EC\U0001F1E7 GB 20"
-  - "\U0001F1E6\U0001F1FA AU 21"
-  - "\U0001F1E6\U0001F1FA AU 22"
-  - "\U0001F1EC\U0001F1E7 GB 23"
+  - "\U0001F1E6\U0001F1FA AU 18"
+  - "\U0001F1E8\U0001F1F3 TW 19"
+  - "\U0001F1E8\U0001F1F3 TW 20"
+  - "\U0001F1E8\U0001F1FF CZ 21"
+  - "\U0001F1E8\U0001F1FF CZ 22"
+  - "\U0001F1E8\U0001F1F3 TW 23"
   - "\U0001F1EC\U0001F1E7 GB 24"
-  - "\U0001F1E8\U0001F1F3 TW 25"
-  - "\U0001F1E8\U0001F1FF CZ 26"
-  - "\U0001F1E6\U0001F1FA AU 27"
+  - "\U0001F1E8\U0001F1FF CZ 25"
+  - "\U0001F1EC\U0001F1E7 GB 26"
+  - "\U0001F1E8\U0001F1FF CZ 27"
   - "\U0001F1EC\U0001F1E7 GB 28"
-  - "\U0001F1E8\U0001F1FF CZ 29"
-  - "\U0001F1E8\U0001F1F3 TW 30"
+  - "\U0001F1FA\U0001F1F8 US 29"
+  - "\U0001F1FA\U0001F1F8 US 30"
   - "\U0001F1FA\U0001F1F8 US 31"
   - "\U0001F1FA\U0001F1F8 US 32"
   - "\U0001F1FA\U0001F1F8 US 33"
-  - "\U0001F1FA\U0001F1F8 US 34"
+  - "\U0001F1EF\U0001F1F5 JP 34"
   - "\U0001F1FA\U0001F1F8 US 35"
   - "\U0001F1FA\U0001F1F8 US 36"
   - "\U0001F1FA\U0001F1F8 US 37"
-  - "\U0001F1FA\U0001F1F8 US 38"
+  - "\U0001F1F0\U0001F1F7 KR 38"
   - "\U0001F1EF\U0001F1F5 JP 39"
   - "\U0001F1EF\U0001F1F5 JP 40"
   - "\U0001F1EF\U0001F1F5 JP 41"
   - "\U0001F1EF\U0001F1F5 JP 42"
   - "\U0001F1EF\U0001F1F5 JP 43"
-  - "\U0001F1F0\U0001F1F7 KR 44"
-  - "\U0001F1EF\U0001F1F5 JP 45"
-  - "\U0001F1EE\U0001F1F3 IN 46"
+  - "\U0001F1EF\U0001F1F5 JP 44"
+  - "\U0001F1EE\U0001F1F3 IN 45"
+  - "\U0001F1F0\U0001F1F7 KR 46"
   - "\U0001F1EF\U0001F1F5 JP 47"
   - "\U0001F1EE\U0001F1F3 IN 48"
-  - "\U0001F1EF\U0001F1F5 JP 49"
-  - "\U0001F1E8\U0001F1FF CZ 50"
-  - "\U0001F1EE\U0001F1F3 IN 51"
-  - "\U0001F1F0\U0001F1F7 KR 52"
-  - "\U0001F1F8\U0001F1EC SG 53"
-  - "\U0001F1F0\U0001F1F7 KR 54"
-  - "\U0001F1E8\U0001F1F3 HK 55"
-  - "\U0001F1E8\U0001F1F3 TW 56"
+  - "\U0001F1F8\U0001F1EC SG 49"
+  - "\U0001F1F0\U0001F1F7 KR 50"
+  - "\U0001F1E8\U0001F1FF CZ 51"
+  - "\U0001F1E8\U0001F1F3 HK 52"
+  - "\U0001F1E8\U0001F1F3 TW 53"
+  - "\U0001F1E8\U0001F1F3 HK 54"
+  - "\U0001F1EE\U0001F1F3 IN 55"
+  - "\U0001F1E8\U0001F1F3 CN 56"
   - "\U0001F1E8\U0001F1F3 CN 57"
-  - "\U0001F1E8\U0001F1F3 HK 58"
-  - "\U0001F1E8\U0001F1F3 CN 59"
+  - "\U0001F1FA\U0001F1F8 US 58"
+  - "\U0001F1FA\U0001F1F8 US 59"
   - "\U0001F1E8\U0001F1F3 CN 60"
-  - "\U0001F1EF\U0001F1F5 JP 61"
-  - "\U0001F1FA\U0001F1F8 US 62"
-  - "\U0001F1E8\U0001F1F3 CN 63"
+  - "\U0001F1E8\U0001F1F3 CN 61"
+  - "\U0001F1E8\U0001F1F3 CN 62"
+  - "\U0001F1EE\U0001F1F3 IN 63"
   - "\U0001F1E8\U0001F1F3 CN 64"
   - "\U0001F1E8\U0001F1F3 CN 65"
   - "\U0001F1E8\U0001F1F3 CN 66"
@@ -1281,95 +1251,91 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 104"
   - "\U0001F1E8\U0001F1F3 CN 105"
   - "\U0001F1E8\U0001F1F3 CN 106"
-  - "\U0001F1E8\U0001F1F3 CN 107"
+  - "\U0001F1FA\U0001F1F8 US 107"
   - "\U0001F1E8\U0001F1F3 CN 108"
   - "\U0001F1E8\U0001F1F3 CN 109"
   - "\U0001F1E8\U0001F1F3 CN 110"
   - "\U0001F1E8\U0001F1F3 CN 111"
-  - "\U0001F1FA\U0001F1F8 US 112"
+  - "\U0001F1E8\U0001F1F3 CN 112"
   - "\U0001F1E8\U0001F1F3 CN 113"
-  - "\U0001F1E8\U0001F1F3 CN 114"
+  - "\U0001F1F0\U0001F1F7 KR 114"
   - "\U0001F1E8\U0001F1F3 CN 115"
-  - "\U0001F1F0\U0001F1F7 KR 116"
+  - "\U0001F1E8\U0001F1F3 CN 116"
   - "\U0001F1E8\U0001F1F3 CN 117"
   - "\U0001F1E8\U0001F1F3 CN 118"
   - "\U0001F1E8\U0001F1F3 CN 119"
   - "\U0001F1E8\U0001F1F3 CN 120"
   - "\U0001F1E8\U0001F1F3 CN 121"
   - "\U0001F1E8\U0001F1F3 CN 122"
-  - "\U0001F1E8\U0001F1F3 CN 123"
-  - "\U0001F1E8\U0001F1F3 CN 124"
-  - "\U0001F1E8\U0001F1F3 CN 125"
-  - "\U0001F1E8\U0001F1F3 CN 126"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
-  - "\U0001F1EE\U0001F1F3 IN 1"
-  - "\U0001F1F0\U0001F1F7 KR 2"
-  - "\U0001F1FA\U0001F1F8 US 3"
+  - "\U0001F1F0\U0001F1F7 KR 1"
+  - "\U0001F1EE\U0001F1F3 IN 2"
+  - "\U0001F1EF\U0001F1F5 JP 3"
   - "\U0001F1F3\U0001F1F1 NL 4"
-  - "\U0001F1EF\U0001F1F5 JP 5"
-  - "\U0001F1F9\U0001F1ED TH 6"
+  - "\U0001F1F9\U0001F1ED TH 5"
+  - "\U0001F1E8\U0001F1F3 CN 6"
   - "\U0001F1E8\U0001F1F3 HK 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
-  - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
-  - "\U0001F1E8\U0001F1FF CZ 11"
-  - "\U0001F1E8\U0001F1F3 TW 12"
-  - "\U0001F1E8\U0001F1FF CZ 13"
+  - "\U0001F1E8\U0001F1FF CZ 9"
+  - "\U0001F1E8\U0001F1FF CZ 10"
+  - "\U0001F1E8\U0001F1F3 TW 11"
+  - "\U0001F1E8\U0001F1FF CZ 12"
+  - "\U0001F1E8\U0001F1F3 TW 13"
   - "\U0001F1E8\U0001F1F3 TW 14"
-  - "\U0001F1E8\U0001F1F3 TW 15"
-  - "\U0001F1E8\U0001F1FF CZ 16"
+  - "\U0001F1E6\U0001F1FA AU 15"
+  - "\U0001F1E6\U0001F1FA AU 16"
   - "\U0001F1E8\U0001F1F3 TW 17"
-  - "\U0001F1E8\U0001F1F3 TW 18"
-  - "\U0001F1E8\U0001F1FF CZ 19"
-  - "\U0001F1EC\U0001F1E7 GB 20"
-  - "\U0001F1E6\U0001F1FA AU 21"
-  - "\U0001F1E6\U0001F1FA AU 22"
-  - "\U0001F1EC\U0001F1E7 GB 23"
+  - "\U0001F1E6\U0001F1FA AU 18"
+  - "\U0001F1E8\U0001F1F3 TW 19"
+  - "\U0001F1E8\U0001F1F3 TW 20"
+  - "\U0001F1E8\U0001F1FF CZ 21"
+  - "\U0001F1E8\U0001F1FF CZ 22"
+  - "\U0001F1E8\U0001F1F3 TW 23"
   - "\U0001F1EC\U0001F1E7 GB 24"
-  - "\U0001F1E8\U0001F1F3 TW 25"
-  - "\U0001F1E8\U0001F1FF CZ 26"
-  - "\U0001F1E6\U0001F1FA AU 27"
+  - "\U0001F1E8\U0001F1FF CZ 25"
+  - "\U0001F1EC\U0001F1E7 GB 26"
+  - "\U0001F1E8\U0001F1FF CZ 27"
   - "\U0001F1EC\U0001F1E7 GB 28"
-  - "\U0001F1E8\U0001F1FF CZ 29"
-  - "\U0001F1E8\U0001F1F3 TW 30"
+  - "\U0001F1FA\U0001F1F8 US 29"
+  - "\U0001F1FA\U0001F1F8 US 30"
   - "\U0001F1FA\U0001F1F8 US 31"
   - "\U0001F1FA\U0001F1F8 US 32"
   - "\U0001F1FA\U0001F1F8 US 33"
-  - "\U0001F1FA\U0001F1F8 US 34"
+  - "\U0001F1EF\U0001F1F5 JP 34"
   - "\U0001F1FA\U0001F1F8 US 35"
   - "\U0001F1FA\U0001F1F8 US 36"
   - "\U0001F1FA\U0001F1F8 US 37"
-  - "\U0001F1FA\U0001F1F8 US 38"
+  - "\U0001F1F0\U0001F1F7 KR 38"
   - "\U0001F1EF\U0001F1F5 JP 39"
   - "\U0001F1EF\U0001F1F5 JP 40"
   - "\U0001F1EF\U0001F1F5 JP 41"
   - "\U0001F1EF\U0001F1F5 JP 42"
   - "\U0001F1EF\U0001F1F5 JP 43"
-  - "\U0001F1F0\U0001F1F7 KR 44"
-  - "\U0001F1EF\U0001F1F5 JP 45"
-  - "\U0001F1EE\U0001F1F3 IN 46"
+  - "\U0001F1EF\U0001F1F5 JP 44"
+  - "\U0001F1EE\U0001F1F3 IN 45"
+  - "\U0001F1F0\U0001F1F7 KR 46"
   - "\U0001F1EF\U0001F1F5 JP 47"
   - "\U0001F1EE\U0001F1F3 IN 48"
-  - "\U0001F1EF\U0001F1F5 JP 49"
-  - "\U0001F1E8\U0001F1FF CZ 50"
-  - "\U0001F1EE\U0001F1F3 IN 51"
-  - "\U0001F1F0\U0001F1F7 KR 52"
-  - "\U0001F1F8\U0001F1EC SG 53"
-  - "\U0001F1F0\U0001F1F7 KR 54"
-  - "\U0001F1E8\U0001F1F3 HK 55"
-  - "\U0001F1E8\U0001F1F3 TW 56"
+  - "\U0001F1F8\U0001F1EC SG 49"
+  - "\U0001F1F0\U0001F1F7 KR 50"
+  - "\U0001F1E8\U0001F1FF CZ 51"
+  - "\U0001F1E8\U0001F1F3 HK 52"
+  - "\U0001F1E8\U0001F1F3 TW 53"
+  - "\U0001F1E8\U0001F1F3 HK 54"
+  - "\U0001F1EE\U0001F1F3 IN 55"
+  - "\U0001F1E8\U0001F1F3 CN 56"
   - "\U0001F1E8\U0001F1F3 CN 57"
-  - "\U0001F1E8\U0001F1F3 HK 58"
-  - "\U0001F1E8\U0001F1F3 CN 59"
+  - "\U0001F1FA\U0001F1F8 US 58"
+  - "\U0001F1FA\U0001F1F8 US 59"
   - "\U0001F1E8\U0001F1F3 CN 60"
-  - "\U0001F1EF\U0001F1F5 JP 61"
-  - "\U0001F1FA\U0001F1F8 US 62"
-  - "\U0001F1E8\U0001F1F3 CN 63"
+  - "\U0001F1E8\U0001F1F3 CN 61"
+  - "\U0001F1E8\U0001F1F3 CN 62"
+  - "\U0001F1EE\U0001F1F3 IN 63"
   - "\U0001F1E8\U0001F1F3 CN 64"
   - "\U0001F1E8\U0001F1F3 CN 65"
   - "\U0001F1E8\U0001F1F3 CN 66"
@@ -1413,25 +1379,21 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 104"
   - "\U0001F1E8\U0001F1F3 CN 105"
   - "\U0001F1E8\U0001F1F3 CN 106"
-  - "\U0001F1E8\U0001F1F3 CN 107"
+  - "\U0001F1FA\U0001F1F8 US 107"
   - "\U0001F1E8\U0001F1F3 CN 108"
   - "\U0001F1E8\U0001F1F3 CN 109"
   - "\U0001F1E8\U0001F1F3 CN 110"
   - "\U0001F1E8\U0001F1F3 CN 111"
-  - "\U0001F1FA\U0001F1F8 US 112"
+  - "\U0001F1E8\U0001F1F3 CN 112"
   - "\U0001F1E8\U0001F1F3 CN 113"
-  - "\U0001F1E8\U0001F1F3 CN 114"
+  - "\U0001F1F0\U0001F1F7 KR 114"
   - "\U0001F1E8\U0001F1F3 CN 115"
-  - "\U0001F1F0\U0001F1F7 KR 116"
+  - "\U0001F1E8\U0001F1F3 CN 116"
   - "\U0001F1E8\U0001F1F3 CN 117"
   - "\U0001F1E8\U0001F1F3 CN 118"
   - "\U0001F1E8\U0001F1F3 CN 119"
   - "\U0001F1E8\U0001F1F3 CN 120"
   - "\U0001F1E8\U0001F1F3 CN 121"
   - "\U0001F1E8\U0001F1F3 CN 122"
-  - "\U0001F1E8\U0001F1F3 CN 123"
-  - "\U0001F1E8\U0001F1F3 CN 124"
-  - "\U0001F1E8\U0001F1F3 CN 125"
-  - "\U0001F1E8\U0001F1F3 CN 126"
 rules:
 - "MATCH,\U0001F310 Proxy"
