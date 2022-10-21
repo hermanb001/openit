@@ -33,10 +33,12 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-  - {name: 🇳🇱 NL 1｜openit.ml, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1｜openit.ml, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: us.dogintnode.com, port: 443, type: trojan, password: 91a3db80-baf5-3f35-8c0e-b6483aefa1fd, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3｜openit.ml, server: 159.223.89.239, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1｜openit.ml, server: node-do-us-1.gitspeed.cyou, port: 443, type: trojan, password: pNDxTmWL, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: sssvip03.goumaituijian.xyz, port: 19588, type: trojan, password: 071cdb2e-bc58-46dd-8ba7-476d66e1291d, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3｜openit.ml, server: 129.146.190.42, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4｜openit.ml, server: us.dogintnode.com, port: 443, type: trojan, password: 91a3db80-baf5-3f35-8c0e-b6483aefa1fd, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5｜openit.ml, server: 159.223.89.239, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6｜openit.ml, server: 138.2.113.248, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -54,20 +56,24 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇳🇱 NL 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
+      - 🇺🇸 US 4｜openit.ml
+      - 🇺🇸 US 5｜openit.ml
+      - 🇺🇸 US 6｜openit.ml
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱 NL 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
+      - 🇺🇸 US 4｜openit.ml
+      - 🇺🇸 US 5｜openit.ml
+      - 🇺🇸 US 6｜openit.ml
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -91,6 +97,9 @@ proxy-groups:
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
+      - 🇺🇸 US 4｜openit.ml
+      - 🇺🇸 US 5｜openit.ml
+      - 🇺🇸 US 6｜openit.ml
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -122,10 +131,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱 NL 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
+      - 🇺🇸 US 4｜openit.ml
+      - 🇺🇸 US 5｜openit.ml
+      - 🇺🇸 US 6｜openit.ml
   - name: 👉 国内网站
     type: select
     proxies:
