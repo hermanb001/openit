@@ -33,71 +33,37 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-  - {name: NO 1｜openit.ml, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: NO 2｜openit.ml, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: VN 1｜openit.ml, server: 103.195.236.24, port: 28443, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 1｜openit.ml, server: 172.105.4.32, port: 10005, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g25.xingbayun.buzz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 1｜openit.ml, server: 172.105.4.32, port: 10005, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 2｜openit.ml, server: cat1.sshocean.net, port: 443, type: trojan, password: 8b6daf15-8342-482d-b894-1239fd98ce7f, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 10｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20013, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 11｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20001, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 12｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20011, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 13｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20022, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 14｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20023, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 15｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20005, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 16｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20026, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 17｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20025, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 18｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20008, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 19｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20027, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 1｜openit.ml, server: 183.232.141.119, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇨🇳 CN 20｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20021, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 21｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20032, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 22｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20024, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 23｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20066, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 24｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20007, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 25｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20033, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 26｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20061, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 27｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20038, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 28｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20046, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 29｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20042, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 2｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20015, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 30｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20041, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 31｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20037, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 32｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20051, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 33｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20062, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 34｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20068, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 35｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20063, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 36｜openit.ml, server: oss-cn-shanghai.westdatacloud.xyz, port: 20064, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 3｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20003, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 4｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20004, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 5｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20014, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 6｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20006, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 7｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20012, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 8｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20016, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 9｜openit.ml, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20017, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: v12.kwaicdn.com, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 TW 1｜openit.ml, server: download1tw.windowsupdate1.com, port: 28443, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FR 1｜openit.ml, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 1｜openit.ml, server: 139.162.196.68, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g17.xingbayun.buzz, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 1｜openit.ml, server: 139.162.196.68, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 2｜openit.ml, server: 132.145.51.172, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 1｜openit.ml, server: download1hkt.windowsupdate1.com, port: 28443, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 2｜openit.ml, server: zf2.windowsupdate1.com, port: 30060, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 3｜openit.ml, server: zf2.windowsupdate1.com, port: 30040, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: glc.hruqoaw.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 1｜openit.ml, server: 139.162.74.122, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g05.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 2｜openit.ml, server: 172.105.237.183, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g06.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 3｜openit.ml, server: 172.105.238.12, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g08.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 4｜openit.ml, server: 172.105.226.62, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g07.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 1｜openit.ml, server: 139.162.36.203, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g09.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 2｜openit.ml, server: 172.104.184.239, port: 10004, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g12.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 3｜openit.ml, server: jp-45s-s65x-595adf.jumaonet.com, port: 13626, type: trojan, password: 94673e19-11fa-4370-8583-989e9eb1a710, sni: jp-45s-s65x-595adf.jumaonet.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 10｜openit.ml, server: sg-01.tiktokcdn.top, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11｜openit.ml, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1｜openit.ml, server: 165.22.4.188, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g14.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: 45.33.109.181, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g16.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3｜openit.ml, server: 143.198.237.122, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g13.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4｜openit.ml, server: 139.144.183.244, port: 10030, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g18.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5｜openit.ml, server: 139.177.184.56, port: 10005, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g10.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6｜openit.ml, server: 45.79.122.102, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, sni: aewfhe5z1pokrkw8bi9g21.xingbayun.buzz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7｜openit.ml, server: 138.2.113.84, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8｜openit.ml, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9｜openit.ml, server: s162.s2022.xyz, port: 23802, type: trojan, password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 1｜openit.ml, server: 172.105.226.62, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 2｜openit.ml, server: 139.162.74.122, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 3｜openit.ml, server: 172.105.237.183, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 4｜openit.ml, server: 172.105.238.12, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 1｜openit.ml, server: jp.liangyuandian.top, port: 443, type: trojan, password: 176196e4-7cf7-4561-87a9-21a1b4e344be, sni: jp.liangyuandian.top, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 2｜openit.ml, server: 139.162.36.203, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 3｜openit.ml, server: 172.104.184.239, port: 10004, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 4｜openit.ml, server: 172.104.184.253, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 5｜openit.ml, server: usa.liangyuandian.top, port: 443, type: trojan, password: 53f20cd4-b381-4a80-8059-7bcd484bbb52, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 10｜openit.ml, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 11｜openit.ml, server: sg-01.tiktokcdn.top, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 12｜openit.ml, server: id3tr.jagoan.vip, port: 443, type: trojan, password: vvip-periantara, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1｜openit.ml, server: 165.22.4.188, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: 45.33.109.181, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3｜openit.ml, server: 143.198.237.122, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4｜openit.ml, server: 139.144.183.244, port: 10030, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5｜openit.ml, server: 45.79.122.102, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6｜openit.ml, server: 139.177.184.56, port: 10005, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 7｜openit.ml, server: 152.67.160.174, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 8｜openit.ml, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 9｜openit.ml, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -115,50 +81,13 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - NO 1｜openit.ml
-      - NO 2｜openit.ml
       - VN 1｜openit.ml
       - 🇨🇦 CA 1｜openit.ml
       - 🇨🇦 CA 2｜openit.ml
-      - 🇨🇳 CN 10｜openit.ml
-      - 🇨🇳 CN 11｜openit.ml
-      - 🇨🇳 CN 12｜openit.ml
-      - 🇨🇳 CN 13｜openit.ml
-      - 🇨🇳 CN 14｜openit.ml
-      - 🇨🇳 CN 15｜openit.ml
-      - 🇨🇳 CN 16｜openit.ml
-      - 🇨🇳 CN 17｜openit.ml
-      - 🇨🇳 CN 18｜openit.ml
-      - 🇨🇳 CN 19｜openit.ml
       - 🇨🇳 CN 1｜openit.ml
-      - 🇨🇳 CN 20｜openit.ml
-      - 🇨🇳 CN 21｜openit.ml
-      - 🇨🇳 CN 22｜openit.ml
-      - 🇨🇳 CN 23｜openit.ml
-      - 🇨🇳 CN 24｜openit.ml
-      - 🇨🇳 CN 25｜openit.ml
-      - 🇨🇳 CN 26｜openit.ml
-      - 🇨🇳 CN 27｜openit.ml
-      - 🇨🇳 CN 28｜openit.ml
-      - 🇨🇳 CN 29｜openit.ml
-      - 🇨🇳 CN 2｜openit.ml
-      - 🇨🇳 CN 30｜openit.ml
-      - 🇨🇳 CN 31｜openit.ml
-      - 🇨🇳 CN 32｜openit.ml
-      - 🇨🇳 CN 33｜openit.ml
-      - 🇨🇳 CN 34｜openit.ml
-      - 🇨🇳 CN 35｜openit.ml
-      - 🇨🇳 CN 36｜openit.ml
-      - 🇨🇳 CN 3｜openit.ml
-      - 🇨🇳 CN 4｜openit.ml
-      - 🇨🇳 CN 5｜openit.ml
-      - 🇨🇳 CN 6｜openit.ml
-      - 🇨🇳 CN 7｜openit.ml
-      - 🇨🇳 CN 8｜openit.ml
-      - 🇨🇳 CN 9｜openit.ml
       - 🇨🇳 TW 1｜openit.ml
-      - 🇫🇷 FR 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
+      - 🇬🇧 GB 2｜openit.ml
       - 🇭🇰 HK 1｜openit.ml
       - 🇭🇰 HK 2｜openit.ml
       - 🇭🇰 HK 3｜openit.ml
@@ -169,8 +98,11 @@ proxy-groups:
       - 🇸🇬 SG 1｜openit.ml
       - 🇸🇬 SG 2｜openit.ml
       - 🇸🇬 SG 3｜openit.ml
+      - 🇸🇬 SG 4｜openit.ml
+      - 🇸🇬 SG 5｜openit.ml
       - 🇺🇸 US 10｜openit.ml
       - 🇺🇸 US 11｜openit.ml
+      - 🇺🇸 US 12｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
@@ -186,50 +118,13 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - NO 1｜openit.ml
-      - NO 2｜openit.ml
       - VN 1｜openit.ml
       - 🇨🇦 CA 1｜openit.ml
       - 🇨🇦 CA 2｜openit.ml
-      - 🇨🇳 CN 10｜openit.ml
-      - 🇨🇳 CN 11｜openit.ml
-      - 🇨🇳 CN 12｜openit.ml
-      - 🇨🇳 CN 13｜openit.ml
-      - 🇨🇳 CN 14｜openit.ml
-      - 🇨🇳 CN 15｜openit.ml
-      - 🇨🇳 CN 16｜openit.ml
-      - 🇨🇳 CN 17｜openit.ml
-      - 🇨🇳 CN 18｜openit.ml
-      - 🇨🇳 CN 19｜openit.ml
       - 🇨🇳 CN 1｜openit.ml
-      - 🇨🇳 CN 20｜openit.ml
-      - 🇨🇳 CN 21｜openit.ml
-      - 🇨🇳 CN 22｜openit.ml
-      - 🇨🇳 CN 23｜openit.ml
-      - 🇨🇳 CN 24｜openit.ml
-      - 🇨🇳 CN 25｜openit.ml
-      - 🇨🇳 CN 26｜openit.ml
-      - 🇨🇳 CN 27｜openit.ml
-      - 🇨🇳 CN 28｜openit.ml
-      - 🇨🇳 CN 29｜openit.ml
-      - 🇨🇳 CN 2｜openit.ml
-      - 🇨🇳 CN 30｜openit.ml
-      - 🇨🇳 CN 31｜openit.ml
-      - 🇨🇳 CN 32｜openit.ml
-      - 🇨🇳 CN 33｜openit.ml
-      - 🇨🇳 CN 34｜openit.ml
-      - 🇨🇳 CN 35｜openit.ml
-      - 🇨🇳 CN 36｜openit.ml
-      - 🇨🇳 CN 3｜openit.ml
-      - 🇨🇳 CN 4｜openit.ml
-      - 🇨🇳 CN 5｜openit.ml
-      - 🇨🇳 CN 6｜openit.ml
-      - 🇨🇳 CN 7｜openit.ml
-      - 🇨🇳 CN 8｜openit.ml
-      - 🇨🇳 CN 9｜openit.ml
       - 🇨🇳 TW 1｜openit.ml
-      - 🇫🇷 FR 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
+      - 🇬🇧 GB 2｜openit.ml
       - 🇭🇰 HK 1｜openit.ml
       - 🇭🇰 HK 2｜openit.ml
       - 🇭🇰 HK 3｜openit.ml
@@ -240,8 +135,11 @@ proxy-groups:
       - 🇸🇬 SG 1｜openit.ml
       - 🇸🇬 SG 2｜openit.ml
       - 🇸🇬 SG 3｜openit.ml
+      - 🇸🇬 SG 4｜openit.ml
+      - 🇸🇬 SG 5｜openit.ml
       - 🇺🇸 US 10｜openit.ml
       - 🇺🇸 US 11｜openit.ml
+      - 🇺🇸 US 12｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
@@ -278,6 +176,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 US 10｜openit.ml
       - 🇺🇸 US 11｜openit.ml
+      - 🇺🇸 US 12｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
@@ -303,6 +202,8 @@ proxy-groups:
       - 🇸🇬 SG 1｜openit.ml
       - 🇸🇬 SG 2｜openit.ml
       - 🇸🇬 SG 3｜openit.ml
+      - 🇸🇬 SG 4｜openit.ml
+      - 🇸🇬 SG 5｜openit.ml
   - name: 🇰🇷 韩国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -316,56 +217,20 @@ proxy-groups:
       - 🇨🇦 CA 1｜openit.ml
       - 🇨🇦 CA 2｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
+      - 🇬🇧 GB 2｜openit.ml
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - NO 1｜openit.ml
-      - NO 2｜openit.ml
       - VN 1｜openit.ml
       - 🇨🇦 CA 1｜openit.ml
       - 🇨🇦 CA 2｜openit.ml
-      - 🇨🇳 CN 10｜openit.ml
-      - 🇨🇳 CN 11｜openit.ml
-      - 🇨🇳 CN 12｜openit.ml
-      - 🇨🇳 CN 13｜openit.ml
-      - 🇨🇳 CN 14｜openit.ml
-      - 🇨🇳 CN 15｜openit.ml
-      - 🇨🇳 CN 16｜openit.ml
-      - 🇨🇳 CN 17｜openit.ml
-      - 🇨🇳 CN 18｜openit.ml
-      - 🇨🇳 CN 19｜openit.ml
       - 🇨🇳 CN 1｜openit.ml
-      - 🇨🇳 CN 20｜openit.ml
-      - 🇨🇳 CN 21｜openit.ml
-      - 🇨🇳 CN 22｜openit.ml
-      - 🇨🇳 CN 23｜openit.ml
-      - 🇨🇳 CN 24｜openit.ml
-      - 🇨🇳 CN 25｜openit.ml
-      - 🇨🇳 CN 26｜openit.ml
-      - 🇨🇳 CN 27｜openit.ml
-      - 🇨🇳 CN 28｜openit.ml
-      - 🇨🇳 CN 29｜openit.ml
-      - 🇨🇳 CN 2｜openit.ml
-      - 🇨🇳 CN 30｜openit.ml
-      - 🇨🇳 CN 31｜openit.ml
-      - 🇨🇳 CN 32｜openit.ml
-      - 🇨🇳 CN 33｜openit.ml
-      - 🇨🇳 CN 34｜openit.ml
-      - 🇨🇳 CN 35｜openit.ml
-      - 🇨🇳 CN 36｜openit.ml
-      - 🇨🇳 CN 3｜openit.ml
-      - 🇨🇳 CN 4｜openit.ml
-      - 🇨🇳 CN 5｜openit.ml
-      - 🇨🇳 CN 6｜openit.ml
-      - 🇨🇳 CN 7｜openit.ml
-      - 🇨🇳 CN 8｜openit.ml
-      - 🇨🇳 CN 9｜openit.ml
       - 🇨🇳 TW 1｜openit.ml
-      - 🇫🇷 FR 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
+      - 🇬🇧 GB 2｜openit.ml
       - 🇭🇰 HK 1｜openit.ml
       - 🇭🇰 HK 2｜openit.ml
       - 🇭🇰 HK 3｜openit.ml
@@ -376,8 +241,11 @@ proxy-groups:
       - 🇸🇬 SG 1｜openit.ml
       - 🇸🇬 SG 2｜openit.ml
       - 🇸🇬 SG 3｜openit.ml
+      - 🇸🇬 SG 4｜openit.ml
+      - 🇸🇬 SG 5｜openit.ml
       - 🇺🇸 US 10｜openit.ml
       - 🇺🇸 US 11｜openit.ml
+      - 🇺🇸 US 12｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
