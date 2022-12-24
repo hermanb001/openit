@@ -8,11 +8,11 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E9\U0001F1EA DE 2"
-  server: 188.40.251.19
+  server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
   type: trojan
   country: "\U0001F1E9\U0001F1EADE"
   port: 443
-  password: origin
+  password: d76294c5-a31f-408d-ba0b-89880107cab5
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EC\U0001F1E7 GB 3"
@@ -24,14 +24,22 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E9\U0001F1EA DE 4"
-  server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
+  server: 188.40.251.19
   type: trojan
   country: "\U0001F1E9\U0001F1EADE"
   port: 443
-  password: d76294c5-a31f-408d-ba0b-89880107cab5
+  password: origin
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 5"
+- name: "\U0001F1EC\U0001F1E7 GB 5"
+  server: content-provider20.cdn-delivery.akamaicd.com
+  type: trojan
+  country: "\U0001F1EC\U0001F1E7GB"
+  port: 443
+  password: shefelnak
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 6"
   server: 176.31.83.90
   type: trojan
   country: "\U0001F1EB\U0001F1F7FR"
@@ -39,20 +47,12 @@ proxies:
   password: origin
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 6"
+- name: "\U0001F1F0\U0001F1F7 KR 7"
   server: jgwcc1.gaox.ml
   type: trojan
   country: "\U0001F1EC\U0001F1E7GB"
   port: 443
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 7"
-  server: content-provider20.cdn-delivery.akamaicd.com
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7GB"
-  port: 443
-  password: shefelnak
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 8"
@@ -71,9 +71,9 @@ proxy-groups:
   - "\U0001F1E9\U0001F1EA DE 2"
   - "\U0001F1EC\U0001F1E7 GB 3"
   - "\U0001F1E9\U0001F1EA DE 4"
-  - "\U0001F1EB\U0001F1F7 FR 5"
-  - "\U0001F1F0\U0001F1F7 KR 6"
-  - "\U0001F1EC\U0001F1E7 GB 7"
+  - "\U0001F1EC\U0001F1E7 GB 5"
+  - "\U0001F1EB\U0001F1F7 FR 6"
+  - "\U0001F1F0\U0001F1F7 KR 7"
   - "\U0001F1EF\U0001F1F5 JP 8"
   url: https://www.google.com/favicon.ico
   interval: 300
@@ -85,9 +85,9 @@ proxy-groups:
   - "\U0001F1E9\U0001F1EA DE 2"
   - "\U0001F1EC\U0001F1E7 GB 3"
   - "\U0001F1E9\U0001F1EA DE 4"
-  - "\U0001F1EB\U0001F1F7 FR 5"
-  - "\U0001F1F0\U0001F1F7 KR 6"
-  - "\U0001F1EC\U0001F1E7 GB 7"
+  - "\U0001F1EC\U0001F1E7 GB 5"
+  - "\U0001F1EB\U0001F1F7 FR 6"
+  - "\U0001F1F0\U0001F1F7 KR 7"
   - "\U0001F1EF\U0001F1F5 JP 8"
 rules:
 - "MATCH,\U0001F310 Proxy"
