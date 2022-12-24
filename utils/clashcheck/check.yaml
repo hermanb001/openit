@@ -1,18 +1,18 @@
 proxies:
 - name: "\U0001F1E6\U0001F1FA AU 1"
+  server: jgwxn3.gaox.ml
+  type: trojan
+  country: "\U0001F1E6\U0001F1FAAU"
+  port: 443
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E6\U0001F1FA AU 2"
   server: 152.67.98.30
   type: trojan
   country: "\U0001F1E6\U0001F1FAAU"
   port: 443
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 2"
-  server: 146.19.230.241
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7FR"
-  port: 443
-  password: xxoo
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E9\U0001F1EA DE 3"
@@ -23,12 +23,12 @@ proxies:
   password: origin
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E6\U0001F1FA AU 4"
-  server: jgwxn3.gaox.ml
+- name: "\U0001F1EC\U0001F1E7 GB 4"
+  server: 146.19.230.241
   type: trojan
-  country: "\U0001F1E6\U0001F1FAAU"
+  country: "\U0001F1EB\U0001F1F7FR"
   port: 443
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  password: xxoo
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E9\U0001F1EA DE 5"
@@ -76,9 +76,9 @@ proxy-groups:
   type: url-test
   proxies:
   - "\U0001F1E6\U0001F1FA AU 1"
-  - "\U0001F1EC\U0001F1E7 GB 2"
+  - "\U0001F1E6\U0001F1FA AU 2"
   - "\U0001F1E9\U0001F1EA DE 3"
-  - "\U0001F1E6\U0001F1FA AU 4"
+  - "\U0001F1EC\U0001F1E7 GB 4"
   - "\U0001F1E9\U0001F1EA DE 5"
   - "\U0001F1EC\U0001F1E7 GB 6"
   - "\U0001F1EB\U0001F1F7 FR 7"
@@ -91,9 +91,9 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1E6\U0001F1FA AU 1"
-  - "\U0001F1EC\U0001F1E7 GB 2"
+  - "\U0001F1E6\U0001F1FA AU 2"
   - "\U0001F1E9\U0001F1EA DE 3"
-  - "\U0001F1E6\U0001F1FA AU 4"
+  - "\U0001F1EC\U0001F1E7 GB 4"
   - "\U0001F1E9\U0001F1EA DE 5"
   - "\U0001F1EC\U0001F1E7 GB 6"
   - "\U0001F1EB\U0001F1F7 FR 7"
