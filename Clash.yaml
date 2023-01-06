@@ -34,36 +34,37 @@ dns:
       - 240.0.0.0/4
 proxies:
   - {name: NO 1｜openit.ml, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 1｜openit.ml, server: 20007.purefast2.com, port: 20007, type: trojan, password: ed3ccb1e-7057-3d40-b794-630ef18fb7d2, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1｜openit.ml, server: cnallaz2.eucdurl.me, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 55956:111111, obfs-param: "", udp: true}
   - {name: 🇩🇪 DE 1｜openit.ml, server: 188.40.251.19, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 DE 2｜openit.ml, server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk, port: 443, type: trojan, password: d76294c5-a31f-408d-ba0b-89880107cab5, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FR 1｜openit.ml, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 FR 2｜openit.ml, server: 176.31.83.90, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE 3｜openit.ml, server: 141.95.61.209, port: 1145, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FR 1｜openit.ml, server: 176.31.83.90, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FR 2｜openit.ml, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 3｜openit.ml, server: 51.83.186.142, port: 80, type: trojan, password: 2959e4f7-7589-4a40-9b96-1be750ac7845, sni: pl1.trojanvh.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 1｜openit.ml, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: b640d791-ff83-4300-b509-c2a02f97f167, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 2｜openit.ml, server: content-provider20.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 3｜openit.ml, server: 51-120-120-29.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 2｜openit.ml, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 3｜openit.ml, server: content-provider20.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 4｜openit.ml, server: 51-120-120-29.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 5｜openit.ml, server: 144.24.72.126, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
   - {name: 🇮🇳 IN 1｜openit.ml, server: 13-235-242-248.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 1｜openit.ml, server: 43-153-34-170.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 2｜openit.ml, server: 43-153-30-20.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 3｜openit.ml, server: 43-154-228-196.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 4｜openit.ml, server: 43-131-41-52.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 1｜openit.ml, server: 43-153-30-20.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 2｜openit.ml, server: 43-153-34-170.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 3｜openit.ml, server: 43-131-41-52.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 4｜openit.ml, server: 43-154-228-196.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 5｜openit.ml, server: 43-156-10-33.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL 1｜openit.ml, server: 185.212.200.75, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL 2｜openit.ml, server: content-provider23.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL 1｜openit.ml, server: content-provider23.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL 2｜openit.ml, server: 185.212.200.75, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 1｜openit.ml, server: eu-east-ruo.openssl3.com, port: 443, type: trojan, password: 9KogHwaY7hVD, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 10｜openit.ml, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11｜openit.ml, server: 135.148.148.4, port: 80, type: trojan, password: 76fcac80-9943-4eab-8717-0ebebea94b70, sni: us3.trojanvh.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 12｜openit.ml, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 10｜openit.ml, server: 135.148.148.4, port: 80, type: trojan, password: 76fcac80-9943-4eab-8717-0ebebea94b70, sni: us3.trojanvh.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1｜openit.ml, server: 170-187-134-190.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 2｜openit.ml, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 011eb011-c68e-4f92-80eb-f9bbef707bef, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 3｜openit.ml, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4｜openit.ml, server: tr3.tgcunzhang.xyz, port: 54228, type: trojan, password: 2a9ba60d-10ce-4f79-97e7-817334456195, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 5｜openit.ml, server: us.swiftfalcon.app, port: 8447, type: trojan, password: shenmegui, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6｜openit.ml, server: tj2.dalazhi.cyou, port: 443, type: trojan, password: 8f70fde3-a04c-4f6a-b705-aef7406f6ac1, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7｜openit.ml, server: 20-123-144-130.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8｜openit.ml, server: 20-66-19-98.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6｜openit.ml, server: 20-123-144-130.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 7｜openit.ml, server: tj2.dalazhi.cyou, port: 443, type: trojan, password: 8f70fde3-a04c-4f6a-b705-aef7406f6ac1, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 8｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 9｜openit.ml, server: 20-66-19-98.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -85,12 +86,15 @@ proxy-groups:
       - 🇨🇳 CN 1｜openit.ml
       - 🇩🇪 DE 1｜openit.ml
       - 🇩🇪 DE 2｜openit.ml
+      - 🇩🇪 DE 3｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇫🇷 FR 2｜openit.ml
       - 🇫🇷 FR 3｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
       - 🇬🇧 GB 3｜openit.ml
+      - 🇬🇧 GB 4｜openit.ml
+      - 🇬🇧 GB 5｜openit.ml
       - 🇮🇳 IN 1｜openit.ml
       - 🇯🇵 JP 1｜openit.ml
       - 🇯🇵 JP 2｜openit.ml
@@ -101,8 +105,6 @@ proxy-groups:
       - 🇳🇱 NL 2｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 10｜openit.ml
-      - 🇺🇸 US 11｜openit.ml
-      - 🇺🇸 US 12｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
@@ -122,12 +124,15 @@ proxy-groups:
       - 🇨🇳 CN 1｜openit.ml
       - 🇩🇪 DE 1｜openit.ml
       - 🇩🇪 DE 2｜openit.ml
+      - 🇩🇪 DE 3｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇫🇷 FR 2｜openit.ml
       - 🇫🇷 FR 3｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
       - 🇬🇧 GB 3｜openit.ml
+      - 🇬🇧 GB 4｜openit.ml
+      - 🇬🇧 GB 5｜openit.ml
       - 🇮🇳 IN 1｜openit.ml
       - 🇯🇵 JP 1｜openit.ml
       - 🇯🇵 JP 2｜openit.ml
@@ -138,8 +143,6 @@ proxy-groups:
       - 🇳🇱 NL 2｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 10｜openit.ml
-      - 🇺🇸 US 11｜openit.ml
-      - 🇺🇸 US 12｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
@@ -174,8 +177,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇺🇸 US 10｜openit.ml
-      - 🇺🇸 US 11｜openit.ml
-      - 🇺🇸 US 12｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
@@ -211,9 +212,12 @@ proxy-groups:
     proxies:
       - 🇩🇪 DE 1｜openit.ml
       - 🇩🇪 DE 2｜openit.ml
+      - 🇩🇪 DE 3｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
       - 🇬🇧 GB 3｜openit.ml
+      - 🇬🇧 GB 4｜openit.ml
+      - 🇬🇧 GB 5｜openit.ml
       - 🇮🇳 IN 1｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
   - name: 🪜 故障转移
@@ -226,12 +230,15 @@ proxy-groups:
       - 🇨🇳 CN 1｜openit.ml
       - 🇩🇪 DE 1｜openit.ml
       - 🇩🇪 DE 2｜openit.ml
+      - 🇩🇪 DE 3｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇫🇷 FR 2｜openit.ml
       - 🇫🇷 FR 3｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
       - 🇬🇧 GB 2｜openit.ml
       - 🇬🇧 GB 3｜openit.ml
+      - 🇬🇧 GB 4｜openit.ml
+      - 🇬🇧 GB 5｜openit.ml
       - 🇮🇳 IN 1｜openit.ml
       - 🇯🇵 JP 1｜openit.ml
       - 🇯🇵 JP 2｜openit.ml
@@ -242,8 +249,6 @@ proxy-groups:
       - 🇳🇱 NL 2｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 10｜openit.ml
-      - 🇺🇸 US 11｜openit.ml
-      - 🇺🇸 US 12｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
