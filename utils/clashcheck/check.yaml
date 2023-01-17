@@ -31,18 +31,18 @@ proxies:
   password: cf4295378e209e70d12c5bdd017144dfd1c772d3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E9\U0001F1EA DE 5"
-  server: 188.40.251.19
+- name: "\U0001F1EB\U0001F1F7 FR 5"
+  server: 176.31.83.90
   type: trojan
-  country: "\U0001F1E9\U0001F1EADE"
+  country: "\U0001F1EB\U0001F1F7FR"
   port: 443
   password: origin
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 6"
-  server: 176.31.83.90
+- name: "\U0001F1E9\U0001F1EA DE 6"
+  server: 188.40.251.19
   type: trojan
-  country: "\U0001F1EB\U0001F1F7FR"
+  country: "\U0001F1E9\U0001F1EADE"
   port: 443
   password: origin
   skip-cert-verify: true
@@ -63,20 +63,20 @@ proxies:
   password: d1478689-439c-4590-b7ce-36e786a02dc3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 9"
+- name: "\U0001F1EB\U0001F1F7 FR 9"
+  server: upload.soft98.download
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7FR"
+  port: 443
+  password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 10"
   server: 170-187-134-190.ipv4.rush.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
   port: 8443
   password: cf4295378e209e70d12c5bdd017144dfd1c772d3
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 10"
-  server: content-provider24.cdn-delivery.akamaicd.com
-  type: trojan
-  country: "\U0001F1F3\U0001F1F1NL"
-  port: 443
-  password: Sp3eDVp
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F3\U0001F1F1 NL 11"
@@ -87,12 +87,12 @@ proxies:
   password: Sp3eDVp
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F1\U0001F1F9 LT 12"
-  server: 212.24.103.3
+- name: "\U0001F1F3\U0001F1F1 NL 12"
+  server: content-provider24.cdn-delivery.akamaicd.com
   type: trojan
-  country: "\U0001F1F1\U0001F1F9LT"
+  country: "\U0001F1F3\U0001F1F1NL"
   port: 443
-  password: 4f9ca636-5195-406a-b48c-0388689dd9a7
+  password: Sp3eDVp
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 13"
@@ -103,20 +103,20 @@ proxies:
   password: 011eb011-c68e-4f92-80eb-f9bbef707bef
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 14"
+- name: "\U0001F1F1\U0001F1F9 LT 14"
+  server: 212.24.103.3
+  type: trojan
+  country: "\U0001F1F1\U0001F1F9LT"
+  port: 443
+  password: 4f9ca636-5195-406a-b48c-0388689dd9a7
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 15"
   server: 20-66-19-98.ipv4.rush.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
   port: 8443
   password: cf4295378e209e70d12c5bdd017144dfd1c772d3
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 15"
-  server: upload.soft98.download
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7FR"
-  port: 443
-  password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 HK 16"
@@ -127,7 +127,14 @@ proxies:
   sni: data-hk.efyunpan.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 17"
+- name: "\U0001F1EC\U0001F1E7 GB 17"
+  server: uk1.trojanvh.xyz
+  port: 80
+  type: trojan
+  password: b640d791-ff83-4300-b509-c2a02f97f167
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 18"
   server: dl-sg4.efyunpan.com
   port: 443
   type: trojan
@@ -135,7 +142,7 @@ proxies:
   sni: data-sg.efyunpan.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 18"
+- name: "\U0001F1F8\U0001F1EC SG 19"
   server: dl-sg3.efyunpan.com
   port: 443
   type: trojan
@@ -143,16 +150,9 @@ proxies:
   sni: data-sg.efyunpan.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 19"
-  server: uk1.trojanvh.xyz
-  port: 80
-  type: trojan
-  password: b640d791-ff83-4300-b509-c2a02f97f167
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 20"
-  server: 116.162.120.29
-  port: 561
+  server: 116.162.120.31
+  port: 562
   type: ssr
   cipher: chacha20-ietf
   password: mblank1port
@@ -163,7 +163,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 21"
   server: 223.167.41.170
-  port: 560
+  port: 562
   type: ssr
   cipher: chacha20-ietf
   password: mblank1port
@@ -173,8 +173,8 @@ proxies:
   obfs-param: ''
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 22"
-  server: 223.167.41.170
-  port: 562
+  server: 116.162.120.29
+  port: 561
   type: ssr
   cipher: chacha20-ietf
   password: mblank1port
@@ -192,7 +192,16 @@ proxies:
   skip-cert-verify: true
   sni: us3.trojanvh.xyz
 - type: trojan
-  name: "\U0001F1EB\U0001F1F7 FR 24"
+  name: "\U0001F1EC\U0001F1E7 GB 24"
+  server: 88.150.137.177
+  port: 443
+  password: shefelnak
+  udp: true
+  skip-cert-verify: true
+  sni: content-provider4.cdn-delivery.akamaicd.com
+  network: tcp
+- type: trojan
+  name: "\U0001F1EB\U0001F1F7 FR 25"
   server: 141.95.61.209
   port: 1145
   password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
@@ -200,7 +209,7 @@ proxies:
   skip-cert-verify: true
   network: tcp
 - type: trojan
-  name: "\U0001F1EF\U0001F1F5 JP 25"
+  name: "\U0001F1EF\U0001F1F5 JP 26"
   server: 43.207.2.60
   port: 443
   password: hfjlmL5z
@@ -208,14 +217,6 @@ proxies:
   skip-cert-verify: true
   sni: cn.bing.com
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 26"
-  server: 138.124.183.222
-  type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
 - type: trojan
   name: "\U0001F1F8\U0001F1EC SG 27"
   server: 103.172.116.196
@@ -232,28 +233,28 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 2"
   - "\U0001F1E8\U0001F1F3 HK 3"
   - "\U0001F1F8\U0001F1EC SG 4"
-  - "\U0001F1E9\U0001F1EA DE 5"
-  - "\U0001F1EB\U0001F1F7 FR 6"
+  - "\U0001F1EB\U0001F1F7 FR 5"
+  - "\U0001F1E9\U0001F1EA DE 6"
   - "\U0001F1FA\U0001F1F8 US 7"
   - "\U0001F1FA\U0001F1F8 US 8"
-  - "\U0001F1FA\U0001F1F8 US 9"
-  - "\U0001F1F3\U0001F1F1 NL 10"
+  - "\U0001F1EB\U0001F1F7 FR 9"
+  - "\U0001F1FA\U0001F1F8 US 10"
   - "\U0001F1F3\U0001F1F1 NL 11"
-  - "\U0001F1F1\U0001F1F9 LT 12"
+  - "\U0001F1F3\U0001F1F1 NL 12"
   - "\U0001F1FA\U0001F1F8 US 13"
-  - "\U0001F1FA\U0001F1F8 US 14"
-  - "\U0001F1EB\U0001F1F7 FR 15"
+  - "\U0001F1F1\U0001F1F9 LT 14"
+  - "\U0001F1FA\U0001F1F8 US 15"
   - "\U0001F1E8\U0001F1F3 HK 16"
-  - "\U0001F1F8\U0001F1EC SG 17"
+  - "\U0001F1EC\U0001F1E7 GB 17"
   - "\U0001F1F8\U0001F1EC SG 18"
-  - "\U0001F1EC\U0001F1E7 GB 19"
+  - "\U0001F1F8\U0001F1EC SG 19"
   - "\U0001F1E8\U0001F1F3 CN 20"
   - "\U0001F1E8\U0001F1F3 CN 21"
   - "\U0001F1E8\U0001F1F3 CN 22"
   - "\U0001F1FA\U0001F1F8 US 23"
-  - "\U0001F1EB\U0001F1F7 FR 24"
-  - "\U0001F1EF\U0001F1F5 JP 25"
-  - "\U0001F1FA\U0001F1F8 US 26"
+  - "\U0001F1EC\U0001F1E7 GB 24"
+  - "\U0001F1EB\U0001F1F7 FR 25"
+  - "\U0001F1EF\U0001F1F5 JP 26"
   - "\U0001F1F8\U0001F1EC SG 27"
   url: https://www.google.com/favicon.ico
   interval: 300
@@ -265,28 +266,28 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 2"
   - "\U0001F1E8\U0001F1F3 HK 3"
   - "\U0001F1F8\U0001F1EC SG 4"
-  - "\U0001F1E9\U0001F1EA DE 5"
-  - "\U0001F1EB\U0001F1F7 FR 6"
+  - "\U0001F1EB\U0001F1F7 FR 5"
+  - "\U0001F1E9\U0001F1EA DE 6"
   - "\U0001F1FA\U0001F1F8 US 7"
   - "\U0001F1FA\U0001F1F8 US 8"
-  - "\U0001F1FA\U0001F1F8 US 9"
-  - "\U0001F1F3\U0001F1F1 NL 10"
+  - "\U0001F1EB\U0001F1F7 FR 9"
+  - "\U0001F1FA\U0001F1F8 US 10"
   - "\U0001F1F3\U0001F1F1 NL 11"
-  - "\U0001F1F1\U0001F1F9 LT 12"
+  - "\U0001F1F3\U0001F1F1 NL 12"
   - "\U0001F1FA\U0001F1F8 US 13"
-  - "\U0001F1FA\U0001F1F8 US 14"
-  - "\U0001F1EB\U0001F1F7 FR 15"
+  - "\U0001F1F1\U0001F1F9 LT 14"
+  - "\U0001F1FA\U0001F1F8 US 15"
   - "\U0001F1E8\U0001F1F3 HK 16"
-  - "\U0001F1F8\U0001F1EC SG 17"
+  - "\U0001F1EC\U0001F1E7 GB 17"
   - "\U0001F1F8\U0001F1EC SG 18"
-  - "\U0001F1EC\U0001F1E7 GB 19"
+  - "\U0001F1F8\U0001F1EC SG 19"
   - "\U0001F1E8\U0001F1F3 CN 20"
   - "\U0001F1E8\U0001F1F3 CN 21"
   - "\U0001F1E8\U0001F1F3 CN 22"
   - "\U0001F1FA\U0001F1F8 US 23"
-  - "\U0001F1EB\U0001F1F7 FR 24"
-  - "\U0001F1EF\U0001F1F5 JP 25"
-  - "\U0001F1FA\U0001F1F8 US 26"
+  - "\U0001F1EC\U0001F1E7 GB 24"
+  - "\U0001F1EB\U0001F1F7 FR 25"
+  - "\U0001F1EF\U0001F1F5 JP 26"
   - "\U0001F1F8\U0001F1EC SG 27"
 rules:
 - "MATCH,\U0001F310 Proxy"
