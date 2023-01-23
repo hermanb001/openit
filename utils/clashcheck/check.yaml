@@ -73,12 +73,11 @@ proxies:
   sni: us3.trojanvh.xyz
 - type: trojan
   name: "\U0001F1FA\U0001F1F8 US 10"
-  server: 20-66-19-98.ipv4.rush.ml
-  port: 8443
-  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+  server: 155.248.193.254
+  port: 31853
+  password: jKRJgS7uvI
   udp: true
   skip-cert-verify: true
-  network: tcp
 - name: "\U0001F1EE\U0001F1F3 IN 11"
   server: jgwhdlb2.gaox.ml
   type: trojan
@@ -104,23 +103,7 @@ proxies:
   skip-cert-verify: true
   udp: true
 - type: trojan
-  name: "\U0001F1EA\U0001F1F8 ES 14"
-  server: 82.223.46.50
-  port: 2083
-  password: EGi7EzLOD3
-  udp: true
-  skip-cert-verify: true
-  sni: freedom.wlfhope.website
-- type: trojan
-  name: "\U0001F1EF\U0001F1F5 JP 15"
-  server: jp.swiftfalcon.app
-  port: 8461
-  password: shenmegui
-  udp: true
-  skip-cert-verify: true
-  sni: jp.swiftfalcon.app
-- type: trojan
-  name: "\U0001F1F9\U0001F1F7 TR 16"
+  name: "\U0001F1F9\U0001F1F7 TR 14"
   server: 95.85.76.136
   port: 56810
   password: fEDTdp8Sy1
@@ -128,7 +111,7 @@ proxies:
   skip-cert-verify: true
   sni: tr1.digisport.shop
 - type: trojan
-  name: "\U0001F1FA\U0001F1F8 US 17"
+  name: "\U0001F1FA\U0001F1F8 US 15"
   server: 170-187-134-190.ipv4.rush.ml
   port: 8443
   password: cf4295378e209e70d12c5bdd017144dfd1c772d3
@@ -136,23 +119,21 @@ proxies:
   skip-cert-verify: true
   sni: 170-187-134-190.ipv4.rush.ml
 - type: trojan
-  name: "\U0001F1EF\U0001F1F5 JP 18"
-  server: jp.swiftfalcon.app
-  port: 8461
-  password: shenmegui
+  name: "\U0001F1FA\U0001F1F8 US 16"
+  server: 20-66-19-98.ipv4.rush.ml
+  port: 8443
+  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
   udp: true
   skip-cert-verify: true
-  sni: jp.swiftfalcon.app
   network: tcp
 - type: trojan
-  name: "\U0001F1EF\U0001F1F5 JP 19"
-  server: jp.swiftfalcon.app
-  port: 8461
-  password: shenmegui
+  name: "\U0001F1EA\U0001F1F8 ES 17"
+  server: 82.223.46.50
+  port: 2083
+  password: EGi7EzLOD3
   udp: true
   skip-cert-verify: true
-  sni: jp.swiftfalcon.app
-  network: tcp
+  sni: freedom.wlfhope.website
 proxy-groups:
 - name: automatic
   type: url-test
@@ -170,12 +151,10 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F3 IN 11"
   - "\U0001F1EE\U0001F1F3 IN 12"
   - "\U0001F1EE\U0001F1F3 IN 13"
-  - "\U0001F1EA\U0001F1F8 ES 14"
-  - "\U0001F1EF\U0001F1F5 JP 15"
-  - "\U0001F1F9\U0001F1F7 TR 16"
-  - "\U0001F1FA\U0001F1F8 US 17"
-  - "\U0001F1EF\U0001F1F5 JP 18"
-  - "\U0001F1EF\U0001F1F5 JP 19"
+  - "\U0001F1F9\U0001F1F7 TR 14"
+  - "\U0001F1FA\U0001F1F8 US 15"
+  - "\U0001F1FA\U0001F1F8 US 16"
+  - "\U0001F1EA\U0001F1F8 ES 17"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -195,11 +174,9 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F3 IN 11"
   - "\U0001F1EE\U0001F1F3 IN 12"
   - "\U0001F1EE\U0001F1F3 IN 13"
-  - "\U0001F1EA\U0001F1F8 ES 14"
-  - "\U0001F1EF\U0001F1F5 JP 15"
-  - "\U0001F1F9\U0001F1F7 TR 16"
-  - "\U0001F1FA\U0001F1F8 US 17"
-  - "\U0001F1EF\U0001F1F5 JP 18"
-  - "\U0001F1EF\U0001F1F5 JP 19"
+  - "\U0001F1F9\U0001F1F7 TR 14"
+  - "\U0001F1FA\U0001F1F8 US 15"
+  - "\U0001F1FA\U0001F1F8 US 16"
+  - "\U0001F1EA\U0001F1F8 ES 17"
 rules:
 - "MATCH,\U0001F310 Proxy"
