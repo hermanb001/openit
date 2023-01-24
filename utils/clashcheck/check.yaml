@@ -1,36 +1,36 @@
 proxies:
-- type: trojan
-  name: "\U0001F1EC\U0001F1E7 GB 1"
-  server: content-provider4.cdn-delivery.akamaicd.com
+- name: "\U0001F1E6\U0001F1FA AU 1"
+  server: jgwxn4.gaox.ml
+  type: trojan
+  country: "\U0001F1E6\U0001F1FA AU"
   port: 443
-  password: shefelnak
-  udp: true
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: true
-  sni: content-provider4.cdn-delivery.akamaicd.com
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 2"
+  server: upload.soft98.download
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 3"
+  server: 138.124.183.222
+  type: trojan
+  country: "\U0001F1F3\U0001F1F4 NO"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
 - type: trojan
-  name: "\U0001F1F9\U0001F1F7 TR 2"
+  name: "\U0001F1F9\U0001F1F7 TR 4"
   server: 95.85.76.136
   port: 56810
   password: fEDTdp8Sy1
   udp: true
   skip-cert-verify: true
   sni: tr1.digisport.shop
-- name: "\U0001F1EE\U0001F1F3 IN 3"
-  server: jgwhdlb1.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: "\U0001F1F8\U0001F1EC SG 4"
-  server: 15.235.197.5
-  port: 80
-  password: bedae0a3-a7dc-4ff0-9013-be459839b5b7
-  udp: true
-  skip-cert-verify: true
-  sni: sg2.trojanvh.xyz
 - type: trojan
   name: "\U0001F1F9\U0001F1F7 TR 5"
   server: 95.85.76.155
@@ -39,37 +39,45 @@ proxies:
   udp: true
   skip-cert-verify: true
   sni: tr2.digisport.shop
-- type: ssr
-  name: "\U0001F1E8\U0001F1F3 CN 6"
-  server: 42.237.112.208
-  port: 32012
-  protocol: auth_aes128_sha1
-  cipher: chacha20-ietf
-  obfs: http_simple
-  password: zztw9jk7gu
-  obfs-param: b9be14021.microsoft.com
-  protocol-param: 4021:yWHABv
+- name: "\U0001F1FA\U0001F1F8 US 6"
+  server: fhcamd2.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: "\U0001F1F8\U0001F1EC SG 7"
+  server: 15.235.197.5
+  port: 80
+  password: bedae0a3-a7dc-4ff0-9013-be459839b5b7
+  udp: true
+  skip-cert-verify: true
+  sni: sg2.trojanvh.xyz
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1EC\U0001F1E7 GB 1"
-  - "\U0001F1F9\U0001F1F7 TR 2"
-  - "\U0001F1EE\U0001F1F3 IN 3"
-  - "\U0001F1F8\U0001F1EC SG 4"
+  - "\U0001F1E6\U0001F1FA AU 1"
+  - "\U0001F1EB\U0001F1F7 FR 2"
+  - "\U0001F1FA\U0001F1F8 US 3"
+  - "\U0001F1F9\U0001F1F7 TR 4"
   - "\U0001F1F9\U0001F1F7 TR 5"
-  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1FA\U0001F1F8 US 6"
+  - "\U0001F1F8\U0001F1EC SG 7"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
-  - "\U0001F1EC\U0001F1E7 GB 1"
-  - "\U0001F1F9\U0001F1F7 TR 2"
-  - "\U0001F1EE\U0001F1F3 IN 3"
-  - "\U0001F1F8\U0001F1EC SG 4"
+  - "\U0001F1E6\U0001F1FA AU 1"
+  - "\U0001F1EB\U0001F1F7 FR 2"
+  - "\U0001F1FA\U0001F1F8 US 3"
+  - "\U0001F1F9\U0001F1F7 TR 4"
   - "\U0001F1F9\U0001F1F7 TR 5"
-  - "\U0001F1E8\U0001F1F3 CN 6"
+  - "\U0001F1FA\U0001F1F8 US 6"
+  - "\U0001F1F8\U0001F1EC SG 7"
 rules:
 - "MATCH,\U0001F310 Proxy"
