@@ -40,6 +40,9 @@ proxies:
   - {name: 🇷🇺 RU 1｜openit.ml, server: 95.85.76.136, port: 56810, type: trojan, password: fEDTdp8Sy1, sni: tr1.digisport.shop, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 2｜openit.ml, server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 3｜openit.ml, server: 95.85.76.155, port: 38371, type: trojan, password: l97ib1eedX, sni: tr2.digisport.shop, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1｜openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3｜openit.ml, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -64,6 +67,9 @@ proxy-groups:
       - 🇷🇺 RU 1｜openit.ml
       - 🇷🇺 RU 2｜openit.ml
       - 🇷🇺 RU 3｜openit.ml
+      - 🇺🇸 US 1｜openit.ml
+      - 🇺🇸 US 2｜openit.ml
+      - 🇺🇸 US 3｜openit.ml
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -77,6 +83,9 @@ proxy-groups:
       - 🇷🇺 RU 1｜openit.ml
       - 🇷🇺 RU 2｜openit.ml
       - 🇷🇺 RU 3｜openit.ml
+      - 🇺🇸 US 1｜openit.ml
+      - 🇺🇸 US 2｜openit.ml
+      - 🇺🇸 US 3｜openit.ml
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -97,7 +106,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇺🇸 US 1｜openit.ml
+      - 🇺🇸 US 2｜openit.ml
+      - 🇺🇸 US 3｜openit.ml
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -139,6 +150,9 @@ proxy-groups:
       - 🇷🇺 RU 1｜openit.ml
       - 🇷🇺 RU 2｜openit.ml
       - 🇷🇺 RU 3｜openit.ml
+      - 🇺🇸 US 1｜openit.ml
+      - 🇺🇸 US 2｜openit.ml
+      - 🇺🇸 US 3｜openit.ml
   - name: 👉 国内网站
     type: select
     proxies:
