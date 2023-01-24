@@ -7,15 +7,7 @@ proxies:
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E6\U0001F1FA AU 2"
-  server: jgwxn4.gaox.ml
-  type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
-  port: 443
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 3"
+- name: "\U0001F1E8\U0001F1F3 HK 2"
   server: 194.156.99.39
   type: trojan
   country: "\U0001F1F7\U0001F1FA RU"
@@ -24,14 +16,38 @@ proxies:
   skip-cert-verify: true
   udp: true
 - type: trojan
-  name: "\U0001F1EC\U0001F1E7 GB 4"
+  name: "\U0001F1EC\U0001F1E7 GB 3"
   server: content-provider4.cdn-delivery.akamaicd.com
   port: 443
   password: shefelnak
   udp: true
   skip-cert-verify: true
   sni: content-provider4.cdn-delivery.akamaicd.com
-- name: "\U0001F1EB\U0001F1F7 FR 5"
+- type: trojan
+  name: "\U0001F1F9\U0001F1F7 TR 4"
+  server: 95.85.76.136
+  port: 56810
+  password: fEDTdp8Sy1
+  udp: true
+  skip-cert-verify: true
+  sni: tr1.digisport.shop
+- name: "\U0001F1FA\U0001F1F8 US 5"
+  server: fhcamd2.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 6"
+  server: jgwhdlb1.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 7"
   server: upload.soft98.download
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -39,22 +55,6 @@ proxies:
   password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
   skip-cert-verify: true
   udp: true
-- type: trojan
-  name: "\U0001F1F9\U0001F1F7 TR 6"
-  server: 95.85.76.136
-  port: 56810
-  password: fEDTdp8Sy1
-  udp: true
-  skip-cert-verify: true
-  sni: tr1.digisport.shop
-- type: trojan
-  name: "\U0001F1F9\U0001F1F7 TR 7"
-  server: 95.85.76.155
-  port: 38371
-  password: l97ib1eedX
-  udp: true
-  skip-cert-verify: true
-  sni: tr2.digisport.shop
 - type: ssr
   name: "\U0001F1E8\U0001F1F3 CN 8"
   server: 42.237.112.208
@@ -68,16 +68,6 @@ proxies:
 - type: ssr
   name: "\U0001F1E8\U0001F1F3 CN 9"
   server: 42.237.112.208
-  port: 30985
-  protocol: auth_aes128_sha1
-  cipher: chacha20-ietf
-  obfs: http_simple
-  password: zztw9jk7gu
-  obfs-param: b9be14021.microsoft.com
-  protocol-param: 4021:yWHABv
-- type: ssr
-  name: "\U0001F1E8\U0001F1F3 CN 10"
-  server: 42.237.112.208
   port: 32012
   protocol: auth_aes128_sha1
   cipher: chacha20-ietf
@@ -85,20 +75,28 @@ proxies:
   password: zztw9jk7gu
   obfs-param: b9be14021.microsoft.com
   protocol-param: 4021:yWHABv
+- type: trojan
+  name: "\U0001F1F9\U0001F1F7 TR 10"
+  server: 95.85.76.155
+  port: 38371
+  password: l97ib1eedX
+  udp: true
+  skip-cert-verify: true
+  sni: tr2.digisport.shop
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1EF\U0001F1F5 JP 1"
-  - "\U0001F1E6\U0001F1FA AU 2"
-  - "\U0001F1E8\U0001F1F3 HK 3"
-  - "\U0001F1EC\U0001F1E7 GB 4"
-  - "\U0001F1EB\U0001F1F7 FR 5"
-  - "\U0001F1F9\U0001F1F7 TR 6"
-  - "\U0001F1F9\U0001F1F7 TR 7"
+  - "\U0001F1E8\U0001F1F3 HK 2"
+  - "\U0001F1EC\U0001F1E7 GB 3"
+  - "\U0001F1F9\U0001F1F7 TR 4"
+  - "\U0001F1FA\U0001F1F8 US 5"
+  - "\U0001F1EE\U0001F1F3 IN 6"
+  - "\U0001F1EB\U0001F1F7 FR 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
   - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
+  - "\U0001F1F9\U0001F1F7 TR 10"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -106,14 +104,14 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1EF\U0001F1F5 JP 1"
-  - "\U0001F1E6\U0001F1FA AU 2"
-  - "\U0001F1E8\U0001F1F3 HK 3"
-  - "\U0001F1EC\U0001F1E7 GB 4"
-  - "\U0001F1EB\U0001F1F7 FR 5"
-  - "\U0001F1F9\U0001F1F7 TR 6"
-  - "\U0001F1F9\U0001F1F7 TR 7"
+  - "\U0001F1E8\U0001F1F3 HK 2"
+  - "\U0001F1EC\U0001F1E7 GB 3"
+  - "\U0001F1F9\U0001F1F7 TR 4"
+  - "\U0001F1FA\U0001F1F8 US 5"
+  - "\U0001F1EE\U0001F1F3 IN 6"
+  - "\U0001F1EB\U0001F1F7 FR 7"
   - "\U0001F1E8\U0001F1F3 CN 8"
   - "\U0001F1E8\U0001F1F3 CN 9"
-  - "\U0001F1E8\U0001F1F3 CN 10"
+  - "\U0001F1F9\U0001F1F7 TR 10"
 rules:
 - "MATCH,\U0001F310 Proxy"
