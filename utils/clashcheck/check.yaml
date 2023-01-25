@@ -24,7 +24,15 @@ proxies:
   skip-cert-verify: true
   network: tcp
 - type: trojan
-  name: "\U0001F1E8\U0001F1F3 HK 4"
+  name: "\U0001F1FA\U0001F1F8 US 4"
+  server: 20-66-19-98.ipv4.rush.ml
+  port: 8443
+  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- type: trojan
+  name: "\U0001F1E8\U0001F1F3 HK 5"
   server: 154.3.32.164
   port: 443
   password: RRy34GGwsPt47SuC
@@ -32,21 +40,13 @@ proxies:
   skip-cert-verify: true
   sni: sky998dmit3.xyz
 - type: trojan
-  name: "\U0001F1FA\U0001F1F8 US 5"
-  server: 20-66-19-98.ipv4.rush.ml
-  port: 8443
-  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+  name: "\U0001F1EA\U0001F1F8 ES 6"
+  server: 82.223.46.50
+  port: 2083
+  password: EGi7EzLOD3
   udp: true
   skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EE\U0001F1F3 IN 6"
-  server: jgwhdlb2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  skip-cert-verify: true
-  udp: true
+  sni: freedom.wlfhope.website
 proxy-groups:
 - name: automatic
   type: url-test
@@ -54,9 +54,9 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1"
   - "\U0001F1EC\U0001F1E7 GB 2"
   - "\U0001F1FA\U0001F1F8 US 3"
-  - "\U0001F1E8\U0001F1F3 HK 4"
-  - "\U0001F1FA\U0001F1F8 US 5"
-  - "\U0001F1EE\U0001F1F3 IN 6"
+  - "\U0001F1FA\U0001F1F8 US 4"
+  - "\U0001F1E8\U0001F1F3 HK 5"
+  - "\U0001F1EA\U0001F1F8 ES 6"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -66,8 +66,8 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1"
   - "\U0001F1EC\U0001F1E7 GB 2"
   - "\U0001F1FA\U0001F1F8 US 3"
-  - "\U0001F1E8\U0001F1F3 HK 4"
-  - "\U0001F1FA\U0001F1F8 US 5"
-  - "\U0001F1EE\U0001F1F3 IN 6"
+  - "\U0001F1FA\U0001F1F8 US 4"
+  - "\U0001F1E8\U0001F1F3 HK 5"
+  - "\U0001F1EA\U0001F1F8 ES 6"
 rules:
 - "MATCH,\U0001F310 Proxy"
