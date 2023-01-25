@@ -34,7 +34,6 @@ dns:
       - 240.0.0.0/4
 proxies:
   - {name: NO 1｜openit.ml, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 1｜openit.ml, server: 149.56.132.41, port: 80, type: trojan, password: 89d81c5f-3d75-42f7-8a23-1be9ac89f3fb, sni: ca1.trojanvh.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1｜openit.ml, server: upload.soft98.download, port: 443, type: trojan, password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1｜openit.ml, server: 154.3.32.164, port: 443, type: trojan, password: RRy34GGwsPt47SuC, sni: sky998dmit3.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -55,7 +54,6 @@ proxy-groups:
     type: select
     proxies:
       - NO 1｜openit.ml
-      - 🇨🇦 CA 1｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
   - name: 💡 自动选择
@@ -65,7 +63,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - NO 1｜openit.ml
-      - 🇨🇦 CA 1｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
   - name: 🇭🇰 香港节点
@@ -113,7 +110,7 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - 🇨🇦 CA 1｜openit.ml
+      - DIRECT
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -121,7 +118,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - NO 1｜openit.ml
-      - 🇨🇦 CA 1｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
   - name: 👉 国内网站
