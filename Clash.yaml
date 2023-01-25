@@ -33,13 +33,13 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-  - {name: 🇪🇸 ES 1｜openit.ml, server: 82.223.46.50, port: 2083, type: trojan, password: EGi7EzLOD3, sni: freedom.wlfhope.website, skip-cert-verify: true, udp: true}
+  - {name: NO 1｜openit.ml, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 1｜openit.ml, server: 149.56.132.41, port: 80, type: trojan, password: 89d81c5f-3d75-42f7-8a23-1be9ac89f3fb, sni: ca1.trojanvh.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1｜openit.ml, server: upload.soft98.download, port: 443, type: trojan, password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 1｜openit.ml, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 1｜openit.ml, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1｜openit.ml, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 3｜openit.ml, server: 154.3.32.164, port: 443, type: trojan, password: RRy34GGwsPt47SuC, sni: sky998dmit3.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4｜openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -57,26 +57,26 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇪🇸 ES 1｜openit.ml
+      - NO 1｜openit.ml
+      - 🇨🇦 CA 1｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
-      - 🇺🇸 US 4｜openit.ml
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇪🇸 ES 1｜openit.ml
+      - NO 1｜openit.ml
+      - 🇨🇦 CA 1｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
-      - 🇺🇸 US 4｜openit.ml
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -100,7 +100,6 @@ proxy-groups:
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
-      - 🇺🇸 US 4｜openit.ml
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -125,6 +124,7 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
+      - 🇨🇦 CA 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
   - name: 🪜 故障转移
     type: fallback
@@ -132,13 +132,13 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇪🇸 ES 1｜openit.ml
+      - NO 1｜openit.ml
+      - 🇨🇦 CA 1｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
-      - 🇺🇸 US 4｜openit.ml
   - name: 👉 国内网站
     type: select
     proxies:
