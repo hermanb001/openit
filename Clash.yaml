@@ -33,7 +33,8 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-  - {name: 🇫🇷 FR, server: upload.soft98.download, port: 443, type: trojan, password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1｜openit.ml, server: 42.237.112.208, port: 32124, type: ssr, cipher: chacha20-ietf, password: zztw9jk7gu, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 7432:82TfWp, obfs-param: e5ab07432.microsoft.com, udp: true}
+  - {name: 🇫🇷 FR 1｜openit.ml, server: upload.soft98.download, port: 443, type: trojan, password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -51,14 +52,16 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇫🇷 FR
+      - 🇨🇳 CN 1｜openit.ml
+      - 🇫🇷 FR 1｜openit.ml
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 FR
+      - 🇨🇳 CN 1｜openit.ml
+      - 🇫🇷 FR 1｜openit.ml
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -111,7 +114,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 FR
+      - 🇨🇳 CN 1｜openit.ml
+      - 🇫🇷 FR 1｜openit.ml
   - name: 👉 国内网站
     type: select
     proxies:
