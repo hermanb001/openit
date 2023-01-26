@@ -33,8 +33,7 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-  - {name: 🇫🇷 FR 1｜openit.ml, server: upload.soft98.download, port: 443, type: trojan, password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 1｜openit.ml, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, sni: content-provider4.cdn-delivery.akamaicd.com, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FR, server: upload.soft98.download, port: 443, type: trojan, password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -52,16 +51,14 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇫🇷 FR 1｜openit.ml
-      - 🇬🇧 GB 1｜openit.ml
+      - 🇫🇷 FR
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 FR 1｜openit.ml
-      - 🇬🇧 GB 1｜openit.ml
+      - 🇫🇷 FR
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -107,15 +104,14 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - 🇬🇧 GB 1｜openit.ml
+      - DIRECT
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 FR 1｜openit.ml
-      - 🇬🇧 GB 1｜openit.ml
+      - 🇫🇷 FR
   - name: 👉 国内网站
     type: select
     proxies:
