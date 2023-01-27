@@ -38,7 +38,8 @@ proxies:
   - {name: 🇺🇸 US 2｜openit.ml, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 3｜openit.ml, server: 104.149.155.13, port: 443, type: trojan, password: 17c412d9-f283-483c-b095-72605fb2840e, sni: vzwzasc.cn, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4｜openit.ml, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5｜openit.ml, server: ccjp3.cutcloudjd.site, port: 10003, type: trojan, password: 2380f07e-e54c-4645-8abe-50575b31f45f, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6｜openit.ml, server: ccjp3.cutcloudjd.site, port: 10003, type: trojan, password: 2380f07e-e54c-4645-8abe-50575b31f45f, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -62,6 +63,7 @@ proxy-groups:
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
+      - 🇺🇸 US 6｜openit.ml
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -74,6 +76,7 @@ proxy-groups:
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
+      - 🇺🇸 US 6｜openit.ml
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -99,6 +102,7 @@ proxy-groups:
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
+      - 🇺🇸 US 6｜openit.ml
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -136,6 +140,7 @@ proxy-groups:
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
+      - 🇺🇸 US 6｜openit.ml
   - name: 👉 国内网站
     type: select
     proxies:
