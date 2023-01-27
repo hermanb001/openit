@@ -38,12 +38,11 @@ proxies:
   - {name: 🇬🇧 GB 1｜openit.ml, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1｜openit.ml, server: 43.154.222.48, port: 17115, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: azhk097.xiaohouzi.club, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 1｜openit.ml, server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1｜openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1｜openit.ml, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 3｜openit.ml, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4｜openit.ml, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5｜openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6｜openit.ml, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5｜openit.ml, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -71,7 +70,6 @@ proxy-groups:
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
-      - 🇺🇸 US 6｜openit.ml
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -88,7 +86,6 @@ proxy-groups:
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
-      - 🇺🇸 US 6｜openit.ml
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -114,7 +111,6 @@ proxy-groups:
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
-      - 🇺🇸 US 6｜openit.ml
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -157,7 +153,6 @@ proxy-groups:
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
-      - 🇺🇸 US 6｜openit.ml
   - name: 👉 国内网站
     type: select
     proxies:
