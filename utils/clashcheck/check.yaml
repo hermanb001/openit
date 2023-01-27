@@ -1,37 +1,21 @@
 proxies:
 - name: "\U0001F1E6\U0001F1FA AU 1"
-  server: jgwxn4.gaox.ml
+  server: jgwxn3.gaox.ml
   type: trojan
   country: "\U0001F1E6\U0001F1FA AU"
   port: 443
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 2"
-  server: jgwdb4.gaox.ml
+- name: "\U0001F1EC\U0001F1E7 GB 2"
+  server: content-provider4.cdn-delivery.akamaicd.com
   type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
+  country: "\U0001F1EC\U0001F1E7 GB"
   port: 443
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  password: shefelnak
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 3"
-  server: 138.124.183.222
-  type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 4"
-  server: 138.124.183.226
-  type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 5"
+- name: "\U0001F1EB\U0001F1F7 FR 3"
   server: upload.soft98.download
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -39,14 +23,31 @@ proxies:
   password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 6"
-  server: 194.156.99.39
+- name: "\U0001F1EF\U0001F1F5 JP 4"
+  server: jgwdj3.gaox.ml
   type: trojan
-  country: "\U0001F1F7\U0001F1FA RU"
+  country: "\U0001F1FA\U0001F1F8 US"
   port: 443
-  password: xxoo
+  password: da777aae-defb-41d0-a183-2c27da2b4677
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 5"
+  server: jgwcc3.gaox.ml
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: "\U0001F1EF\U0001F1F5 JP 6"
+  server: jp1.v2pn.live
+  port: 443
+  password: 7812e7af-a2de-49a1-a034-8bc23f3f3b62
+  udp: true
+  skip-cert-verify: true
+  sni: 139-177-186-17.nhost.00cdn.com
+  network: tcp
 - type: trojan
   name: "\U0001F1E8\U0001F1F3 HK 7"
   server: 43.154.222.48
@@ -56,19 +57,19 @@ proxies:
   skip-cert-verify: true
   sni: azhk097.xiaohouzi.club
 - name: "\U0001F1FA\U0001F1F8 US 8"
-  server: 138.124.183.216
+  server: 138.124.183.222
   type: trojan
   country: "\U0001F1F3\U0001F1F4 NO"
   port: 443
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 9"
-  server: jgwhdlb1.gaox.ml
+- name: "\U0001F1E8\U0001F1F3 HK 9"
+  server: 194.156.99.39
   type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
+  country: "\U0001F1F7\U0001F1FA RU"
   port: 443
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  password: xxoo
   skip-cert-verify: true
   udp: true
 proxy-groups:
@@ -76,14 +77,14 @@ proxy-groups:
   type: url-test
   proxies:
   - "\U0001F1E6\U0001F1FA AU 1"
-  - "\U0001F1EF\U0001F1F5 JP 2"
-  - "\U0001F1FA\U0001F1F8 US 3"
-  - "\U0001F1FA\U0001F1F8 US 4"
-  - "\U0001F1EB\U0001F1F7 FR 5"
-  - "\U0001F1E8\U0001F1F3 HK 6"
+  - "\U0001F1EC\U0001F1E7 GB 2"
+  - "\U0001F1EB\U0001F1F7 FR 3"
+  - "\U0001F1EF\U0001F1F5 JP 4"
+  - "\U0001F1F0\U0001F1F7 KR 5"
+  - "\U0001F1EF\U0001F1F5 JP 6"
   - "\U0001F1E8\U0001F1F3 HK 7"
   - "\U0001F1FA\U0001F1F8 US 8"
-  - "\U0001F1EE\U0001F1F3 IN 9"
+  - "\U0001F1E8\U0001F1F3 HK 9"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -91,13 +92,13 @@ proxy-groups:
   proxies:
   - automatic
   - "\U0001F1E6\U0001F1FA AU 1"
-  - "\U0001F1EF\U0001F1F5 JP 2"
-  - "\U0001F1FA\U0001F1F8 US 3"
-  - "\U0001F1FA\U0001F1F8 US 4"
-  - "\U0001F1EB\U0001F1F7 FR 5"
-  - "\U0001F1E8\U0001F1F3 HK 6"
+  - "\U0001F1EC\U0001F1E7 GB 2"
+  - "\U0001F1EB\U0001F1F7 FR 3"
+  - "\U0001F1EF\U0001F1F5 JP 4"
+  - "\U0001F1F0\U0001F1F7 KR 5"
+  - "\U0001F1EF\U0001F1F5 JP 6"
   - "\U0001F1E8\U0001F1F3 HK 7"
   - "\U0001F1FA\U0001F1F8 US 8"
-  - "\U0001F1EE\U0001F1F3 IN 9"
+  - "\U0001F1E8\U0001F1F3 HK 9"
 rules:
 - "MATCH,\U0001F310 Proxy"
