@@ -30,7 +30,16 @@ proxies:
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 5"
+- type: trojan
+  name: "\U0001F1FA\U0001F1F8 US 5"
+  server: 104.149.155.13
+  port: 443
+  password: 17c412d9-f283-483c-b095-72605fb2840e
+  udp: true
+  skip-cert-verify: true
+  sni: vzwzasc.cn
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 6"
   server: jgwdj3.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -39,7 +48,7 @@ proxies:
   skip-cert-verify: true
   udp: true
 - type: trojan
-  name: "\U0001F1E8\U0001F1F3 HK 6"
+  name: "\U0001F1E8\U0001F1F3 HK 7"
   server: 43.154.210.104
   port: 19357
   password: a3278882-3614-39cf-a3d6-faefa8c910ab
@@ -47,22 +56,13 @@ proxies:
   skip-cert-verify: true
   sni: azhk003.xiaohouzi.club
 - type: trojan
-  name: "\U0001F1E8\U0001F1F3 HK 7"
+  name: "\U0001F1E8\U0001F1F3 HK 8"
   server: 43.154.222.48
   port: 17115
   password: a3278882-3614-39cf-a3d6-faefa8c910ab
   udp: true
   skip-cert-verify: true
   sni: azhk097.xiaohouzi.club
-- type: trojan
-  name: "\U0001F1FA\U0001F1F8 US 8"
-  server: 104.149.155.13
-  port: 443
-  password: 17c412d9-f283-483c-b095-72605fb2840e
-  udp: true
-  skip-cert-verify: true
-  sni: vzwzasc.cn
-  network: tcp
 - name: "\U0001F1EE\U0001F1F3 IN 9"
   server: jgwhdlb3.gaox.ml
   type: trojan
@@ -79,10 +79,10 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 2"
   - "\U0001F1E6\U0001F1FA AU 3"
   - "\U0001F1FA\U0001F1F8 US 4"
-  - "\U0001F1EF\U0001F1F5 JP 5"
-  - "\U0001F1E8\U0001F1F3 HK 6"
+  - "\U0001F1FA\U0001F1F8 US 5"
+  - "\U0001F1EF\U0001F1F5 JP 6"
   - "\U0001F1E8\U0001F1F3 HK 7"
-  - "\U0001F1FA\U0001F1F8 US 8"
+  - "\U0001F1E8\U0001F1F3 HK 8"
   - "\U0001F1EE\U0001F1F3 IN 9"
   url: https://www.google.com/favicon.ico
   interval: 300
@@ -94,10 +94,10 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 2"
   - "\U0001F1E6\U0001F1FA AU 3"
   - "\U0001F1FA\U0001F1F8 US 4"
-  - "\U0001F1EF\U0001F1F5 JP 5"
-  - "\U0001F1E8\U0001F1F3 HK 6"
+  - "\U0001F1FA\U0001F1F8 US 5"
+  - "\U0001F1EF\U0001F1F5 JP 6"
   - "\U0001F1E8\U0001F1F3 HK 7"
-  - "\U0001F1FA\U0001F1F8 US 8"
+  - "\U0001F1E8\U0001F1F3 HK 8"
   - "\U0001F1EE\U0001F1F3 IN 9"
 rules:
 - "MATCH,\U0001F310 Proxy"
