@@ -34,21 +34,15 @@ dns:
       - 240.0.0.0/4
 proxies:
   - {name: NO 1｜openit.ml, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: NO 2｜openit.ml, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 1｜openit.ml, server: 103.140.9.82, port: 7799, type: ss, cipher: aes-256-gcm, password: ssgg123123, udp: true}
   - {name: 🇩🇪 DE 1｜openit.ml, server: trfg.ballistics.top, port: 443, type: trojan, password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1｜openit.ml, server: upload.soft98.download, port: 443, type: trojan, password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 1｜openit.ml, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 NL 1｜openit.ml, server: trhl.ballistics.top, port: 443, type: trojan, password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 1｜openit.ml, server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1｜openit.ml, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3｜openit.ml, server: trny.ballistics.top, port: 443, type: trojan, password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4｜openit.ml, server: 155.248.193.254, port: 31853, type: trojan, password: jKRJgS7uvI, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5｜openit.ml, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6｜openit.ml, server: 104.149.155.13, port: 443, type: trojan, password: 17c412d9-f283-483c-b095-72605fb2840e, sni: vzwzasc.cn, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8｜openit.ml, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: trny.ballistics.top, port: 443, type: trojan, password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3｜openit.ml, server: 155.248.193.254, port: 31853, type: trojan, password: jKRJgS7uvI, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4｜openit.ml, server: 104.149.155.13, port: 443, type: trojan, password: 17c412d9-f283-483c-b095-72605fb2840e, sni: vzwzasc.cn, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5｜openit.ml, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -67,21 +61,15 @@ proxy-groups:
     type: select
     proxies:
       - NO 1｜openit.ml
-      - NO 2｜openit.ml
       - 🇨🇳 CN 1｜openit.ml
       - 🇩🇪 DE 1｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
-      - 🇬🇧 GB 1｜openit.ml
       - 🇳🇱 NL 1｜openit.ml
-      - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
-      - 🇺🇸 US 6｜openit.ml
-      - 🇺🇸 US 7｜openit.ml
-      - 🇺🇸 US 8｜openit.ml
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -89,21 +77,15 @@ proxy-groups:
     tolerance: 50
     proxies:
       - NO 1｜openit.ml
-      - NO 2｜openit.ml
       - 🇨🇳 CN 1｜openit.ml
       - 🇩🇪 DE 1｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
-      - 🇬🇧 GB 1｜openit.ml
       - 🇳🇱 NL 1｜openit.ml
-      - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
-      - 🇺🇸 US 6｜openit.ml
-      - 🇺🇸 US 7｜openit.ml
-      - 🇺🇸 US 8｜openit.ml
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -129,9 +111,6 @@ proxy-groups:
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
-      - 🇺🇸 US 6｜openit.ml
-      - 🇺🇸 US 7｜openit.ml
-      - 🇺🇸 US 8｜openit.ml
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -157,8 +136,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇩🇪 DE 1｜openit.ml
-      - 🇬🇧 GB 1｜openit.ml
-      - 🇷🇺 RU 1｜openit.ml
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -166,21 +143,15 @@ proxy-groups:
     tolerance: 50
     proxies:
       - NO 1｜openit.ml
-      - NO 2｜openit.ml
       - 🇨🇳 CN 1｜openit.ml
       - 🇩🇪 DE 1｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
-      - 🇬🇧 GB 1｜openit.ml
       - 🇳🇱 NL 1｜openit.ml
-      - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
       - 🇺🇸 US 3｜openit.ml
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
-      - 🇺🇸 US 6｜openit.ml
-      - 🇺🇸 US 7｜openit.ml
-      - 🇺🇸 US 8｜openit.ml
   - name: 👉 国内网站
     type: select
     proxies:
