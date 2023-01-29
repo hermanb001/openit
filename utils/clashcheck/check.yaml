@@ -1,12 +1,5 @@
 proxies:
-- name: "\U0001F1FA\U0001F1F8 US 1"
-  server: phxv001.jd0001.top
-  port: 44302
-  type: trojan
-  password: 4d111af8-5078-37e0-a583-34155f60b32c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 2"
+- name: "\U0001F1EF\U0001F1F5 JP 1"
   server: jgwdb4.gaox.ml
   type: trojan
   country: "\U0001F1E6\U0001F1FA AU"
@@ -14,63 +7,38 @@ proxies:
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   skip-cert-verify: true
   udp: true
-- type: trojan
-  name: "\U0001F1FA\U0001F1F8 US 3"
-  server: 104.149.155.13
+- name: "\U0001F1FA\U0001F1F8 US 2"
+  server: 138.124.183.222
+  type: trojan
+  country: "\U0001F1F3\U0001F1F4 NO"
   port: 443
-  password: 17c412d9-f283-483c-b095-72605fb2840e
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 3"
+  server: us2.trojanvh.xyz
+  port: 80
+  type: trojan
+  password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: "\U0001F1FA\U0001F1F8 US 4"
+  server: 173.82.240.199
+  port: 44301
+  password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
   udp: true
   skip-cert-verify: true
-  sni: vzwzasc.cn
-- type: trojan
-  name: "\U0001F1F3\U0001F1F1 NL 4"
-  server: content-provider23.cdn-delivery.akamaicd.com
-  port: 443
-  password: Sp3eDVp
-  udp: true
-  skip-cert-verify: true
+  sni: lav002.jd0001.top
   network: tcp
-- type: trojan
-  name: "\U0001F1F3\U0001F1F1 NL 5"
-  server: content-provider24.cdn-delivery.akamaicd.com
-  port: 443
-  password: Sp3eDVp
-  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 5"
+  server: phxv001.jd0001.top
+  port: 44302
+  type: trojan
+  password: 4d111af8-5078-37e0-a583-34155f60b32c
   skip-cert-verify: true
-  network: tcp
+  udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 6"
-  server: jgwdb3.gaox.ml
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 7"
-  server: jgwcc3.gaox.ml
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
-  port: 443
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: "\U0001F1E9\U0001F1EA DE 8"
-  server: 188.40.251.19
-  port: 443
-  password: origin
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EB\U0001F1F7 FR 9"
-  server: upload.soft98.download
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 10"
   server: jgwdj4.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -78,16 +46,72 @@ proxies:
   password: c09eb137-bf68-4658-84e0-102d94b74168
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 7"
+  server: jgwdb3.gaox.ml
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5 JP"
+  port: 443
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  skip-cert-verify: true
+  udp: true
 - type: trojan
-  name: "\U0001F1EF\U0001F1F5 JP 11"
-  server: jp-tk-31.fuckjdieng.uk
-  port: 50286
-  password: 6ee96394-2a43-43dc-898b-bbf68a237310
+  name: "\U0001F1EC\U0001F1E7 GB 8"
+  server: content-provider4.cdn-delivery.akamaicd.com
+  port: 443
+  password: shefelnak
   udp: true
   skip-cert-verify: true
-  sni: jp-tk-31.fuckjdieng.uk
+  sni: content-provider4.cdn-delivery.akamaicd.com
+- name: "\U0001F1FA\U0001F1F8 US 9"
+  server: 138.124.183.216
+  type: trojan
+  country: "\U0001F1F3\U0001F1F4 NO"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: "\U0001F1F3\U0001F1F1 NL 10"
+  server: content-provider23.cdn-delivery.akamaicd.com
+  port: 443
+  password: Sp3eDVp
+  udp: true
+  skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EE\U0001F1F3 IN 12"
+- type: trojan
+  name: "\U0001F1F3\U0001F1F1 NL 11"
+  server: content-provider24.cdn-delivery.akamaicd.com
+  port: 443
+  password: Sp3eDVp
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EB\U0001F1F7 FR 12"
+  server: upload.soft98.download
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: "\U0001F1EB\U0001F1F7 FR 13"
+  server: content-provider26.cdn-delivery.akamaicd.com
+  port: 443
+  password: origin
+  udp: true
+  skip-cert-verify: true
+  sni: content-provider26.cdn-delivery.akamaicd.com
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 14"
+  server: jgwdj3.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 15"
   server: jgwhdlb1.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -96,7 +120,32 @@ proxies:
   skip-cert-verify: true
   udp: true
 - type: trojan
-  name: "\U0001F1EF\U0001F1F5 JP 13"
+  name: "\U0001F1EF\U0001F1F5 JP 16"
+  server: jp-tk-31.fuckjdieng.uk
+  port: 50286
+  password: 6ee96394-2a43-43dc-898b-bbf68a237310
+  udp: true
+  skip-cert-verify: true
+  sni: jp-tk-31.fuckjdieng.uk
+  network: tcp
+- type: trojan
+  name: "\U0001F1E9\U0001F1EA DE 17"
+  server: 188.40.236.127
+  port: 443
+  password: yxGY7A5MczQYg6UqSFx9u78V
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- type: trojan
+  name: "\U0001F1E9\U0001F1EA DE 18"
+  server: 188.40.251.19
+  port: 443
+  password: origin
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- type: trojan
+  name: "\U0001F1EF\U0001F1F5 JP 19"
   server: 18.177.58.124
   port: 50044
   password: e0058714-f9c9-4653-8846-8855dae3e422
@@ -105,7 +154,7 @@ proxies:
   sni: jp-tk-31.fuckjdieng.uk
   network: tcp
 - type: trojan
-  name: "\U0001F1EF\U0001F1F5 JP 14"
+  name: "\U0001F1EF\U0001F1F5 JP 20"
   server: 18.177.58.124
   port: 50018
   password: db1e292f-5dbb-451f-a7ec-f85e1c80d5d8
@@ -113,53 +162,55 @@ proxies:
   skip-cert-verify: true
   sni: jp-tk-31.fuckjdieng.uk
   network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 15"
-  server: jgwdj3.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  skip-cert-verify: true
-  udp: true
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1FA\U0001F1F8 US 1"
-  - "\U0001F1EF\U0001F1F5 JP 2"
+  - "\U0001F1EF\U0001F1F5 JP 1"
+  - "\U0001F1FA\U0001F1F8 US 2"
   - "\U0001F1FA\U0001F1F8 US 3"
-  - "\U0001F1F3\U0001F1F1 NL 4"
-  - "\U0001F1F3\U0001F1F1 NL 5"
+  - "\U0001F1FA\U0001F1F8 US 4"
+  - "\U0001F1FA\U0001F1F8 US 5"
   - "\U0001F1EF\U0001F1F5 JP 6"
-  - "\U0001F1F0\U0001F1F7 KR 7"
-  - "\U0001F1E9\U0001F1EA DE 8"
-  - "\U0001F1EB\U0001F1F7 FR 9"
-  - "\U0001F1EF\U0001F1F5 JP 10"
-  - "\U0001F1EF\U0001F1F5 JP 11"
-  - "\U0001F1EE\U0001F1F3 IN 12"
-  - "\U0001F1EF\U0001F1F5 JP 13"
+  - "\U0001F1EF\U0001F1F5 JP 7"
+  - "\U0001F1EC\U0001F1E7 GB 8"
+  - "\U0001F1FA\U0001F1F8 US 9"
+  - "\U0001F1F3\U0001F1F1 NL 10"
+  - "\U0001F1F3\U0001F1F1 NL 11"
+  - "\U0001F1EB\U0001F1F7 FR 12"
+  - "\U0001F1EB\U0001F1F7 FR 13"
   - "\U0001F1EF\U0001F1F5 JP 14"
-  - "\U0001F1EF\U0001F1F5 JP 15"
+  - "\U0001F1EE\U0001F1F3 IN 15"
+  - "\U0001F1EF\U0001F1F5 JP 16"
+  - "\U0001F1E9\U0001F1EA DE 17"
+  - "\U0001F1E9\U0001F1EA DE 18"
+  - "\U0001F1EF\U0001F1F5 JP 19"
+  - "\U0001F1EF\U0001F1F5 JP 20"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
-  - "\U0001F1FA\U0001F1F8 US 1"
-  - "\U0001F1EF\U0001F1F5 JP 2"
+  - "\U0001F1EF\U0001F1F5 JP 1"
+  - "\U0001F1FA\U0001F1F8 US 2"
   - "\U0001F1FA\U0001F1F8 US 3"
-  - "\U0001F1F3\U0001F1F1 NL 4"
-  - "\U0001F1F3\U0001F1F1 NL 5"
+  - "\U0001F1FA\U0001F1F8 US 4"
+  - "\U0001F1FA\U0001F1F8 US 5"
   - "\U0001F1EF\U0001F1F5 JP 6"
-  - "\U0001F1F0\U0001F1F7 KR 7"
-  - "\U0001F1E9\U0001F1EA DE 8"
-  - "\U0001F1EB\U0001F1F7 FR 9"
-  - "\U0001F1EF\U0001F1F5 JP 10"
-  - "\U0001F1EF\U0001F1F5 JP 11"
-  - "\U0001F1EE\U0001F1F3 IN 12"
-  - "\U0001F1EF\U0001F1F5 JP 13"
+  - "\U0001F1EF\U0001F1F5 JP 7"
+  - "\U0001F1EC\U0001F1E7 GB 8"
+  - "\U0001F1FA\U0001F1F8 US 9"
+  - "\U0001F1F3\U0001F1F1 NL 10"
+  - "\U0001F1F3\U0001F1F1 NL 11"
+  - "\U0001F1EB\U0001F1F7 FR 12"
+  - "\U0001F1EB\U0001F1F7 FR 13"
   - "\U0001F1EF\U0001F1F5 JP 14"
-  - "\U0001F1EF\U0001F1F5 JP 15"
+  - "\U0001F1EE\U0001F1F3 IN 15"
+  - "\U0001F1EF\U0001F1F5 JP 16"
+  - "\U0001F1E9\U0001F1EA DE 17"
+  - "\U0001F1E9\U0001F1EA DE 18"
+  - "\U0001F1EF\U0001F1F5 JP 19"
+  - "\U0001F1EF\U0001F1F5 JP 20"
 rules:
 - "MATCH,\U0001F310 Proxy"
