@@ -34,14 +34,13 @@ dns:
       - 240.0.0.0/4
 proxies:
   - {name: NO 1｜openit.ml, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: NO 2｜openit.ml, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: NO 3｜openit.ml, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO 2｜openit.ml, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO 3｜openit.ml, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1｜openit.ml, server: upload.soft98.download, port: 443, type: trojan, password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 1｜openit.ml, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: 211f5876-8c89-4d97-9004-ff16acddd506, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 2｜openit.ml, server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 1｜openit.ml, server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1｜openit.ml, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1｜openit.ml, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 255c924c-1314-4084-9a9e-1d1a82a5cf49, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 3｜openit.ml, server: 173.82.240.199, port: 44301, type: trojan, password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702, sni: lav002.jd0001.top, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4｜openit.ml, server: 104.149.155.13, port: 443, type: trojan, password: 17c412d9-f283-483c-b095-72605fb2840e, sni: vzwzasc.cn, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 5｜openit.ml, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
@@ -68,7 +67,6 @@ proxy-groups:
       - NO 3｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
-      - 🇬🇧 GB 2｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
@@ -87,7 +85,6 @@ proxy-groups:
       - NO 3｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
-      - 🇬🇧 GB 2｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
@@ -146,7 +143,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇬🇧 GB 1｜openit.ml
-      - 🇬🇧 GB 2｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
   - name: 🪜 故障转移
     type: fallback
@@ -159,7 +155,6 @@ proxy-groups:
       - NO 3｜openit.ml
       - 🇫🇷 FR 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
-      - 🇬🇧 GB 2｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
