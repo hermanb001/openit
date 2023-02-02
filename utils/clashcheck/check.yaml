@@ -15,23 +15,7 @@ proxies:
   password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 3"
-  server: trhl.ballistics.top
-  type: trojan
-  country: "\U0001F1F3\U0001F1F1NL"
-  port: 443
-  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 4"
-  server: trfg.ballistics.top
-  type: trojan
-  country: "\U0001F1E9\U0001F1EADE"
-  port: 443
-  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 5"
+- name: "\U0001F1EC\U0001F1E7 GB 3"
   server: trld.ballistics.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -39,23 +23,31 @@ proxies:
   password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 6"
-  server: trxn.ballistics.top
+- name: "\U0001F1F3\U0001F1F1 NL 4"
+  server: trhl.ballistics.top
   type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
+  country: "\U0001F1F3\U0001F1F1NL"
   port: 443
   password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 7"
-  server: trxjp.ballistics.top
+- name: "\U0001F1E9\U0001F1EA DE 5"
+  server: trfg.ballistics.top
   type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
+  country: "\U0001F1E9\U0001F1EADE"
   port: 443
   password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1F0 SK 8"
+- name: "\U0001F1E9\U0001F1EA DE 6"
+  server: de1.trojan-lite.com
+  type: trojan
+  country: "\U0001F1F3\U0001F1F1NL"
+  port: 443
+  password: bs6KJkPBW9MP74uHEa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1F0 SK 7"
   server: sk.abadanvpn.host
   type: trojan
   country: "\U0001F1F8\U0001F1F0SK"
@@ -63,12 +55,20 @@ proxies:
   password: 8099cb0f-d19d-4252-af27-1527c00b64c5
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E6\U0001F1FA AU 9"
-  server: jgwxn3.gaox.ml
+- name: "\U0001F1FA\U0001F1F8 US 8"
+  server: trxn.ballistics.top
   type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
+  country: "\U0001F1FA\U0001F1F8US"
   port: 443
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 9"
+  server: trxjp.ballistics.top
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 10"
@@ -86,47 +86,7 @@ proxies:
   password: 392f8755-75e7-481e-927e-0f3aae34234e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 12"
-  server: 138.124.183.226
-  type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 13"
-  server: 138.124.183.216
-  type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 14"
-  server: 148.59.74.186
-  port: 443
-  type: trojan
-  password: 0469291f-33cf-4909-aac2-265c22fe9e1e
-  sni: pcd462233.netvigator.com
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 15"
-  server: content-provider4.cdn-delivery.akamaicd.com
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7 GB"
-  port: 443
-  password: shefelnak
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 16"
-  server: 148.59.74.185
-  port: 443
-  type: trojan
-  password: 0469291f-33cf-4909-aac2-265c22fe9e1e
-  sni: pcd462233.netvigator.com
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 17"
+- name: "\U0001F1EB\U0001F1F7 FR 12"
   server: upload.soft98.download
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -134,12 +94,52 @@ proxies:
   password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 18"
+- name: "\U0001F1FA\U0001F1F8 US 13"
+  server: 148.59.74.186
+  port: 443
+  type: trojan
+  password: 0469291f-33cf-4909-aac2-265c22fe9e1e
+  sni: pcd462233.netvigator.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 14"
   server: 148.59.74.184
   port: 443
   type: trojan
   password: 0469291f-33cf-4909-aac2-265c22fe9e1e
   sni: pcd462233.netvigator.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 15"
+  server: 148.59.74.185
+  port: 443
+  type: trojan
+  password: 0469291f-33cf-4909-aac2-265c22fe9e1e
+  sni: pcd462233.netvigator.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 16"
+  server: 138.124.183.216
+  type: trojan
+  country: "\U0001F1F3\U0001F1F4 NO"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 17"
+  server: jgwdj3.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 18"
+  server: jgwdj4.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: c09eb137-bf68-4658-84e0-102d94b74168
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F0\U0001F1F7 KR 19"
@@ -151,14 +151,6 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 20"
-  server: 4.194.24.210
-  port: 38443
-  type: trojan
-  password: 0469291f-33cf-4909-aac2-265c22fe9e1e
-  sni: pcd462233.netvigator.com
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 21"
   type: trojan
   server: kaizen-us-02.mielink-dns2.com
   port: 443
@@ -167,6 +159,14 @@ proxies:
   sni: $paydiu.com
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 21"
+  server: 4.194.24.210
+  port: 38443
+  type: trojan
+  password: 0469291f-33cf-4909-aac2-265c22fe9e1e
+  sni: pcd462233.netvigator.com
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1EE\U0001F1F3 IN 22"
   server: jgwhdlb3.gaox.ml
   type: trojan
@@ -177,28 +177,21 @@ proxies:
   udp: true
 - type: trojan
   name: "\U0001F1FA\U0001F1F8 US 23"
-  server: 43-153-34-170.ipv4.rush.ml
-  port: 8443
-  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: "\U0001F1EF\U0001F1F5 JP 24"
-  server: 138.2.45.89
-  port: 44301
-  password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: "\U0001F1EF\U0001F1F5 JP 25"
-  server: kaizen-jp-8.mielink-dns2.com
+  server: kaizen-us-7.mielink-dns2.com
   port: 443
   password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink
   udp: true
   skip-cert-verify: true
   sni: paydiu.com
 - type: trojan
-  name: "\U0001F1EF\U0001F1F5 JP 26"
+  name: "\U0001F1FA\U0001F1F8 US 24"
+  server: 43-153-34-170.ipv4.rush.ml
+  port: 8443
+  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: "\U0001F1EF\U0001F1F5 JP 25"
   server: kaizen-jp-6.mielink-dns2.com
   port: 443
   password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink
@@ -206,8 +199,16 @@ proxies:
   skip-cert-verify: true
   sni: paydiu.com
 - type: trojan
-  name: "\U0001F1F5\U0001F1ED PH 27"
-  server: special-ph-a.mielink-dns2.com
+  name: "\U0001F1EF\U0001F1F5 JP 26"
+  server: kaizen-jp-8.mielink-dns2.com
+  port: 443
+  password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink
+  udp: true
+  skip-cert-verify: true
+  sni: paydiu.com
+- type: trojan
+  name: "\U0001F1E8\U0001F1F3 TW 27"
+  server: kaizen-tw-4.mielink-dns2.com
   port: 443
   password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink
   udp: true
@@ -221,38 +222,55 @@ proxies:
   udp: true
   skip-cert-verify: true
   sni: paydiu.com
+- type: trojan
+  name: "\U0001F1EC\U0001F1E7 GB 29"
+  server: 185.49.33.47
+  port: 8461
+  password: shenmegui
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: "\U0001F1F0\U0001F1F7 KR 30"
+  server: kaizen-kr-1.mielink-dns2.com
+  port: 443
+  password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink
+  udp: true
+  skip-cert-verify: true
+  sni: paydiu.com
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1"
   - "\U0001F1FA\U0001F1F8 US 2"
-  - "\U0001F1F3\U0001F1F1 NL 3"
-  - "\U0001F1E9\U0001F1EA DE 4"
-  - "\U0001F1EC\U0001F1E7 GB 5"
-  - "\U0001F1FA\U0001F1F8 US 6"
-  - "\U0001F1F8\U0001F1EC SG 7"
-  - "\U0001F1F8\U0001F1F0 SK 8"
-  - "\U0001F1E6\U0001F1FA AU 9"
+  - "\U0001F1EC\U0001F1E7 GB 3"
+  - "\U0001F1F3\U0001F1F1 NL 4"
+  - "\U0001F1E9\U0001F1EA DE 5"
+  - "\U0001F1E9\U0001F1EA DE 6"
+  - "\U0001F1F8\U0001F1F0 SK 7"
+  - "\U0001F1FA\U0001F1F8 US 8"
+  - "\U0001F1F8\U0001F1EC SG 9"
   - "\U0001F1EF\U0001F1F5 JP 10"
   - "\U0001F1EB\U0001F1F7 FR 11"
-  - "\U0001F1FA\U0001F1F8 US 12"
+  - "\U0001F1EB\U0001F1F7 FR 12"
   - "\U0001F1FA\U0001F1F8 US 13"
   - "\U0001F1FA\U0001F1F8 US 14"
-  - "\U0001F1EC\U0001F1E7 GB 15"
+  - "\U0001F1FA\U0001F1F8 US 15"
   - "\U0001F1FA\U0001F1F8 US 16"
-  - "\U0001F1EB\U0001F1F7 FR 17"
-  - "\U0001F1FA\U0001F1F8 US 18"
+  - "\U0001F1EF\U0001F1F5 JP 17"
+  - "\U0001F1EF\U0001F1F5 JP 18"
   - "\U0001F1F0\U0001F1F7 KR 19"
   - "\U0001F1FA\U0001F1F8 US 20"
   - "\U0001F1FA\U0001F1F8 US 21"
   - "\U0001F1EE\U0001F1F3 IN 22"
   - "\U0001F1FA\U0001F1F8 US 23"
-  - "\U0001F1EF\U0001F1F5 JP 24"
+  - "\U0001F1FA\U0001F1F8 US 24"
   - "\U0001F1EF\U0001F1F5 JP 25"
   - "\U0001F1EF\U0001F1F5 JP 26"
-  - "\U0001F1F5\U0001F1ED PH 27"
+  - "\U0001F1E8\U0001F1F3 TW 27"
   - "\U0001F1EF\U0001F1F5 JP 28"
+  - "\U0001F1EC\U0001F1E7 GB 29"
+  - "\U0001F1F0\U0001F1F7 KR 30"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -261,31 +279,33 @@ proxy-groups:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1"
   - "\U0001F1FA\U0001F1F8 US 2"
-  - "\U0001F1F3\U0001F1F1 NL 3"
-  - "\U0001F1E9\U0001F1EA DE 4"
-  - "\U0001F1EC\U0001F1E7 GB 5"
-  - "\U0001F1FA\U0001F1F8 US 6"
-  - "\U0001F1F8\U0001F1EC SG 7"
-  - "\U0001F1F8\U0001F1F0 SK 8"
-  - "\U0001F1E6\U0001F1FA AU 9"
+  - "\U0001F1EC\U0001F1E7 GB 3"
+  - "\U0001F1F3\U0001F1F1 NL 4"
+  - "\U0001F1E9\U0001F1EA DE 5"
+  - "\U0001F1E9\U0001F1EA DE 6"
+  - "\U0001F1F8\U0001F1F0 SK 7"
+  - "\U0001F1FA\U0001F1F8 US 8"
+  - "\U0001F1F8\U0001F1EC SG 9"
   - "\U0001F1EF\U0001F1F5 JP 10"
   - "\U0001F1EB\U0001F1F7 FR 11"
-  - "\U0001F1FA\U0001F1F8 US 12"
+  - "\U0001F1EB\U0001F1F7 FR 12"
   - "\U0001F1FA\U0001F1F8 US 13"
   - "\U0001F1FA\U0001F1F8 US 14"
-  - "\U0001F1EC\U0001F1E7 GB 15"
+  - "\U0001F1FA\U0001F1F8 US 15"
   - "\U0001F1FA\U0001F1F8 US 16"
-  - "\U0001F1EB\U0001F1F7 FR 17"
-  - "\U0001F1FA\U0001F1F8 US 18"
+  - "\U0001F1EF\U0001F1F5 JP 17"
+  - "\U0001F1EF\U0001F1F5 JP 18"
   - "\U0001F1F0\U0001F1F7 KR 19"
   - "\U0001F1FA\U0001F1F8 US 20"
   - "\U0001F1FA\U0001F1F8 US 21"
   - "\U0001F1EE\U0001F1F3 IN 22"
   - "\U0001F1FA\U0001F1F8 US 23"
-  - "\U0001F1EF\U0001F1F5 JP 24"
+  - "\U0001F1FA\U0001F1F8 US 24"
   - "\U0001F1EF\U0001F1F5 JP 25"
   - "\U0001F1EF\U0001F1F5 JP 26"
-  - "\U0001F1F5\U0001F1ED PH 27"
+  - "\U0001F1E8\U0001F1F3 TW 27"
   - "\U0001F1EF\U0001F1F5 JP 28"
+  - "\U0001F1EC\U0001F1E7 GB 29"
+  - "\U0001F1F0\U0001F1F7 KR 30"
 rules:
 - "MATCH,\U0001F310 Proxy"
