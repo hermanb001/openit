@@ -39,14 +39,12 @@ proxies:
   password: OwXaiuJi7H
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 6"
-  server: france.oneusernm.xyz
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7FR"
+- name: "\U0001F1E9\U0001F1EA DE 6"
+  server: de1.trojan-lite.com
   port: 443
-  password: d0dab49e1e
+  type: trojan
+  password: bs6KJkPBW9MP74uHEa
   skip-cert-verify: true
-  udp: true
 - name: "\U0001F1EB\U0001F1F7 FR 7"
   server: upload.soft98.download
   type: trojan
@@ -88,14 +86,6 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 12"
-  server: fhcarm2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 13"
   server: fhcarm1.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -103,20 +93,27 @@ proxies:
   password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 14"
-  server: jgwdb3.gaox.ml
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5 JP"
+- name: "\U0001F1E9\U0001F1EA DE 13"
+  server: 45.80.190.63
   port: 443
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  type: trojan
+  password: bs6KJkPBW9MP74uHEa
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 15"
+- name: "\U0001F1EF\U0001F1F5 JP 14"
   server: jgwdj3.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 443
   password: da777aae-defb-41d0-a183-2c27da2b4677
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 15"
+  server: jgwdb2.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EE\U0001F1F3 IN 16"
@@ -127,15 +124,7 @@ proxies:
   password: 54080134-2cba-4535-8599-95650bd9aa54
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 17"
-  server: jgwdb2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 18"
+- name: "\U0001F1F8\U0001F1EC SG 17"
   type: trojan
   server: sg1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.nbvpn.org
   port: 443
@@ -144,7 +133,7 @@ proxies:
   sni: $sg1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.nbvpn.org
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EE\U0001F1F3 IN 19"
+- name: "\U0001F1EE\U0001F1F3 IN 18"
   server: jgwhdlb3.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -152,12 +141,19 @@ proxies:
   password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 20"
+- name: "\U0001F1EE\U0001F1F3 IN 19"
   server: jgwhdlb1.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 443
   password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 20"
+  server: upload.soft98.download
+  port: 443
+  type: trojan
+  password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671
   skip-cert-verify: true
   udp: true
 proxy-groups:
@@ -169,21 +165,21 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 3"
   - "\U0001F1FA\U0001F1F8 US 4"
   - "\U0001F1EB\U0001F1F7 FR 5"
-  - "\U0001F1EB\U0001F1F7 FR 6"
+  - "\U0001F1E9\U0001F1EA DE 6"
   - "\U0001F1EB\U0001F1F7 FR 7"
   - "\U0001F1E6\U0001F1FA AU 8"
   - "\U0001F1EF\U0001F1F5 JP 9"
   - "\U0001F1FA\U0001F1F8 US 10"
   - "\U0001F1FA\U0001F1F8 US 11"
   - "\U0001F1FA\U0001F1F8 US 12"
-  - "\U0001F1FA\U0001F1F8 US 13"
+  - "\U0001F1E9\U0001F1EA DE 13"
   - "\U0001F1EF\U0001F1F5 JP 14"
   - "\U0001F1EF\U0001F1F5 JP 15"
   - "\U0001F1EE\U0001F1F3 IN 16"
-  - "\U0001F1EF\U0001F1F5 JP 17"
-  - "\U0001F1F8\U0001F1EC SG 18"
+  - "\U0001F1F8\U0001F1EC SG 17"
+  - "\U0001F1EE\U0001F1F3 IN 18"
   - "\U0001F1EE\U0001F1F3 IN 19"
-  - "\U0001F1EE\U0001F1F3 IN 20"
+  - "\U0001F1EB\U0001F1F7 FR 20"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -195,20 +191,20 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 3"
   - "\U0001F1FA\U0001F1F8 US 4"
   - "\U0001F1EB\U0001F1F7 FR 5"
-  - "\U0001F1EB\U0001F1F7 FR 6"
+  - "\U0001F1E9\U0001F1EA DE 6"
   - "\U0001F1EB\U0001F1F7 FR 7"
   - "\U0001F1E6\U0001F1FA AU 8"
   - "\U0001F1EF\U0001F1F5 JP 9"
   - "\U0001F1FA\U0001F1F8 US 10"
   - "\U0001F1FA\U0001F1F8 US 11"
   - "\U0001F1FA\U0001F1F8 US 12"
-  - "\U0001F1FA\U0001F1F8 US 13"
+  - "\U0001F1E9\U0001F1EA DE 13"
   - "\U0001F1EF\U0001F1F5 JP 14"
   - "\U0001F1EF\U0001F1F5 JP 15"
   - "\U0001F1EE\U0001F1F3 IN 16"
-  - "\U0001F1EF\U0001F1F5 JP 17"
-  - "\U0001F1F8\U0001F1EC SG 18"
+  - "\U0001F1F8\U0001F1EC SG 17"
+  - "\U0001F1EE\U0001F1F3 IN 18"
   - "\U0001F1EE\U0001F1F3 IN 19"
-  - "\U0001F1EE\U0001F1F3 IN 20"
+  - "\U0001F1EB\U0001F1F7 FR 20"
 rules:
 - "MATCH,\U0001F310 Proxy"
