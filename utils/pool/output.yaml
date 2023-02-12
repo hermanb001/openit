@@ -167,7 +167,7 @@ proxies:
   sni: rprknb2lcp.eastasia.cloudapp.azure.com
   skip-cert-verify: false
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 22 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 22 TJN"
   server: dl-jp1.efpan.one
   port: 443
   type: trojan
@@ -8286,21 +8286,7 @@ proxies:
   password: 5623be5f-c9da-4511-81a9-b4b39b16edae
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 1037 TJN"
-  server: france.oneusernm.xyz
-  port: 443
-  type: trojan
-  password: d0dab49e1e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 1038 TJN"
-  server: uk1.trojanvh.xyz
-  port: 80
-  type: trojan
-  password: 211f5876-8c89-4d97-9004-ff16acddd506
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 1039 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 1037 SSR"
   server: 182.151.15.29
   port: 41001
   type: ssr
@@ -8311,7 +8297,7 @@ proxies:
   protocol-param: 005d44941.microsoft.com
   obfs-param: 005d44941.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 1040 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 1038 SSR"
   server: 182.151.15.29
   port: 41009
   type: ssr
@@ -8322,7 +8308,7 @@ proxies:
   protocol-param: 005d44941.microsoft.com
   obfs-param: 005d44941.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 1041 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 1039 SSR"
   server: 182.151.15.29
   port: 41002
   type: ssr
@@ -8333,7 +8319,7 @@ proxies:
   protocol-param: 005d44941.microsoft.com
   obfs-param: 005d44941.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 1042 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 1040 SSR"
   server: 120.226.39.25
   port: 41006
   type: ssr
@@ -8344,8 +8330,30 @@ proxies:
   protocol-param: 005d44941.microsoft.com
   obfs-param: 005d44941.microsoft.com
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 1043 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 1041 SSR"
   server: 182.151.15.29
+  port: 41000
+  type: ssr
+  cipher: aes-256-cfb
+  password: aLPVFv
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 005d44941.microsoft.com
+  obfs-param: 005d44941.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 1042 SSR"
+  server: 120.226.39.25
+  port: 41008
+  type: ssr
+  cipher: aes-256-cfb
+  password: aLPVFv
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 005d44941.microsoft.com
+  obfs-param: 005d44941.microsoft.com
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 1043 SSR"
+  server: 120.226.39.25
   port: 41000
   type: ssr
   cipher: aes-256-cfb
@@ -8357,7 +8365,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 1044 SSR"
   server: 120.226.39.25
-  port: 41008
+  port: 41007
   type: ssr
   cipher: aes-256-cfb
   password: aLPVFv
@@ -8368,7 +8376,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 1045 SSR"
   server: 120.226.39.25
-  port: 41000
+  port: 41003
   type: ssr
   cipher: aes-256-cfb
   password: aLPVFv
@@ -8379,28 +8387,6 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 1046 SSR"
   server: 120.226.39.25
-  port: 41007
-  type: ssr
-  cipher: aes-256-cfb
-  password: aLPVFv
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 005d44941.microsoft.com
-  obfs-param: 005d44941.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 1047 SSR"
-  server: 120.226.39.25
-  port: 41003
-  type: ssr
-  cipher: aes-256-cfb
-  password: aLPVFv
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 005d44941.microsoft.com
-  obfs-param: 005d44941.microsoft.com
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 1048 SSR"
-  server: 120.226.39.25
   port: 41005
   type: ssr
   cipher: aes-256-cfb
@@ -8409,6 +8395,20 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 005d44941.microsoft.com
   obfs-param: 005d44941.microsoft.com
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 1047 TJN"
+  server: uk1.trojanvh.xyz
+  port: 80
+  type: trojan
+  password: 211f5876-8c89-4d97-9004-ff16acddd506
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F3\U0001F1F1 NL 1048 TJN"
+  server: france.oneusernm.xyz
+  port: 443
+  type: trojan
+  password: d0dab49e1e
+  skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 1049 TJN"
   server: trny.ballistics.top
@@ -9916,7 +9916,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 19 TJN"
   - "\U0001F1ED\U0001F1F0 HK 20 TJN"
   - "\U0001F1FA\U0001F1F8 US 21 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 22 TJN"
+  - "\U0001F1FA\U0001F1F8 US 22 TJN"
   - "\U0001F1E8\U0001F1F3 CN 23 HTT"
   - "\U0001F1E8\U0001F1F3 CN 24 HTT"
   - "\U0001F1E8\U0001F1F3 CN 25 HTT"
@@ -10931,8 +10931,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 1034 TJN"
   - "\U0001F1F8\U0001F1EC SG 1035 TJN"
   - "\U0001F1FB\U0001F1F3 VN 1036 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 1037 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 1038 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 1037 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 1038 SSR"
   - "\U0001F1E8\U0001F1F3 CN 1039 SSR"
   - "\U0001F1E8\U0001F1F3 CN 1040 SSR"
   - "\U0001F1E8\U0001F1F3 CN 1041 SSR"
@@ -10941,8 +10941,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1044 SSR"
   - "\U0001F1E8\U0001F1F3 CN 1045 SSR"
   - "\U0001F1E8\U0001F1F3 CN 1046 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 1047 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 1048 SSR"
+  - "\U0001F1EC\U0001F1E7 GB 1047 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 1048 TJN"
   - "\U0001F1FA\U0001F1F8 US 1049 TJN"
   - "\U0001F1E8\U0001F1F3 CN 1050 TJN"
   - "\U0001F1E8\U0001F1F3 CN 1051 TJN"
@@ -11141,7 +11141,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 19 TJN"
   - "\U0001F1ED\U0001F1F0 HK 20 TJN"
   - "\U0001F1FA\U0001F1F8 US 21 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 22 TJN"
+  - "\U0001F1FA\U0001F1F8 US 22 TJN"
   - "\U0001F1E8\U0001F1F3 CN 23 HTT"
   - "\U0001F1E8\U0001F1F3 CN 24 HTT"
   - "\U0001F1E8\U0001F1F3 CN 25 HTT"
@@ -12156,8 +12156,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 1034 TJN"
   - "\U0001F1F8\U0001F1EC SG 1035 TJN"
   - "\U0001F1FB\U0001F1F3 VN 1036 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 1037 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 1038 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 1037 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 1038 SSR"
   - "\U0001F1E8\U0001F1F3 CN 1039 SSR"
   - "\U0001F1E8\U0001F1F3 CN 1040 SSR"
   - "\U0001F1E8\U0001F1F3 CN 1041 SSR"
@@ -12166,8 +12166,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 1044 SSR"
   - "\U0001F1E8\U0001F1F3 CN 1045 SSR"
   - "\U0001F1E8\U0001F1F3 CN 1046 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 1047 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 1048 SSR"
+  - "\U0001F1EC\U0001F1E7 GB 1047 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 1048 TJN"
   - "\U0001F1FA\U0001F1F8 US 1049 TJN"
   - "\U0001F1E8\U0001F1F3 CN 1050 TJN"
   - "\U0001F1E8\U0001F1F3 CN 1051 TJN"
