@@ -31,20 +31,20 @@ proxies:
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 5"
-  server: phxv001.jd0001.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 44302
-  password: 4d111af8-5078-37e0-a583-34155f60b32c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 6"
+- name: "\U0001F1EF\U0001F1F5 JP 5"
   server: osav101.jd0001.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
   port: 44301
   password: 6abfad5a-24be-3657-85da-ceac782b7e19
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 6"
+  server: phxv001.jd0001.top
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 44302
+  password: 4d111af8-5078-37e0-a583-34155f60b32c
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 7"
@@ -61,15 +61,7 @@ proxies:
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 9"
-  server: jgwdb4.gaox.ml
-  type: trojan
-  country: "\U0001F1E6\U0001F1FA AU"
-  port: 443
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E6\U0001F1FA AU 10"
+- name: "\U0001F1E6\U0001F1FA AU 9"
   server: jgwxn3.gaox.ml
   type: trojan
   country: "\U0001F1E6\U0001F1FA AU"
@@ -77,23 +69,15 @@ proxies:
   password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 10"
+  server: jgwdb4.gaox.ml
+  type: trojan
+  country: "\U0001F1E6\U0001F1FA AU"
+  port: 443
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1FA\U0001F1F8 US 11"
-  server: 138.124.183.222
-  type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 12"
-  server: 138.124.183.226
-  type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 13"
   type: trojan
   server: b.mg.us.cat77.cloud
   port: 5215
@@ -101,7 +85,15 @@ proxies:
   password: cd27884b-c5af-34ec-b75f-8248077818fe
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 14"
+- name: "\U0001F1FA\U0001F1F8 US 12"
+  server: 138.124.183.222
+  type: trojan
+  country: "\U0001F1F3\U0001F1F4 NO"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 13"
   server: 138.124.183.216
   type: trojan
   country: "\U0001F1F3\U0001F1F4 NO"
@@ -109,6 +101,15 @@ proxies:
   password: xxoo
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 14"
+  type: trojan
+  server: 104.149.155.13
+  port: 443
+  udp: true
+  password: 17c412d9-f283-483c-b095-72605fb2840e
+  sni: vzwzasc.cn
+  skip-cert-verify: true
+  network: tcp
 - name: "\U0001F1FA\U0001F1F8 US 15"
   server: fhcarm2.gaox.ml
   type: trojan
@@ -127,22 +128,13 @@ proxies:
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 17"
   type: trojan
-  server: 104.149.155.13
-  port: 443
-  udp: true
-  password: 17c412d9-f283-483c-b095-72605fb2840e
-  sni: vzwzasc.cn
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 18"
-  type: trojan
   server: 43-153-34-170.ipv4.rush.ml
   port: 8443
   udp: true
   password: cf4295378e209e70d12c5bdd017144dfd1c772d3
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 19"
+- name: "\U0001F1FA\U0001F1F8 US 18"
   type: trojan
   server: 170-187-134-190.ipv4.rush.ml
   port: 8443
@@ -150,7 +142,7 @@ proxies:
   password: cf4295378e209e70d12c5bdd017144dfd1c772d3
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 20"
+- name: "\U0001F1EF\U0001F1F5 JP 19"
   server: jgwdb3.gaox.ml
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -158,20 +150,28 @@ proxies:
   password: 8d2d5953-d649-4034-94f2-72f2df2623da
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 21"
-  server: jgwdj3.gaox.ml
+- name: "\U0001F1FA\U0001F1F8 US 20"
   type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
+  server: fhcamd2.gaox.ml
   port: 443
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 22"
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F0\U0001F1F7 KR 21"
   server: jgwcc3.gaox.ml
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
   port: 443
   password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 22"
+  server: jgwdj3.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: da777aae-defb-41d0-a183-2c27da2b4677
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 23"
@@ -182,23 +182,7 @@ proxies:
   password: c09eb137-bf68-4658-84e0-102d94b74168
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 24"
-  server: jgwdb2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 25"
-  type: trojan
-  server: fhcamd2.gaox.ml
-  port: 443
-  udp: true
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EE\U0001F1EA IE 26"
+- name: "\U0001F1EE\U0001F1EA IE 24"
   type: trojan
   server: 3-249-129-98.ipv4.rush.ml
   port: 8443
@@ -206,16 +190,15 @@ proxies:
   password: cf4295378e209e70d12c5bdd017144dfd1c772d3
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 27"
+- name: "\U0001F1EF\U0001F1F5 JP 25"
+  server: jgwdb2.gaox.ml
   type: trojan
-  server: kaizen-jp-2.mielink-dns2.com
+  country: "\U0001F1FA\U0001F1F8 US"
   port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
   skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 28"
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 26"
   type: trojan
   server: kaizen-us-8.mielink-dns2.com
   port: 443
@@ -224,42 +207,7 @@ proxies:
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 29"
-  type: trojan
-  server: kaizen-jp-6.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 30"
-  type: trojan
-  server: kaizen-jp-9.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 31"
-  type: trojan
-  server: kaizen-jp-3.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 32"
-  type: trojan
-  server: kr-k.fib-sys.xyz
-  port: 64367
-  udp: true
-  password: 11a4e5be-3c87-37d2-aac8-00b85ef0fcdc
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F0\U0001F1F7 KR 33"
+- name: "\U0001F1F0\U0001F1F7 KR 27"
   type: trojan
   server: kr05.wangxd.life
   port: 443
@@ -267,82 +215,15 @@ proxies:
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EE\U0001F1E9 ID 34"
+- name: "\U0001F1F8\U0001F1EC SG 28"
   type: trojan
-  server: 108-137-18-26.ipv4.rush.ml
-  port: 8443
-  udp: true
-  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 TW 35"
-  type: trojan
-  server: kaizen-tw-3.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EE\U0001F1F3 IN 36"
-  type: trojan
-  server: 159.65.147.91
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 37"
-  type: trojan
-  server: kaizen-hk-4.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 38"
-  type: trojan
-  server: kaizen-hk-7.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EE\U0001F1F3 IN 39"
-  server: jgwhdlb3.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 40"
-  server: jgwhdlb2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F7\U0001F1FA RU 41"
-  type: trojan
-  server: ru-k.fib-sys.xyz
-  port: 27273
+  server: kr-k.fib-sys.xyz
+  port: 64367
   udp: true
   password: 11a4e5be-3c87-37d2-aac8-00b85ef0fcdc
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EE\U0001F1F3 IN 42"
-  server: jgwhdlb1.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 43"
+- name: "\U0001F1EF\U0001F1F5 JP 29"
   type: trojan
   server: kaizen-jp-7.mielink-dns2.com
   port: 443
@@ -351,34 +232,24 @@ proxies:
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 44"
+- name: "\U0001F1FA\U0001F1F8 US 30"
   type: trojan
-  server: kaizen-hk-6.mielink-dns2.com
+  server: kaizen-us-10.mielink-dns2.com
   port: 443
   udp: true
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F9\U0001F1F7 TR 45"
+- name: "\U0001F1EE\U0001F1E9 ID 31"
   type: trojan
-  server: l2-tr-a.mielink-dns2.com
-  port: 443
+  server: 108-137-18-26.ipv4.rush.ml
+  port: 8443
   udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
+  password: cf4295378e209e70d12c5bdd017144dfd1c772d3
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 46"
-  type: trojan
-  server: kaizen-hk-8.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 47"
+- name: "\U0001F1F8\U0001F1EC SG 32"
   type: trojan
   server: 119-8-122-159.ipv4.rush.ml
   port: 8443
@@ -387,34 +258,83 @@ proxies:
   sni: 119-8-122-159.ipv4.rush.ml
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 TW 48"
+- name: "\U0001F1EE\U0001F1F3 IN 33"
+  server: jgwhdlb2.gaox.ml
   type: trojan
-  server: kaizen-tw-6.paolu.co
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 34"
+  type: trojan
+  server: 159.65.147.91
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EE\U0001F1F3 IN 35"
+  server: jgwhdlb3.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 36"
+  type: trojan
+  server: kaizen-jp-2.mielink-dns2.com
   port: 443
   udp: true
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 49"
+- name: "\U0001F1F7\U0001F1FA RU 37"
   type: trojan
-  server: kaizen-us-9.mielink-dns2.com
+  server: ru-k.fib-sys.xyz
+  port: 27273
+  udp: true
+  password: 11a4e5be-3c87-37d2-aac8-00b85ef0fcdc
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F5\U0001F1ED PH 38"
+  type: trojan
+  server: special-ph-a.mielink-dns2.com
   port: 443
   udp: true
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 50"
+- name: "\U0001F1EE\U0001F1F3 IN 39"
+  server: jgwhdlb1.gaox.ml
   type: trojan
-  server: kaizen-us-03.mielink-dns2.com
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 40"
+  type: trojan
+  server: kaizen-hk-4.mielink-dns2.com
   port: 443
   udp: true
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 TW 51"
+- name: "\U0001F1E8\U0001F1F3 HK 41"
+  type: trojan
+  server: kaizen-hk-6.mielink-dns2.com
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  sni: paydiu.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 TW 42"
   type: trojan
   server: kaizen-tw-4.mielink-dns2.com
   port: 443
@@ -423,42 +343,16 @@ proxies:
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 52"
+- name: "\U0001F1E8\U0001F1F3 HK 43"
   type: trojan
-  server: 103.172.116.196
-  port: 3389
-  udp: true
-  password: 0c6a3341e8d5ab17
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 53"
-  type: trojan
-  server: 1.65.139.228
+  server: kaizen-hk-7.mielink-dns2.com
   port: 443
   udp: true
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 54"
-  type: trojan
-  server: kaizen-hk-11.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 55"
-  type: trojan
-  server: kaizen-jp-1.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 56"
+- name: "\U0001F1E8\U0001F1F3 HK 44"
   type: trojan
   server: kaizen-hk-10.mielink-dns2.com
   port: 443
@@ -467,60 +361,34 @@ proxies:
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F7\U0001F1FA RU 57"
+- name: "\U0001F1E8\U0001F1F3 TW 45"
   type: trojan
-  server: kaizen-ru-1.mielink-dns2.com
+  server: azgy001.xibai6.top
+  port: 20784
+  udp: true
+  password: f23a8308-7cf3-3e69-976a-de7246b02a2d
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 46"
+  type: trojan
+  server: kaizen-hk-11.mielink-dns2.com
   port: 443
   udp: true
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 58"
+- name: "\U0001F1E8\U0001F1F3 TW 47"
   type: trojan
-  server: hk.swiftfalcon.app
-  port: 28897
-  udp: true
-  password: shenmegui
-  sni: hk.swiftfalcon.app
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 59"
-  type: trojan
-  server: 37.123.196.250
-  port: 28895
-  udp: true
-  password: shenmegui
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F7\U0001F1FA RU 60"
-  type: trojan
-  server: kaizen-ru-2.mielink-dns2.com
+  server: kaizen-tw-3.mielink-dns2.com
   port: 443
   udp: true
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 61"
-  type: trojan
-  server: kaizen-hk-3.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 62"
-  type: trojan
-  server: kaizen-us-02.mielink-dns2.com
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 TW 63"
+- name: "\U0001F1E8\U0001F1F3 TW 48"
   type: trojan
   server: kaizen-tw-2.mielink-dns2.com
   port: 443
@@ -529,15 +397,95 @@ proxies:
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 64"
+- name: "\U0001F1EF\U0001F1F5 JP 49"
   type: trojan
-  server: kaizen-us-01.mielink-dns2.com
+  server: kaizen-jp-9.mielink-dns2.com
   port: 443
   udp: true
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 65"
+- name: "\U0001F1E8\U0001F1F3 TW 50"
+  type: trojan
+  server: kaizen-tw-6.paolu.co
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  sni: paydiu.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 51"
+  type: trojan
+  server: 103.172.116.196
+  port: 3389
+  udp: true
+  password: 0c6a3341e8d5ab17
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 52"
+  type: trojan
+  server: kaizen-us-03.mielink-dns2.com
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  sni: paydiu.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 53"
+  type: trojan
+  server: kaizen-hk-3.mielink-dns2.com
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  sni: paydiu.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 54"
+  type: trojan
+  server: kaizen-hk-8.mielink-dns2.com
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  sni: paydiu.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 55"
+  type: trojan
+  server: 37.123.196.250
+  port: 28895
+  udp: true
+  password: shenmegui
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F9\U0001F1F7 TR 56"
+  type: trojan
+  server: l2-tr-a.mielink-dns2.com
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  sni: paydiu.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 57"
+  type: trojan
+  server: kaizen-jp-3.mielink-dns2.com
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  sni: paydiu.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 TW 58"
+  type: trojan
+  server: kaizen-tw-1.mielink-dns2.com
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  sni: paydiu.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 59"
   type: trojan
   server: sky998dmit3.xyz
   port: 443
@@ -545,7 +493,7 @@ proxies:
   password: RRy34GGwsPt47SuC
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E9\U0001F1EA DE 66"
+- name: "\U0001F1E9\U0001F1EA DE 60"
   type: trojan
   server: 188.40.251.19
   port: 443
@@ -554,7 +502,7 @@ proxies:
   sni: 188.40.251.19
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EC\U0001F1E7 GB 67"
+- name: "\U0001F1EC\U0001F1E7 GB 61"
   type: trojan
   server: 185.16.206.209
   port: 443
@@ -562,15 +510,7 @@ proxies:
   password: shefelnak
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F3\U0001F1F1 NL 68"
-  type: trojan
-  server: 185.212.200.74
-  port: 443
-  udp: true
-  password: Sp3eDVp
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EC\U0001F1E7 GB 69"
+- name: "\U0001F1EC\U0001F1E7 GB 62"
   type: trojan
   server: 185.16.206.211
   port: 443
@@ -578,7 +518,71 @@ proxies:
   password: shefelnak
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1F3\U0001F1F1 NL 63"
+  type: trojan
+  server: 185.212.200.74
+  port: 443
+  udp: true
+  password: Sp3eDVp
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F3\U0001F1F1 NL 64"
+  type: trojan
+  server: 185.212.200.75
+  port: 443
+  udp: true
+  password: Sp3eDVp
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 65"
+  type: trojan
+  server: 103.172.116.138
+  port: 3389
+  udp: true
+  password: 0c6a3341e8d5ab17
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E9\U0001F1EA DE 66"
+  type: trojan
+  server: 188.40.236.127
+  port: 443
+  udp: true
+  password: yxGY7A5MczQYg6UqSFx9u78V
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 67"
+  type: trojan
+  server: 103.172.116.214
+  port: 3389
+  udp: true
+  password: 0c6a3341e8d5ab17
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 68"
+  type: trojan
+  server: 194.156.99.39
+  port: 443
+  udp: true
+  password: xxoo
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 69"
+  type: trojan
+  server: 173.82.240.199
+  port: 44301
+  udp: true
+  password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
+  skip-cert-verify: true
+  network: tcp
 - name: "\U0001F1EC\U0001F1E7 GB 70"
+  type: trojan
+  server: 185.16.206.212
+  port: 443
+  udp: true
+  password: shefelnak
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1EC\U0001F1E7 GB 71"
   type: trojan
   server: 146.19.230.241
   port: 443
@@ -587,31 +591,7 @@ proxies:
   sni: 146.19.230.241
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F3\U0001F1F1 NL 71"
-  type: trojan
-  server: 185.212.200.75
-  port: 443
-  udp: true
-  password: Sp3eDVp
-  skip-cert-verify: true
-  network: tcp
 - name: "\U0001F1E8\U0001F1F3 HK 72"
-  type: trojan
-  server: agroup.node4.t.nodelist-gfwairport1.download
-  port: 50001
-  udp: true
-  password: 26188b3e-c28e-4230-8bee-53d77ff5ff49
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 73"
-  type: trojan
-  server: 194.156.99.39
-  port: 443
-  udp: true
-  password: xxoo
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 74"
   type: trojan
   server: kaizen-hk-12.mielink-dns2.com
   port: 443
@@ -620,55 +600,7 @@ proxies:
   sni: paydiu.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E9\U0001F1EA DE 75"
-  type: trojan
-  server: 188.40.236.127
-  port: 443
-  udp: true
-  password: yxGY7A5MczQYg6UqSFx9u78V
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 76"
-  type: trojan
-  server: 103.172.116.214
-  port: 3389
-  udp: true
-  password: 0c6a3341e8d5ab17
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 77"
-  type: trojan
-  server: 103.172.116.138
-  port: 3389
-  udp: true
-  password: 0c6a3341e8d5ab17
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 78"
-  type: trojan
-  server: 173.82.240.199
-  port: 44301
-  udp: true
-  password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EC\U0001F1E7 GB 79"
-  type: trojan
-  server: 185.16.206.212
-  port: 443
-  udp: true
-  password: shefelnak
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 TW 80"
-  type: trojan
-  server: 36.228.212.80
-  port: 443
-  udp: true
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1EC\U0001F1E7 GB 81"
+- name: "\U0001F1EC\U0001F1E7 GB 73"
   type: trojan
   server: 185.49.33.47
   port: 8461
@@ -677,29 +609,13 @@ proxies:
   sni: $jp.swiftfalcon.app
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F0\U0001F1F7 KR 82"
+- name: "\U0001F1E8\U0001F1F3 TW 74"
   type: trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  udp: true
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1F3\U0001F1F1 NL 83"
-  type: trojan
-  server: 45.136.255.125
+  server: kaizen-tw-5.mielink-dns2.com
   port: 443
   udp: true
   password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  sni: $paydiu.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E9\U0001F1EA DE 84"
-  type: trojan
-  server: 188.40.250.247
-  port: 443
-  udp: true
-  password: origin
+  sni: paydiu.com
   skip-cert-verify: true
   network: tcp
 proxy-groups:
@@ -710,12 +626,12 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 GB 2"
   - "\U0001F1EB\U0001F1F7 FR 3"
   - "\U0001F1F0\U0001F1F7 KR 4"
-  - "\U0001F1FA\U0001F1F8 US 5"
-  - "\U0001F1EF\U0001F1F5 JP 6"
+  - "\U0001F1EF\U0001F1F5 JP 5"
+  - "\U0001F1FA\U0001F1F8 US 6"
   - "\U0001F1FA\U0001F1F8 US 7"
   - "\U0001F1E6\U0001F1FA AU 8"
-  - "\U0001F1EF\U0001F1F5 JP 9"
-  - "\U0001F1E6\U0001F1FA AU 10"
+  - "\U0001F1E6\U0001F1FA AU 9"
+  - "\U0001F1EF\U0001F1F5 JP 10"
   - "\U0001F1FA\U0001F1F8 US 11"
   - "\U0001F1FA\U0001F1F8 US 12"
   - "\U0001F1FA\U0001F1F8 US 13"
@@ -724,72 +640,62 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 16"
   - "\U0001F1FA\U0001F1F8 US 17"
   - "\U0001F1FA\U0001F1F8 US 18"
-  - "\U0001F1FA\U0001F1F8 US 19"
-  - "\U0001F1EF\U0001F1F5 JP 20"
-  - "\U0001F1EF\U0001F1F5 JP 21"
-  - "\U0001F1F0\U0001F1F7 KR 22"
+  - "\U0001F1EF\U0001F1F5 JP 19"
+  - "\U0001F1FA\U0001F1F8 US 20"
+  - "\U0001F1F0\U0001F1F7 KR 21"
+  - "\U0001F1EF\U0001F1F5 JP 22"
   - "\U0001F1EF\U0001F1F5 JP 23"
-  - "\U0001F1EF\U0001F1F5 JP 24"
-  - "\U0001F1FA\U0001F1F8 US 25"
-  - "\U0001F1EE\U0001F1EA IE 26"
-  - "\U0001F1EF\U0001F1F5 JP 27"
-  - "\U0001F1FA\U0001F1F8 US 28"
+  - "\U0001F1EE\U0001F1EA IE 24"
+  - "\U0001F1EF\U0001F1F5 JP 25"
+  - "\U0001F1FA\U0001F1F8 US 26"
+  - "\U0001F1F0\U0001F1F7 KR 27"
+  - "\U0001F1F8\U0001F1EC SG 28"
   - "\U0001F1EF\U0001F1F5 JP 29"
-  - "\U0001F1EF\U0001F1F5 JP 30"
-  - "\U0001F1EF\U0001F1F5 JP 31"
+  - "\U0001F1FA\U0001F1F8 US 30"
+  - "\U0001F1EE\U0001F1E9 ID 31"
   - "\U0001F1F8\U0001F1EC SG 32"
-  - "\U0001F1F0\U0001F1F7 KR 33"
-  - "\U0001F1EE\U0001F1E9 ID 34"
-  - "\U0001F1E8\U0001F1F3 TW 35"
-  - "\U0001F1EE\U0001F1F3 IN 36"
-  - "\U0001F1E8\U0001F1F3 HK 37"
-  - "\U0001F1E8\U0001F1F3 HK 38"
+  - "\U0001F1EE\U0001F1F3 IN 33"
+  - "\U0001F1EE\U0001F1F3 IN 34"
+  - "\U0001F1EE\U0001F1F3 IN 35"
+  - "\U0001F1EF\U0001F1F5 JP 36"
+  - "\U0001F1F7\U0001F1FA RU 37"
+  - "\U0001F1F5\U0001F1ED PH 38"
   - "\U0001F1EE\U0001F1F3 IN 39"
-  - "\U0001F1EE\U0001F1F3 IN 40"
-  - "\U0001F1F7\U0001F1FA RU 41"
-  - "\U0001F1EE\U0001F1F3 IN 42"
-  - "\U0001F1EF\U0001F1F5 JP 43"
+  - "\U0001F1E8\U0001F1F3 HK 40"
+  - "\U0001F1E8\U0001F1F3 HK 41"
+  - "\U0001F1E8\U0001F1F3 TW 42"
+  - "\U0001F1E8\U0001F1F3 HK 43"
   - "\U0001F1E8\U0001F1F3 HK 44"
-  - "\U0001F1F9\U0001F1F7 TR 45"
+  - "\U0001F1E8\U0001F1F3 TW 45"
   - "\U0001F1E8\U0001F1F3 HK 46"
-  - "\U0001F1F8\U0001F1EC SG 47"
+  - "\U0001F1E8\U0001F1F3 TW 47"
   - "\U0001F1E8\U0001F1F3 TW 48"
-  - "\U0001F1FA\U0001F1F8 US 49"
-  - "\U0001F1FA\U0001F1F8 US 50"
-  - "\U0001F1E8\U0001F1F3 TW 51"
-  - "\U0001F1F8\U0001F1EC SG 52"
+  - "\U0001F1EF\U0001F1F5 JP 49"
+  - "\U0001F1E8\U0001F1F3 TW 50"
+  - "\U0001F1F8\U0001F1EC SG 51"
+  - "\U0001F1FA\U0001F1F8 US 52"
   - "\U0001F1E8\U0001F1F3 HK 53"
   - "\U0001F1E8\U0001F1F3 HK 54"
-  - "\U0001F1EF\U0001F1F5 JP 55"
-  - "\U0001F1E8\U0001F1F3 HK 56"
-  - "\U0001F1F7\U0001F1FA RU 57"
-  - "\U0001F1E8\U0001F1F3 HK 58"
+  - "\U0001F1E8\U0001F1F3 HK 55"
+  - "\U0001F1F9\U0001F1F7 TR 56"
+  - "\U0001F1EF\U0001F1F5 JP 57"
+  - "\U0001F1E8\U0001F1F3 TW 58"
   - "\U0001F1E8\U0001F1F3 HK 59"
-  - "\U0001F1F7\U0001F1FA RU 60"
-  - "\U0001F1E8\U0001F1F3 HK 61"
-  - "\U0001F1FA\U0001F1F8 US 62"
-  - "\U0001F1E8\U0001F1F3 TW 63"
-  - "\U0001F1FA\U0001F1F8 US 64"
-  - "\U0001F1E8\U0001F1F3 HK 65"
+  - "\U0001F1E9\U0001F1EA DE 60"
+  - "\U0001F1EC\U0001F1E7 GB 61"
+  - "\U0001F1EC\U0001F1E7 GB 62"
+  - "\U0001F1F3\U0001F1F1 NL 63"
+  - "\U0001F1F3\U0001F1F1 NL 64"
+  - "\U0001F1F8\U0001F1EC SG 65"
   - "\U0001F1E9\U0001F1EA DE 66"
-  - "\U0001F1EC\U0001F1E7 GB 67"
-  - "\U0001F1F3\U0001F1F1 NL 68"
-  - "\U0001F1EC\U0001F1E7 GB 69"
+  - "\U0001F1F8\U0001F1EC SG 67"
+  - "\U0001F1E8\U0001F1F3 HK 68"
+  - "\U0001F1FA\U0001F1F8 US 69"
   - "\U0001F1EC\U0001F1E7 GB 70"
-  - "\U0001F1F3\U0001F1F1 NL 71"
+  - "\U0001F1EC\U0001F1E7 GB 71"
   - "\U0001F1E8\U0001F1F3 HK 72"
-  - "\U0001F1E8\U0001F1F3 HK 73"
-  - "\U0001F1E8\U0001F1F3 HK 74"
-  - "\U0001F1E9\U0001F1EA DE 75"
-  - "\U0001F1F8\U0001F1EC SG 76"
-  - "\U0001F1F8\U0001F1EC SG 77"
-  - "\U0001F1FA\U0001F1F8 US 78"
-  - "\U0001F1EC\U0001F1E7 GB 79"
-  - "\U0001F1E8\U0001F1F3 TW 80"
-  - "\U0001F1EC\U0001F1E7 GB 81"
-  - "\U0001F1F0\U0001F1F7 KR 82"
-  - "\U0001F1F3\U0001F1F1 NL 83"
-  - "\U0001F1E9\U0001F1EA DE 84"
+  - "\U0001F1EC\U0001F1E7 GB 73"
+  - "\U0001F1E8\U0001F1F3 TW 74"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -800,12 +706,12 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 GB 2"
   - "\U0001F1EB\U0001F1F7 FR 3"
   - "\U0001F1F0\U0001F1F7 KR 4"
-  - "\U0001F1FA\U0001F1F8 US 5"
-  - "\U0001F1EF\U0001F1F5 JP 6"
+  - "\U0001F1EF\U0001F1F5 JP 5"
+  - "\U0001F1FA\U0001F1F8 US 6"
   - "\U0001F1FA\U0001F1F8 US 7"
   - "\U0001F1E6\U0001F1FA AU 8"
-  - "\U0001F1EF\U0001F1F5 JP 9"
-  - "\U0001F1E6\U0001F1FA AU 10"
+  - "\U0001F1E6\U0001F1FA AU 9"
+  - "\U0001F1EF\U0001F1F5 JP 10"
   - "\U0001F1FA\U0001F1F8 US 11"
   - "\U0001F1FA\U0001F1F8 US 12"
   - "\U0001F1FA\U0001F1F8 US 13"
@@ -814,71 +720,61 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 16"
   - "\U0001F1FA\U0001F1F8 US 17"
   - "\U0001F1FA\U0001F1F8 US 18"
-  - "\U0001F1FA\U0001F1F8 US 19"
-  - "\U0001F1EF\U0001F1F5 JP 20"
-  - "\U0001F1EF\U0001F1F5 JP 21"
-  - "\U0001F1F0\U0001F1F7 KR 22"
+  - "\U0001F1EF\U0001F1F5 JP 19"
+  - "\U0001F1FA\U0001F1F8 US 20"
+  - "\U0001F1F0\U0001F1F7 KR 21"
+  - "\U0001F1EF\U0001F1F5 JP 22"
   - "\U0001F1EF\U0001F1F5 JP 23"
-  - "\U0001F1EF\U0001F1F5 JP 24"
-  - "\U0001F1FA\U0001F1F8 US 25"
-  - "\U0001F1EE\U0001F1EA IE 26"
-  - "\U0001F1EF\U0001F1F5 JP 27"
-  - "\U0001F1FA\U0001F1F8 US 28"
+  - "\U0001F1EE\U0001F1EA IE 24"
+  - "\U0001F1EF\U0001F1F5 JP 25"
+  - "\U0001F1FA\U0001F1F8 US 26"
+  - "\U0001F1F0\U0001F1F7 KR 27"
+  - "\U0001F1F8\U0001F1EC SG 28"
   - "\U0001F1EF\U0001F1F5 JP 29"
-  - "\U0001F1EF\U0001F1F5 JP 30"
-  - "\U0001F1EF\U0001F1F5 JP 31"
+  - "\U0001F1FA\U0001F1F8 US 30"
+  - "\U0001F1EE\U0001F1E9 ID 31"
   - "\U0001F1F8\U0001F1EC SG 32"
-  - "\U0001F1F0\U0001F1F7 KR 33"
-  - "\U0001F1EE\U0001F1E9 ID 34"
-  - "\U0001F1E8\U0001F1F3 TW 35"
-  - "\U0001F1EE\U0001F1F3 IN 36"
-  - "\U0001F1E8\U0001F1F3 HK 37"
-  - "\U0001F1E8\U0001F1F3 HK 38"
+  - "\U0001F1EE\U0001F1F3 IN 33"
+  - "\U0001F1EE\U0001F1F3 IN 34"
+  - "\U0001F1EE\U0001F1F3 IN 35"
+  - "\U0001F1EF\U0001F1F5 JP 36"
+  - "\U0001F1F7\U0001F1FA RU 37"
+  - "\U0001F1F5\U0001F1ED PH 38"
   - "\U0001F1EE\U0001F1F3 IN 39"
-  - "\U0001F1EE\U0001F1F3 IN 40"
-  - "\U0001F1F7\U0001F1FA RU 41"
-  - "\U0001F1EE\U0001F1F3 IN 42"
-  - "\U0001F1EF\U0001F1F5 JP 43"
+  - "\U0001F1E8\U0001F1F3 HK 40"
+  - "\U0001F1E8\U0001F1F3 HK 41"
+  - "\U0001F1E8\U0001F1F3 TW 42"
+  - "\U0001F1E8\U0001F1F3 HK 43"
   - "\U0001F1E8\U0001F1F3 HK 44"
-  - "\U0001F1F9\U0001F1F7 TR 45"
+  - "\U0001F1E8\U0001F1F3 TW 45"
   - "\U0001F1E8\U0001F1F3 HK 46"
-  - "\U0001F1F8\U0001F1EC SG 47"
+  - "\U0001F1E8\U0001F1F3 TW 47"
   - "\U0001F1E8\U0001F1F3 TW 48"
-  - "\U0001F1FA\U0001F1F8 US 49"
-  - "\U0001F1FA\U0001F1F8 US 50"
-  - "\U0001F1E8\U0001F1F3 TW 51"
-  - "\U0001F1F8\U0001F1EC SG 52"
+  - "\U0001F1EF\U0001F1F5 JP 49"
+  - "\U0001F1E8\U0001F1F3 TW 50"
+  - "\U0001F1F8\U0001F1EC SG 51"
+  - "\U0001F1FA\U0001F1F8 US 52"
   - "\U0001F1E8\U0001F1F3 HK 53"
   - "\U0001F1E8\U0001F1F3 HK 54"
-  - "\U0001F1EF\U0001F1F5 JP 55"
-  - "\U0001F1E8\U0001F1F3 HK 56"
-  - "\U0001F1F7\U0001F1FA RU 57"
-  - "\U0001F1E8\U0001F1F3 HK 58"
+  - "\U0001F1E8\U0001F1F3 HK 55"
+  - "\U0001F1F9\U0001F1F7 TR 56"
+  - "\U0001F1EF\U0001F1F5 JP 57"
+  - "\U0001F1E8\U0001F1F3 TW 58"
   - "\U0001F1E8\U0001F1F3 HK 59"
-  - "\U0001F1F7\U0001F1FA RU 60"
-  - "\U0001F1E8\U0001F1F3 HK 61"
-  - "\U0001F1FA\U0001F1F8 US 62"
-  - "\U0001F1E8\U0001F1F3 TW 63"
-  - "\U0001F1FA\U0001F1F8 US 64"
-  - "\U0001F1E8\U0001F1F3 HK 65"
+  - "\U0001F1E9\U0001F1EA DE 60"
+  - "\U0001F1EC\U0001F1E7 GB 61"
+  - "\U0001F1EC\U0001F1E7 GB 62"
+  - "\U0001F1F3\U0001F1F1 NL 63"
+  - "\U0001F1F3\U0001F1F1 NL 64"
+  - "\U0001F1F8\U0001F1EC SG 65"
   - "\U0001F1E9\U0001F1EA DE 66"
-  - "\U0001F1EC\U0001F1E7 GB 67"
-  - "\U0001F1F3\U0001F1F1 NL 68"
-  - "\U0001F1EC\U0001F1E7 GB 69"
+  - "\U0001F1F8\U0001F1EC SG 67"
+  - "\U0001F1E8\U0001F1F3 HK 68"
+  - "\U0001F1FA\U0001F1F8 US 69"
   - "\U0001F1EC\U0001F1E7 GB 70"
-  - "\U0001F1F3\U0001F1F1 NL 71"
+  - "\U0001F1EC\U0001F1E7 GB 71"
   - "\U0001F1E8\U0001F1F3 HK 72"
-  - "\U0001F1E8\U0001F1F3 HK 73"
-  - "\U0001F1E8\U0001F1F3 HK 74"
-  - "\U0001F1E9\U0001F1EA DE 75"
-  - "\U0001F1F8\U0001F1EC SG 76"
-  - "\U0001F1F8\U0001F1EC SG 77"
-  - "\U0001F1FA\U0001F1F8 US 78"
-  - "\U0001F1EC\U0001F1E7 GB 79"
-  - "\U0001F1E8\U0001F1F3 TW 80"
-  - "\U0001F1EC\U0001F1E7 GB 81"
-  - "\U0001F1F0\U0001F1F7 KR 82"
-  - "\U0001F1F3\U0001F1F1 NL 83"
-  - "\U0001F1E9\U0001F1EA DE 84"
+  - "\U0001F1EC\U0001F1E7 GB 73"
+  - "\U0001F1E8\U0001F1F3 TW 74"
 rules:
 - "MATCH,\U0001F310 Proxy"
