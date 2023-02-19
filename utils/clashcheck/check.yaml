@@ -9,7 +9,7 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 TW 2"
   server: h3816tw.strongpipe.live
-  port: 20443
+  port: 20445
   type: http
   username: dcf12c7e7d
   password: 26bae9b023
@@ -17,7 +17,7 @@ proxies:
   skip-cert-verify: true
 - name: "\U0001F1E8\U0001F1F3 TW 3"
   server: h3816tw.strongpipe.live
-  port: 20449
+  port: 20443
   type: http
   username: dcf12c7e7d
   password: 26bae9b023
@@ -25,7 +25,7 @@ proxies:
   skip-cert-verify: true
 - name: "\U0001F1E8\U0001F1F3 TW 4"
   server: h3816tw.strongpipe.live
-  port: 20448
+  port: 20447
   type: http
   username: dcf12c7e7d
   password: 26bae9b023
@@ -41,7 +41,7 @@ proxies:
   skip-cert-verify: true
 - name: "\U0001F1E8\U0001F1F3 TW 6"
   server: h3816tw.strongpipe.live
-  port: 20447
+  port: 20448
   type: http
   username: dcf12c7e7d
   password: 26bae9b023
@@ -57,17 +57,17 @@ proxies:
   skip-cert-verify: true
 - name: "\U0001F1E8\U0001F1F3 TW 8"
   server: h3816tw.strongpipe.live
-  port: 20445
+  port: 20449
   type: http
   username: dcf12c7e7d
   password: 26bae9b023
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 9"
-  server: osav101.jd0001.top
-  port: 44301
+- name: "\U0001F1FA\U0001F1F8 US 9"
+  server: 152.70.143.228
+  port: 44302
   type: trojan
-  password: 6abfad5a-24be-3657-85da-ceac782b7e19
+  password: 4d111af8-5078-37e0-a583-34155f60b32c
   skip-cert-verify: true
 - name: "\U0001F1FA\U0001F1F8 US 10"
   server: 138.124.183.226
@@ -77,27 +77,25 @@ proxies:
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 11"
+- name: "\U0001F1EF\U0001F1F5 JP 11"
+  server: osav101.jd0001.top
+  port: 44301
+  type: trojan
+  password: 6abfad5a-24be-3657-85da-ceac782b7e19
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 12"
+  server: profile.progbyrazyar.ir
+  port: 8443
+  type: trojan
+  password: 2LaYjIDqro
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 13"
   server: 138.124.183.216
   type: trojan
   country: "\U0001F1F3\U0001F1F4 NO"
   port: 443
   password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 12"
-  server: 138.124.183.222
-  type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 13"
-  server: profile.progbyrazyar.ir
-  port: 8443
-  type: trojan
-  password: 2LaYjIDqro
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 HK 14"
@@ -144,9 +142,9 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 TW 6"
   - "\U0001F1E8\U0001F1F3 TW 7"
   - "\U0001F1E8\U0001F1F3 TW 8"
-  - "\U0001F1EF\U0001F1F5 JP 9"
+  - "\U0001F1FA\U0001F1F8 US 9"
   - "\U0001F1FA\U0001F1F8 US 10"
-  - "\U0001F1FA\U0001F1F8 US 11"
+  - "\U0001F1EF\U0001F1F5 JP 11"
   - "\U0001F1FA\U0001F1F8 US 12"
   - "\U0001F1FA\U0001F1F8 US 13"
   - "\U0001F1E8\U0001F1F3 HK 14"
@@ -167,9 +165,9 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 TW 6"
   - "\U0001F1E8\U0001F1F3 TW 7"
   - "\U0001F1E8\U0001F1F3 TW 8"
-  - "\U0001F1EF\U0001F1F5 JP 9"
+  - "\U0001F1FA\U0001F1F8 US 9"
   - "\U0001F1FA\U0001F1F8 US 10"
-  - "\U0001F1FA\U0001F1F8 US 11"
+  - "\U0001F1EF\U0001F1F5 JP 11"
   - "\U0001F1FA\U0001F1F8 US 12"
   - "\U0001F1FA\U0001F1F8 US 13"
   - "\U0001F1E8\U0001F1F3 HK 14"
