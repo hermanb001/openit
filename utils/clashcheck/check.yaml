@@ -23,14 +23,6 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 4"
-  server: 138.124.183.216
-  type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 5"
   server: 138.124.183.226
   type: trojan
   country: "\U0001F1F3\U0001F1F4 NO"
@@ -38,7 +30,23 @@ proxies:
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 6"
+- name: "\U0001F1FA\U0001F1F8 US 5"
+  server: 138.124.183.216
+  type: trojan
+  country: "\U0001F1F3\U0001F1F4 NO"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 6"
+  server: 194.156.99.39
+  type: trojan
+  country: "\U0001F1F7\U0001F1FA RU"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 7"
   type: trojan
   server: 51.255.49.192
   port: 443
@@ -47,14 +55,6 @@ proxies:
   sni: ba24.ir
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 7"
-  server: 194.156.99.39
-  type: trojan
-  country: "\U0001F1F7\U0001F1FA RU"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1EE\U0001F1E9 ID 8"
   type: trojan
   server: 108-137-18-26.ipv4.rush.ml
@@ -96,8 +96,8 @@ proxy-groups:
   - "\U0001F1E6\U0001F1FA AU 3"
   - "\U0001F1FA\U0001F1F8 US 4"
   - "\U0001F1FA\U0001F1F8 US 5"
-  - "\U0001F1EB\U0001F1F7 FR 6"
-  - "\U0001F1E8\U0001F1F3 HK 7"
+  - "\U0001F1E8\U0001F1F3 HK 6"
+  - "\U0001F1EB\U0001F1F7 FR 7"
   - "\U0001F1EE\U0001F1E9 ID 8"
   - "\U0001F1EE\U0001F1F3 IN 9"
   - "\U0001F1EE\U0001F1F3 IN 10"
@@ -113,8 +113,8 @@ proxy-groups:
   - "\U0001F1E6\U0001F1FA AU 3"
   - "\U0001F1FA\U0001F1F8 US 4"
   - "\U0001F1FA\U0001F1F8 US 5"
-  - "\U0001F1EB\U0001F1F7 FR 6"
-  - "\U0001F1E8\U0001F1F3 HK 7"
+  - "\U0001F1E8\U0001F1F3 HK 6"
+  - "\U0001F1EB\U0001F1F7 FR 7"
   - "\U0001F1EE\U0001F1E9 ID 8"
   - "\U0001F1EE\U0001F1F3 IN 9"
   - "\U0001F1EE\U0001F1F3 IN 10"
