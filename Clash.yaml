@@ -33,16 +33,18 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-  - {name: NO 1｜openit.ml, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: NO 2｜openit.ml, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: NO 3｜openit.ml, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO 1｜openit.ml, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO 2｜openit.ml, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO 3｜openit.ml, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1｜openit.ml, server: z00031.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
   - {name: 🇬🇧 GB 1｜openit.ml, server: 2.hg.kr.cat77.cloud, port: 8443, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 1｜openit.ml, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: a4955acf-b475-47b5-8c63-8574fee2a2e3, sni: wel-usgt.optage.moe, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 1｜openit.ml, server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1｜openit.ml, server: phxv001.jd0001.top, port: 44302, type: trojan, password: 4d111af8-5078-37e0-a583-34155f60b32c, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2｜openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3｜openit.ml, server: c.mg.us.cat77.cloud, port: 8646, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4｜openit.ml, server: osav101.jd0001.top, port: 44301, type: trojan, password: 6abfad5a-24be-3657-85da-ceac782b7e19, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5｜openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1｜openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2｜openit.ml, server: osav101.jd0001.top, port: 44301, type: trojan, password: 6abfad5a-24be-3657-85da-ceac782b7e19, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3｜openit.ml, server: 155.248.193.254, port: 31853, type: trojan, password: jKRJgS7uvI, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4｜openit.ml, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5｜openit.ml, server: 152.70.143.228, port: 44302, type: trojan, password: 4d111af8-5078-37e0-a583-34155f60b32c, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 6｜openit.ml, server: 108.137.18.26, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 7｜openit.ml, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 8｜openit.ml, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
@@ -67,7 +69,9 @@ proxy-groups:
       - NO 1｜openit.ml
       - NO 2｜openit.ml
       - NO 3｜openit.ml
+      - 🇨🇳 CN 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
+      - 🇯🇵 JP 1｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
@@ -87,7 +91,9 @@ proxy-groups:
       - NO 1｜openit.ml
       - NO 2｜openit.ml
       - NO 3｜openit.ml
+      - 🇨🇳 CN 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
+      - 🇯🇵 JP 1｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
@@ -111,7 +117,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇯🇵 JP 1｜openit.ml
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -162,7 +168,9 @@ proxy-groups:
       - NO 1｜openit.ml
       - NO 2｜openit.ml
       - NO 3｜openit.ml
+      - 🇨🇳 CN 1｜openit.ml
       - 🇬🇧 GB 1｜openit.ml
+      - 🇯🇵 JP 1｜openit.ml
       - 🇷🇺 RU 1｜openit.ml
       - 🇺🇸 US 1｜openit.ml
       - 🇺🇸 US 2｜openit.ml
