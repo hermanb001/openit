@@ -15,13 +15,14 @@ proxies:
   password: 6abfad5a-24be-3657-85da-ceac782b7e19
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 3"
-  server: 144.24.76.54
-  port: 8443
+- name: "\U0001F1FA\U0001F1F8 US 3"
+  server: 138.124.183.216
   type: trojan
-  password: cd27884b-c5af-34ec-b75f-8248077818fe
-  sni: 2.hg.kr.cat77.cloud
+  country: "\U0001F1F3\U0001F1F4 NO"
+  port: 443
+  password: xxoo
   skip-cert-verify: true
+  udp: true
 - name: "\U0001F1FA\U0001F1F8 US 4"
   server: 138.124.183.226
   type: trojan
@@ -30,15 +31,7 @@ proxies:
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 5"
-  server: 138.124.183.216
-  type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 6"
+- name: "\U0001F1EF\U0001F1F5 JP 5"
   server: jgwdj3.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -46,7 +39,23 @@ proxies:
   password: da777aae-defb-41d0-a183-2c27da2b4677
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 7"
+- name: "\U0001F1EE\U0001F1F3 IN 6"
+  server: jgwhdlb2.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 7"
+  server: jgwhdlb3.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 8"
   type: trojan
   server: 51.255.49.192
   port: 443
@@ -55,42 +64,7 @@ proxies:
   sni: ba24.ir
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 8"
-  type: trojan
-  server: download2hkt.windowsupdate.lol
-  port: 443
-  udp: true
-  password: ab93a4c6-00b0-4e29-b979-dfa4071e3dbd
-  sni: dc4-download.windowsupdate1.com
-  skip-cert-verify: true
-  network: tcp
 - name: "\U0001F1EE\U0001F1F3 IN 9"
-  server: jgwhdlb2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 10"
-  server: jgwhdlb3.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 11"
-  server: z00031.security-cloudfront-cdn.com
-  port: 42833
-  type: ssr
-  cipher: aes-256-cfb
-  password: YpX2opBbrfqJzzMs
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: ''
-- name: "\U0001F1EE\U0001F1F3 IN 12"
   server: jgwhdlb1.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -104,16 +78,13 @@ proxy-groups:
   proxies:
   - "\U0001F1FA\U0001F1F8 US 1"
   - "\U0001F1EF\U0001F1F5 JP 2"
-  - "\U0001F1F0\U0001F1F7 KR 3"
+  - "\U0001F1FA\U0001F1F8 US 3"
   - "\U0001F1FA\U0001F1F8 US 4"
-  - "\U0001F1FA\U0001F1F8 US 5"
-  - "\U0001F1EF\U0001F1F5 JP 6"
-  - "\U0001F1EB\U0001F1F7 FR 7"
-  - "\U0001F1E8\U0001F1F3 HK 8"
+  - "\U0001F1EF\U0001F1F5 JP 5"
+  - "\U0001F1EE\U0001F1F3 IN 6"
+  - "\U0001F1EE\U0001F1F3 IN 7"
+  - "\U0001F1EB\U0001F1F7 FR 8"
   - "\U0001F1EE\U0001F1F3 IN 9"
-  - "\U0001F1EE\U0001F1F3 IN 10"
-  - "\U0001F1E8\U0001F1F3 CN 11"
-  - "\U0001F1EE\U0001F1F3 IN 12"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -122,15 +93,12 @@ proxy-groups:
   - automatic
   - "\U0001F1FA\U0001F1F8 US 1"
   - "\U0001F1EF\U0001F1F5 JP 2"
-  - "\U0001F1F0\U0001F1F7 KR 3"
+  - "\U0001F1FA\U0001F1F8 US 3"
   - "\U0001F1FA\U0001F1F8 US 4"
-  - "\U0001F1FA\U0001F1F8 US 5"
-  - "\U0001F1EF\U0001F1F5 JP 6"
-  - "\U0001F1EB\U0001F1F7 FR 7"
-  - "\U0001F1E8\U0001F1F3 HK 8"
+  - "\U0001F1EF\U0001F1F5 JP 5"
+  - "\U0001F1EE\U0001F1F3 IN 6"
+  - "\U0001F1EE\U0001F1F3 IN 7"
+  - "\U0001F1EB\U0001F1F7 FR 8"
   - "\U0001F1EE\U0001F1F3 IN 9"
-  - "\U0001F1EE\U0001F1F3 IN 10"
-  - "\U0001F1E8\U0001F1F3 CN 11"
-  - "\U0001F1EE\U0001F1F3 IN 12"
 rules:
 - "MATCH,\U0001F310 Proxy"
