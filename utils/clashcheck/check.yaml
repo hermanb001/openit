@@ -8,19 +8,19 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 2"
-  server: phxv001.jd0001.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 44302
-  password: 4d111af8-5078-37e0-a583-34155f60b32c
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 3"
   server: 1.mg.us.cat77.cloud
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
   port: 1434
   password: cd27884b-c5af-34ec-b75f-8248077818fe
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 3"
+  server: phxv001.jd0001.top
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 44302
+  password: 4d111af8-5078-37e0-a583-34155f60b32c
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EB\U0001F1F7 FR 4"
@@ -39,39 +39,15 @@ proxies:
   password: q37K55b8FE
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 6"
-  server: hk01.shenzhouplus.cf
+- name: "\U0001F1F0\U0001F1F7 KR 6"
+  server: 2.hg.kr.cat77.cloud
   type: trojan
-  country: "\U0001F1ED\U0001F1F0HK"
-  port: 10009
-  password: 6b0333aab4d046ebacc35e04f426cb82
+  country: "\U0001F1EC\U0001F1E7GB"
+  port: 8443
+  password: cd27884b-c5af-34ec-b75f-8248077818fe
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 7"
-  server: hk01.shenzhouplus.cf
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0HK"
-  port: 10001
-  password: 6b0333aab4d046ebacc35e04f426cb82
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 8"
-  server: hk01.shenzhouplus.cf
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0HK"
-  port: 10005
-  password: 6b0333aab4d046ebacc35e04f426cb82
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 HK 9"
-  server: hk01.shenzhouplus.cf
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0HK"
-  port: 10007
-  password: 6b0333aab4d046ebacc35e04f426cb82
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 10"
+- name: "\U0001F1EE\U0001F1F3 IN 7"
   server: mumbai-m2.4422331.xyz
   type: trojan
   country: "\U0001F1E6\U0001F1FAAU"
@@ -79,15 +55,7 @@ proxies:
   password: 4134219f-2384-449c-92e9-50fe8474c30a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1E9 ID 11"
-  server: asia1.oceis.net
-  type: trojan
-  country: "\U0001F1EE\U0001F1E9ID"
-  port: 443
-  password: cf2af470-b8f1-11ed-b133-205c6d5f5d78
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 12"
+- name: "\U0001F1EE\U0001F1F3 IN 8"
   server: hyderabad-m2.4422331.xyz
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -95,15 +63,23 @@ proxies:
   password: 4134219f-2384-449c-92e9-50fe8474c30a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 13"
-  server: 138.124.183.226
+- name: "\U0001F1E8\U0001F1F3 HK 9"
+  server: hk01.shenzhouplus.cf
   type: trojan
-  country: "\U0001F1F3\U0001F1F4 NO"
-  port: 443
-  password: xxoo
+  country: "\U0001F1ED\U0001F1F0HK"
+  port: 10009
+  password: 6b0333aab4d046ebacc35e04f426cb82
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E6\U0001F1FA AU 14"
+- name: "\U0001F1E8\U0001F1F3 HK 10"
+  server: hk01.shenzhouplus.cf
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0HK"
+  port: 10007
+  password: 6b0333aab4d046ebacc35e04f426cb82
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E6\U0001F1FA AU 11"
   server: jgwxn4.gaox.ml
   type: trojan
   country: "\U0001F1E6\U0001F1FA AU"
@@ -111,7 +87,15 @@ proxies:
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 15"
+- name: "\U0001F1E8\U0001F1F3 HK 12"
+  server: 194.156.99.39
+  type: trojan
+  country: "\U0001F1F7\U0001F1FA RU"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 13"
   server: 138.124.183.222
   type: trojan
   country: "\U0001F1F3\U0001F1F4 NO"
@@ -119,7 +103,7 @@ proxies:
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 16"
+- name: "\U0001F1EE\U0001F1F3 IN 14"
   server: jgwhdlb3.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -127,7 +111,7 @@ proxies:
   password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 17"
+- name: "\U0001F1EE\U0001F1F3 IN 15"
   server: jgwhdlb2.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -135,7 +119,7 @@ proxies:
   password: 54080134-2cba-4535-8599-95650bd9aa54
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 18"
+- name: "\U0001F1EE\U0001F1F3 IN 16"
   server: jgwhdlb1.gaox.ml
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -143,7 +127,7 @@ proxies:
   password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 19"
+- name: "\U0001F1EF\U0001F1F5 JP 17"
   type: trojan
   server: 139.162.113.113
   port: 443
@@ -151,15 +135,7 @@ proxies:
   password: a4b8293b-af60-4f1b-8572-dea4f5b6cdef
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 20"
-  type: trojan
-  server: tls.tls.tlz.asia
-  port: 4564
-  udp: true
-  password: vNM1sRUSqZ
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 HK 21"
+- name: "\U0001F1E8\U0001F1F3 HK 18"
   type: trojan
   server: cn-hk-32.fnhffffe4.cc
   port: 50394
@@ -168,15 +144,23 @@ proxies:
   sni: cn-hk-32.fnhffffe4.cc
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 22"
+- name: "\U0001F1E8\U0001F1F3 HK 19"
   type: trojan
-  server: sgb.mdfg.tk
-  port: 443
+  server: tls.tls.tlz.asia
+  port: 4564
   udp: true
-  password: yAcqvPOj
+  password: vNM1sRUSqZ
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F8\U0001F1E6 SA 23"
+- name: "\U0001F1FA\U0001F1F8 US 20"
+  server: 138.124.183.226
+  type: trojan
+  country: "\U0001F1F3\U0001F1F4 NO"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1E6 SA 21"
   type: trojan
   server: jeddah-m2.4422331.xyz
   port: 10086
@@ -193,24 +177,22 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 3"
   - "\U0001F1EB\U0001F1F7 FR 4"
   - "\U0001F1E9\U0001F1EA DE 5"
-  - "\U0001F1E8\U0001F1F3 HK 6"
-  - "\U0001F1E8\U0001F1F3 HK 7"
-  - "\U0001F1E8\U0001F1F3 HK 8"
+  - "\U0001F1F0\U0001F1F7 KR 6"
+  - "\U0001F1EE\U0001F1F3 IN 7"
+  - "\U0001F1EE\U0001F1F3 IN 8"
   - "\U0001F1E8\U0001F1F3 HK 9"
-  - "\U0001F1EE\U0001F1F3 IN 10"
-  - "\U0001F1EE\U0001F1E9 ID 11"
-  - "\U0001F1EE\U0001F1F3 IN 12"
+  - "\U0001F1E8\U0001F1F3 HK 10"
+  - "\U0001F1E6\U0001F1FA AU 11"
+  - "\U0001F1E8\U0001F1F3 HK 12"
   - "\U0001F1FA\U0001F1F8 US 13"
-  - "\U0001F1E6\U0001F1FA AU 14"
-  - "\U0001F1FA\U0001F1F8 US 15"
+  - "\U0001F1EE\U0001F1F3 IN 14"
+  - "\U0001F1EE\U0001F1F3 IN 15"
   - "\U0001F1EE\U0001F1F3 IN 16"
-  - "\U0001F1EE\U0001F1F3 IN 17"
-  - "\U0001F1EE\U0001F1F3 IN 18"
-  - "\U0001F1EF\U0001F1F5 JP 19"
-  - "\U0001F1E8\U0001F1F3 HK 20"
-  - "\U0001F1E8\U0001F1F3 HK 21"
-  - "\U0001F1F8\U0001F1EC SG 22"
-  - "\U0001F1F8\U0001F1E6 SA 23"
+  - "\U0001F1EF\U0001F1F5 JP 17"
+  - "\U0001F1E8\U0001F1F3 HK 18"
+  - "\U0001F1E8\U0001F1F3 HK 19"
+  - "\U0001F1FA\U0001F1F8 US 20"
+  - "\U0001F1F8\U0001F1E6 SA 21"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -222,23 +204,21 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 3"
   - "\U0001F1EB\U0001F1F7 FR 4"
   - "\U0001F1E9\U0001F1EA DE 5"
-  - "\U0001F1E8\U0001F1F3 HK 6"
-  - "\U0001F1E8\U0001F1F3 HK 7"
-  - "\U0001F1E8\U0001F1F3 HK 8"
+  - "\U0001F1F0\U0001F1F7 KR 6"
+  - "\U0001F1EE\U0001F1F3 IN 7"
+  - "\U0001F1EE\U0001F1F3 IN 8"
   - "\U0001F1E8\U0001F1F3 HK 9"
-  - "\U0001F1EE\U0001F1F3 IN 10"
-  - "\U0001F1EE\U0001F1E9 ID 11"
-  - "\U0001F1EE\U0001F1F3 IN 12"
+  - "\U0001F1E8\U0001F1F3 HK 10"
+  - "\U0001F1E6\U0001F1FA AU 11"
+  - "\U0001F1E8\U0001F1F3 HK 12"
   - "\U0001F1FA\U0001F1F8 US 13"
-  - "\U0001F1E6\U0001F1FA AU 14"
-  - "\U0001F1FA\U0001F1F8 US 15"
+  - "\U0001F1EE\U0001F1F3 IN 14"
+  - "\U0001F1EE\U0001F1F3 IN 15"
   - "\U0001F1EE\U0001F1F3 IN 16"
-  - "\U0001F1EE\U0001F1F3 IN 17"
-  - "\U0001F1EE\U0001F1F3 IN 18"
-  - "\U0001F1EF\U0001F1F5 JP 19"
-  - "\U0001F1E8\U0001F1F3 HK 20"
-  - "\U0001F1E8\U0001F1F3 HK 21"
-  - "\U0001F1F8\U0001F1EC SG 22"
-  - "\U0001F1F8\U0001F1E6 SA 23"
+  - "\U0001F1EF\U0001F1F5 JP 17"
+  - "\U0001F1E8\U0001F1F3 HK 18"
+  - "\U0001F1E8\U0001F1F3 HK 19"
+  - "\U0001F1FA\U0001F1F8 US 20"
+  - "\U0001F1F8\U0001F1E6 SA 21"
 rules:
 - "MATCH,\U0001F310 Proxy"
