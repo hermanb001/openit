@@ -42,10 +42,9 @@ proxies:
   - {name: 🇺🇸 US 1｜openit.ml, server: 1.mg.us.cat77.cloud, port: 1434, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 2｜openit.ml, server: c.mg.us.cat77.cloud, port: 8646, type: trojan, password: cd27884b-c5af-34ec-b75f-8248077818fe, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 3｜openit.ml, server: hyderabad-m2.4422331.xyz, port: 10086, type: trojan, password: 4134219f-2384-449c-92e9-50fe8474c30a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4｜openit.ml, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4｜openit.ml, server: sanjose-d2.4422331.xyz, port: 10086, type: trojan, password: 4134219f-2384-449c-92e9-50fe8474c30a, sni: https, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 5｜openit.ml, server: aaa.asasasasaaaaaa.repl.co, port: 443, type: trojan, password: d11fc0fd-2633-4167-b08d-c332cc330e5b, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fd11fc0fd"}, udp: true}
-  - {name: 🇺🇸 US 6｜openit.ml, server: sanjose-d2.4422331.xyz, port: 10086, type: trojan, password: 4134219f-2384-449c-92e9-50fe8474c30a, sni: https, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7｜openit.ml, server: dl-sg2.steamdownload.top, port: 50000, type: trojan, password: c30b14da-adac-4bb3-ac27-c5759d4890ac, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6｜openit.ml, server: dl-sg2.steamdownload.top, port: 50000, type: trojan, password: c30b14da-adac-4bb3-ac27-c5759d4890ac, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -75,7 +74,6 @@ proxy-groups:
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
       - 🇺🇸 US 6｜openit.ml
-      - 🇺🇸 US 7｜openit.ml
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -94,7 +92,6 @@ proxy-groups:
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
       - 🇺🇸 US 6｜openit.ml
-      - 🇺🇸 US 7｜openit.ml
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -121,7 +118,6 @@ proxy-groups:
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
       - 🇺🇸 US 6｜openit.ml
-      - 🇺🇸 US 7｜openit.ml
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -165,7 +161,6 @@ proxy-groups:
       - 🇺🇸 US 4｜openit.ml
       - 🇺🇸 US 5｜openit.ml
       - 🇺🇸 US 6｜openit.ml
-      - 🇺🇸 US 7｜openit.ml
   - name: 👉 国内网站
     type: select
     proxies:
