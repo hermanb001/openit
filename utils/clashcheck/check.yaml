@@ -66,15 +66,7 @@ proxies:
   network: ws
   ws-opts:
     path: /d11fc0fd
-- type: trojan
-  name: "\U0001F1F5\U0001F1F1 PL 9"
-  server: 51.83.186.142
-  port: 80
-  password: 555034c8-6420-45d0-893c-905c02342150
-  udp: true
-  skip-cert-verify: true
-  sni: pl1.trojanvh.xyz
-- name: "\U0001F1EF\U0001F1F5 JP 10"
+- name: "\U0001F1EF\U0001F1F5 JP 9"
   type: trojan
   server: 139.162.113.113
   port: 443
@@ -82,6 +74,14 @@ proxies:
   password: a4b8293b-af60-4f1b-8572-dea4f5b6cdef
   skip-cert-verify: true
   network: tcp
+- type: trojan
+  name: "\U0001F1F5\U0001F1F1 PL 10"
+  server: 51.83.186.142
+  port: 80
+  password: 555034c8-6420-45d0-893c-905c02342150
+  udp: true
+  skip-cert-verify: true
+  sni: pl1.trojanvh.xyz
 - type: trojan
   name: "\U0001F1E8\U0001F1F3 HK 11"
   server: 103.103.245.190
@@ -110,8 +110,8 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F3 IN 6"
   - "\U0001F1FA\U0001F1F8 US 7"
   - "\U0001F1FA\U0001F1F8 US 8"
-  - "\U0001F1F5\U0001F1F1 PL 9"
-  - "\U0001F1EF\U0001F1F5 JP 10"
+  - "\U0001F1EF\U0001F1F5 JP 9"
+  - "\U0001F1F5\U0001F1F1 PL 10"
   - "\U0001F1E8\U0001F1F3 HK 11"
   - "\U0001F1FA\U0001F1F8 US 12"
   url: https://www.google.com/favicon.ico
@@ -128,8 +128,8 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F3 IN 6"
   - "\U0001F1FA\U0001F1F8 US 7"
   - "\U0001F1FA\U0001F1F8 US 8"
-  - "\U0001F1F5\U0001F1F1 PL 9"
-  - "\U0001F1EF\U0001F1F5 JP 10"
+  - "\U0001F1EF\U0001F1F5 JP 9"
+  - "\U0001F1F5\U0001F1F1 PL 10"
   - "\U0001F1E8\U0001F1F3 HK 11"
   - "\U0001F1FA\U0001F1F8 US 12"
 rules:
