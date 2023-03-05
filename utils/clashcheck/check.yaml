@@ -1,17 +1,17 @@
 proxies:
 - name: "\U0001F1FA\U0001F1F8 US 1"
-  server: 1.mg.us.cat77.cloud
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 1434
-  password: cd27884b-c5af-34ec-b75f-8248077818fe
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 2"
   server: c.mg.us.cat77.cloud
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
   port: 8646
+  password: cd27884b-c5af-34ec-b75f-8248077818fe
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 2"
+  server: 1.mg.us.cat77.cloud
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 1434
   password: cd27884b-c5af-34ec-b75f-8248077818fe
   skip-cert-verify: true
   udp: true
@@ -55,7 +55,7 @@ proxies:
   sni: insaneguo2333.top
   skip-cert-verify: true
 - name: "\U0001F1FA\U0001F1F8 US 8"
-  server: 138.124.183.226
+  server: 138.124.183.216
   type: trojan
   country: "\U0001F1F3\U0001F1F4 NO"
   port: 443
@@ -78,13 +78,14 @@ proxies:
   password: c09eb137-bf68-4658-84e0-102d94b74168
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 11"
-  server: 150.66.13.75
-  port: 443
+- name: "\U0001F1E8\U0001F1F3 HK 11"
+  server: 194.156.99.39
   type: trojan
-  password: df283334-6f6e-4efb-9a8a-b8ecf3040924
-  sni: tk15.1coinvp.vip
+  country: "\U0001F1F7\U0001F1FA RU"
+  port: 443
+  password: xxoo
   skip-cert-verify: true
+  udp: true
 - name: "\U0001F1EE\U0001F1F3 IN 12"
   server: jgwhdlb2.gaox.ml
   type: trojan
@@ -94,29 +95,31 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US 13"
-  server: 138.124.183.222
+  server: 138.124.183.226
   type: trojan
   country: "\U0001F1F3\U0001F1F4 NO"
   port: 443
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 14"
-  server: jgwhdlb1.gaox.ml
+- name: "\U0001F1F0\U0001F1F7 KR 14"
+  server: kr05.wangxd.life
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
+  port: 3052
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 15"
+  type: trojan
+  server: aaa.asasasasaaaaaa.repl.co
   port: 443
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  skip-cert-verify: true
   udp: true
-- type: trojan
-  name: "\U0001F1F5\U0001F1F1 PL 15"
-  server: 51.83.186.142
-  port: 80
-  password: 555034c8-6420-45d0-893c-905c02342150
-  udp: true
+  password: d11fc0fd-2633-4167-b08d-c332cc330e5b
   skip-cert-verify: true
-  sni: pl1.trojanvh.xyz
+  network: ws
+  ws-opts:
+    path: /d11fc0fd
 - name: "\U0001F1EF\U0001F1F5 JP 16"
   type: trojan
   server: 139.162.113.113
@@ -125,14 +128,111 @@ proxies:
   password: a4b8293b-af60-4f1b-8572-dea4f5b6cdef
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1EF\U0001F1F5 JP 17"
+  type: trojan
+  server: dl-jp1.steamdownload.top
+  port: 443
+  udp: true
+  password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5
+  sni: data-jp.xn--vur082k.cc
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 18"
+  type: trojan
+  server: dl-hk3.steamdownload.top
+  port: 443
+  udp: true
+  password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5
+  sni: data-hk.xn--vur082k.cc
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 19"
+  type: trojan
+  server: dl-hk1.steamdownload.top
+  port: 443
+  udp: true
+  password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5
+  sni: data-hk.xn--vur082k.cc
+  skip-cert-verify: true
+  network: tcp
 - type: trojan
-  name: "\U0001F1E8\U0001F1F3 HK 17"
+  name: "\U0001F1E8\U0001F1F3 HK 20"
   server: 103.103.245.190
   port: 50394
   password: 9642def5-94bb-4962-a168-c510f9a93328
   udp: true
   skip-cert-verify: true
   sni: cn-hk-32.fnhffffe4.cc
+- name: "\U0001F1E8\U0001F1F3 HK 21"
+  type: trojan
+  server: dl-hk5.steamdownload.top
+  port: 443
+  udp: true
+  password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5
+  sni: data-hk.xn--vur082k.cc
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 22"
+  type: trojan
+  server: dl-hk6.steamdownload.top
+  port: 443
+  udp: true
+  password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5
+  sni: data-hk.xn--vur082k.cc
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1F8\U0001F1EC SG 23"
+  type: trojan
+  server: dl-sg1.steamdownload.top
+  port: 50000
+  udp: true
+  password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5
+  sni: data-sg.xn--vur082k.cc
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 24"
+  type: trojan
+  server: dl-hk4.steamdownload.top
+  port: 443
+  udp: true
+  password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5
+  sni: data-hk.xn--vur082k.cc
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 HK 25"
+  type: trojan
+  server: dl-hk2.steamdownload.top
+  port: 443
+  udp: true
+  password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5
+  sni: data-hk.xn--vur082k.cc
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 26"
+  type: trojan
+  server: dl-sg2.steamdownload.top
+  port: 50000
+  udp: true
+  password: c30b14da-adac-4bb3-ac27-c5759d4890ac
+  skip-cert-verify: true
+  network: tcp
+- type: trojan
+  name: "\U0001F1F5\U0001F1F1 PL 27"
+  server: 51.83.186.142
+  port: 80
+  password: 555034c8-6420-45d0-893c-905c02342150
+  udp: true
+  skip-cert-verify: true
+  sni: pl1.trojanvh.xyz
+- name: "\U0001F1EF\U0001F1F5 JP 28"
+  type: trojan
+  server: dl-us1.steamdownload.top
+  port: 443
+  udp: true
+  password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5
+  sni: data-us.xn--vur082k.cc
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -147,13 +247,24 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 8"
   - "\U0001F1E6\U0001F1FA AU 9"
   - "\U0001F1EF\U0001F1F5 JP 10"
-  - "\U0001F1EF\U0001F1F5 JP 11"
+  - "\U0001F1E8\U0001F1F3 HK 11"
   - "\U0001F1EE\U0001F1F3 IN 12"
   - "\U0001F1FA\U0001F1F8 US 13"
-  - "\U0001F1EE\U0001F1F3 IN 14"
-  - "\U0001F1F5\U0001F1F1 PL 15"
+  - "\U0001F1F0\U0001F1F7 KR 14"
+  - "\U0001F1FA\U0001F1F8 US 15"
   - "\U0001F1EF\U0001F1F5 JP 16"
-  - "\U0001F1E8\U0001F1F3 HK 17"
+  - "\U0001F1EF\U0001F1F5 JP 17"
+  - "\U0001F1E8\U0001F1F3 HK 18"
+  - "\U0001F1E8\U0001F1F3 HK 19"
+  - "\U0001F1E8\U0001F1F3 HK 20"
+  - "\U0001F1E8\U0001F1F3 HK 21"
+  - "\U0001F1E8\U0001F1F3 HK 22"
+  - "\U0001F1F8\U0001F1EC SG 23"
+  - "\U0001F1E8\U0001F1F3 HK 24"
+  - "\U0001F1E8\U0001F1F3 HK 25"
+  - "\U0001F1FA\U0001F1F8 US 26"
+  - "\U0001F1F5\U0001F1F1 PL 27"
+  - "\U0001F1EF\U0001F1F5 JP 28"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -170,12 +281,23 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 8"
   - "\U0001F1E6\U0001F1FA AU 9"
   - "\U0001F1EF\U0001F1F5 JP 10"
-  - "\U0001F1EF\U0001F1F5 JP 11"
+  - "\U0001F1E8\U0001F1F3 HK 11"
   - "\U0001F1EE\U0001F1F3 IN 12"
   - "\U0001F1FA\U0001F1F8 US 13"
-  - "\U0001F1EE\U0001F1F3 IN 14"
-  - "\U0001F1F5\U0001F1F1 PL 15"
+  - "\U0001F1F0\U0001F1F7 KR 14"
+  - "\U0001F1FA\U0001F1F8 US 15"
   - "\U0001F1EF\U0001F1F5 JP 16"
-  - "\U0001F1E8\U0001F1F3 HK 17"
+  - "\U0001F1EF\U0001F1F5 JP 17"
+  - "\U0001F1E8\U0001F1F3 HK 18"
+  - "\U0001F1E8\U0001F1F3 HK 19"
+  - "\U0001F1E8\U0001F1F3 HK 20"
+  - "\U0001F1E8\U0001F1F3 HK 21"
+  - "\U0001F1E8\U0001F1F3 HK 22"
+  - "\U0001F1F8\U0001F1EC SG 23"
+  - "\U0001F1E8\U0001F1F3 HK 24"
+  - "\U0001F1E8\U0001F1F3 HK 25"
+  - "\U0001F1FA\U0001F1F8 US 26"
+  - "\U0001F1F5\U0001F1F1 PL 27"
+  - "\U0001F1EF\U0001F1F5 JP 28"
 rules:
 - "MATCH,\U0001F310 Proxy"
